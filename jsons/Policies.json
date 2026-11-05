@@ -1,0 +1,1013 @@
+[
+	{
+		"name": "Civic Tree",
+		"era": "Ancient era",
+		"uniques": ["Each city founded increases culture cost of policies [100]% less than normal","Free Social Policy"],
+		"policies": [
+
+// Row 1s 
+			{
+				"name": "Craftsmanship",
+				"uniques":[
+"Comment [Governments enabled:
+* Chiefdom
+Policies enabled:
+* Ilkum
+* Agoge 
+Tile improvements enabled:
+*Chemamull
+*Sphinx]",
+"[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Code of Laws"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Military Tradition", 
+				"uniques": [
+"Comment [Policies enabled:
+* Maneuver
+* Strategos]",
+"[-25]% Culture cost of adopting new Policies"],
+				"requires": ["Craftsmanship"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Games and Recreation",
+				"uniques": [
+"Comment [Policies enabled:
+* Insulae
+Districts enabled:
+* Entertainment Complex
+* Street Carnival
+* Hippodrome
+Wonders enabled:
+* Colosseum
+Buildings enabled:
+* Arena
+* Tlachtli]",
+"[-10]% Culture cost of adopting new Policies",
+],
+				"requires": ["State Workforce"],
+				"row": 5,
+				"column": 6
+			},
+			{
+				"name": "Military Training",
+				"uniques": [
+"Comment [Policies enabled:
+* Raid
+* Veterancy
+* Equestrian Orders
+Wonder enabled: 
+* Statue of Zeus]",
+//"Free [Envoy] appears",
+],
+				"requires": ["Games and Recreation","Military Tradition"],
+				"row": 6,
+				"column": 1
+			},
+			{
+				"name": "Naval Tradition",
+				"uniques": [
+"Comment [Policies enabled: 
+* Naval Tradition
+* Navigation]",
+//"Free [Envoy] appears",
+],
+				"requires": ["Defensive Tactics"],
+				"row": 8,
+				"column": 3
+			},
+			{
+				"name": "Mercenaries",
+				"uniques": [
+"Comment [Policies enabled: 
+* Professional Army
+* Sack
+* Trade Confederacy
+Units enabled:
+* Jong]",
+//"Free [Envoy] appears",
+],
+				"requires": ["Feudalism","Military Training"],
+				"row": 9,
+				"column": 1
+			},
+			{
+				"name": "Exploration",
+				"uniques": [
+"Comment [Governments enabled:
+* Merchant Republic
+Policies enabled:
+* Press Gangs
+* Native Conquest
+* Colonial Offices
+Policies obsolete:
+* Maritime Industries]",
+"Remove [Maritime Industries] [in capital] <upon turn start> <after adopting [Exploration]>",
+],
+				"requires": ["Mercenaries","Medieval Faires"],
+				"row": 11,
+				"column": 1
+			},
+			{
+				"name": "Mercantilism",
+				"uniques": [
+"Comment [Policies enabled:
+* Logistics
+* Triangular Trade
+Policies obsolete:
+* Caravansaries
+Units enabled:
+* Winged Hussar
+* Privateer 
+* Sea Dog
+Camp:
+* +1 Food, +1 Production]",
+"Remove [Caravansaries] [in capital] <upon turn start> <after adopting [Mercantilism]>",
+],
+				"requires": ["Humanism"],
+				"row": 13,
+				"column": 4
+			},
+			{
+				"name": "Colonialism",
+				"uniques": [
+"Comment [Policies enabled:
+* Colonial Taxes
+* Raj
+Policies obsolete:
+* Survey
+* Discipline
+Tile improvement enabled:
+* Ice Hockey Rink]",
+"Remove [Survey] [in capital] <upon turn start> <after adopting [Colonialism]>",
+"Remove [Discipline] [in capital] <upon turn start> <after adopting [Colonialism]>",
+//"[2] free [Envoy] units appear", 
+], 
+				"requires": ["Mercantilism"],
+				"row": 14,
+				"column": 1
+			},
+			{
+				"name": "Natural History",
+				"uniques": [
+"Comment [Districts enabled:
+* Water Park 
+* Copacabana 
+Units enabled:
+* Archaeologist
+Wonders enabled: 
+* Hermitage
+Buildings enabled:
+* Zoo 
+* Thermal Bath
+* Ferris Wheel
+* Aquarium
+Antiquity Site:
+* Revealed on the map
+Sphinx:
+* +1 Culture
+Ziggurat:
+* +1 Culture]",
+//"[2] free [Envoy] units appear", 
+],
+				"requires": ["Colonialism"],
+				"row": 16,
+				"column": 1
+			},
+			{
+				"name": "Conservation",
+				"uniques": [
+"Comment [Policies enabled:
+* Resource Management
+Units enabled:
+* Naturalist 
+* Mountie
+Forest:
+* May be planted
+Mekewap:
+* +1 Food for every 2 adjacent Mekewaps]",
+//"[3] free [Envoy] units appear",
+],
+				"requires": ["Natural History","Urbanization"],
+				"row": 17,
+				"column": 2
+			},
+			{
+				"name": "Capitalism",
+				"uniques": [
+"Comment [Policies enabled:
+* Market Economy:
+* Laissez-Faire
+Policies Obsolete:
+* Trade Confederation
+* Traveling Merchants
+Buildings enabled:
+* Shopping Mall]",
+"Remove [Trade Confederation] [in capital] <upon turn start> <after adopting [Capitalism]>",
+"Remove [Traveling Merchants] [in capital] <upon turn start> <after adopting [Capitalism]>",
+//"[3] free [Envoy] units appear",
+],
+				"requires": ["Mass Media"],
+				"row": 18,
+				"column": 4
+			},
+			{
+				"name": "Suffrage",
+				"uniques": [
+"Comment [Governments enabled:
+* Democracy
+Policies enabled:
+* Thei Finest Hour
+* Economic Union
+* New Deal
+* Arsenal of Democracy
+Policies obsolete:
+* Liberalism
+* Medina Quarter
+* Naval Infrastructure
+* Town Charters
+* Wisselbanken]",
+"Remove [Liberalism] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Medina Quarter] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Naval Infrastructure] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Town Charters] [in capital] <upon turn start> <after adopting [Suffrage]>",
+"Remove [Wisselbanken] [in capital] <upon turn start> <after adopting [Suffrage]>",
+],
+				"requires": ["Ideology"],
+				"row": 19,
+				"column": 3
+			},
+			{
+				"name": "Cultural Heritage",
+				"uniques": [
+"Comment [Policies enabled:
+* Heritage Tourism
+Wonders enabled:
+* Sydney Opera House
+Shipwreck: 
+* Revealed on the map
+Mission:
+* +2 Science]",
+//"[3] free [Envoy] units appear",
+],
+				"requires": ["Conservation"],
+				"row": 20,
+				"column": 1
+			},	
+			{
+				"name": "Rapid Deployment",
+				"uniques": [
+"Comment [Policies enabled:
+* Military First
+* After Action Reports
+Policies obsolete:
+* Grande Armée
+Wonders enabled:
+* Amundsen-Scott Research Station 
+Outback Station:
+* +1 Food for every 2 adjacent Outback Stations]",
+"Remove [Grande Armée] [in capital] <upon turn start> <after adopting [Rapid Deployment]>",
+],
+				"requires": ["Cold War"],
+				"row": 21,
+				"column": 4
+			},
+			{
+				"name": "Environmentalism",
+				"uniques": [
+"Comment [Policies enabled:
+* Ecotourism]",
+],
+				"requires": ["Cultural Heritage","Rapid Deployment"],
+				"row": 22,
+				"column": 1
+			},
+			{
+				"name": "Near Future Governance",
+				"uniques": [
+//"[3] free [Envoy] units appear",
+],
+				"requires": ["Environmentalism","Globalization"],
+				"row": 23,
+				"column": 3
+			},	
+			{
+				"name": "Global Warming Mitigation",
+				"uniques": [
+//"[3] free [Envoy] units appear",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 25,
+				"column": 2
+			},	
+// Row 2s
+			{
+				"name": "Code of Laws",
+				"uniques": [
+"Comment [Governments enabled:
+* Chiefdom
+Policies enabled:
+* Survey
+* Discipline
+* God King
+* Urban Planning]"
+],
+				"row": 1,
+				"column": 6
+			},
+			{
+				"name": "State Workforce",
+				"uniques": [
+"Comment [Policies enabled:
+* Corvée
+* Conscription]",
+"[-25]% Culture cost of adopting new Policies"
+],
+				"requires": ["Craftsmanship"],
+				"row": 3,
+				"column": 6
+			},
+			{
+				"name": "Early Empire",
+				"uniques": [
+"Comment [Policies enabled:
+* Colonization
+* Land Surveyors 
+* Limitanei 
+Tile impromements enabled:
+* Pairidaeza]",
+"Enables Open Borders agreements",
+"[-10]% Culture cost of adopting new Policies",
+],
+				"requires": ["Craftsmanship"],
+				"row": 4,
+				"column": 4
+			},
+			{
+				"name": "Political Philosophy",
+				"uniques": [
+"Comment [Governments enabled:
+* Autocracy
+* Classical Republic
+* Olicharchy
+Policies enabled:
+* Charismatic Leader
+* Diplomatic League
+Wonders enabled:
+* Apadana]",
+],
+				"requires": ["State Workforce","Early Empire"],
+				"row": 5,
+				"column": 4
+			},
+			{
+				"name": "Defensive Tactics",
+				"uniques": [
+"Comment [Policies enabled:
+* Bastions
+* Limes
+Wonders enabled:
+* Mausoleum at Halicarnassus]",
+],
+				"requires": ["Games and Recreation","Political Philosophy"],
+				"row": 6,
+				"column": 5
+			},
+			{
+				"name": "Recorded History",
+				"uniques": [
+"Comment [Polices enabled:
+* Natural Philosophy
+* Praetorium
+Wonders enabled:
+* Great Library]",
+],
+				"requires": ["Drama and Poetry","Political Philosophy"],
+				"row": 7,
+				"column": 9
+			},
+			{
+				"name": "Feudalism",
+				"uniques": [
+"Comment [Policies enabled:
+* Feudal Contract
+* Serfdom
+Policies Obsolete:
+* Agoge
+* Ilkum
+Units enabled:
+* Samurai
+Farm:
+* +1 Food if adjacent to at least 2 Farms 
+Plantation:
+* +1 Food
+Stepwell:
+* +1 Faith]",
+"Remove [Agoge] [in capital] <upon turn start> <after adopting [Feudalism]>",
+"Remove [Ilkum] [in capital] <upon turn start> <after adopting [Feudalism]>",
+],
+				"requires": ["Defensive Tactics"],
+				"row": 8,
+				"column": 5
+			},
+			{
+				"name": "Medieval Faires",
+				"uniques": [
+"Comment [Policies enabled:
+* Aesthetics
+* Medina Quarter
+* Merchant Confederation
+Policies obsolete:
+* Insulae
+Units enabled:
+* Barbary Corsair
+Wonders enabled:
+* Angkor Wat]",
+"Remove [Insulae] [in capital] <upon turn start> <after adopting [Medieval Faires]>",
+],
+				"requires": ["Feudalism"],
+				"row": 9,
+				"column": 3
+			},
+			{
+				"name": "Guilds",
+				"uniques": [
+"Comment [Policies enabled:
+* Craftsmen
+* Town Charters
+* Travelling Merchants
+Districts enabled:
+* Mbanza
+Wonders enabled:
+* Chichen Itza
+Improvements enabled:
+* Outback Station
+* Polder]",
+],
+				"requires": ["Feudalism","Civil Service"],
+				"row": 10,
+				"column": 5
+			},
+			{
+				"name": "Humanism",
+				"uniques": [
+"Comment [Policies enabled:
+* Frescoes
+* Invention
+Policies obsolete:
+* Revelation
+Wonders enabled:
+* Taj Mahal
+Buildings enabled:
+* Art Museum 
+Tile improvements enabled:
+* Revelation]",
+"[Great Artist] is earned [15]% faster",
+"Remove [Revelation] [in capital] <upon turn start> <after adopting [Humanism]>",
+],
+				"requires": ["Medieval Faires","Guilds"],
+				"row": 11,
+				"column": 4
+			},
+			{
+				"name": "Diplomatic Service",
+				"uniques": [
+"Comment [Policies enabled:
+* Machiavellianism
+* Wisselbanken 
+Units enabled:
+* Spy
+Piridaeza:
+* +1 Culture]",
+],
+				"requires": ["Guilds"],
+				"row": 12,
+				"column": 8
+			},
+			{
+				"name": "Civil Engineering",
+				"uniques": [
+"Comment [Policies enabled:
+* Public Works
+* Skyscrapers
+Policies obsolete:
+* Bastions
+* Corvée
+* Serfdom
+* Gothic Architecture
+Farm:
+* Can be built on Grassland Hill tiles and Plains Hill tiles
+Kampung:
+* +1 Production
+Polder:
+* +4 Gold]",
+"Remove [Bastions] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Corvée] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Serfdom] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+"Remove [Gothic Architecture] [in capital] <upon turn start> <after adopting [Civil Engineering]>",
+],
+				"requires": ["Mercantilism"],
+				"row": 14,
+				"column": 4
+			}, 
+			{
+				"name": "Nationalism",
+				"uniques": [
+"Comment [Policies enabled:
+* Grande Armée
+* National Identity
+Policies obsolete:
+* Feudal Contract
+Units enabled:
+* Minas Geraes
+Tile Improvements enabled:
+* Open-Air Museum]",
+"[+20]% Production when constructing [Field Cannon] units [in all cities]",
+"[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
+"[+20]% Production when constructing [Redcoat] units [in all cities]",
+"Remove [Feudal Contract] [in capital] <upon turn start> <after adopting [Nationalism]>",
+],
+				"requires": ["The Enlightenment"],
+				"row": 15,
+				"column": 8
+			},
+			{
+				"name": "Urbanization",
+				"uniques": [
+"Comment [Policies enabled:
+* Force Modernization
+* Military Research
+* Public Transport
+Policies obsolete:
+* Professional Army
+Districts enabled:
+* Neighbourhood]",
+"Remove [Professional Army] [in capital] <upon turn start> <after adopting [Urbanization]>",
+],
+				"requires": ["Civil Engineering","Nationalism"],
+				"row": 16,
+				"column": 5
+			},
+			{
+				"name": "Mass Media",
+				"uniques": [
+"Comment [Policies enabled:
+* Propaganda
+Policies obsolete:
+* Retainers
+Wonders enabled:
+* Broadway 
+* Cristo Redentor]",
+"Remove [Retainers] [in capital] <upon turn start> <after adopting [Mass Media]>",
+],
+				"requires": ["Natural History","Urbanization"],
+				"row": 17,
+				"column": 4
+			},
+			{
+				"name": "Ideology",
+				"uniques": [
+"Comment [Policies enabled:
+* Police State]",
+],
+				"requires": ["Mass Media","Mobilization"],
+				"row": 18,
+				"column": 10
+			},
+			{
+				"name": "Totalitarianism",
+				"uniques": [
+"Comment [Governments enabled:
+* Fascism
+Policies enabled:
+* Lightning Warfare
+* Martial Law
+* Third Alternative
+* Gunboat Diplomacy
+Policies obsolete:
+* Chivalry
+* Limes
+* Maneuver
+* Charismatic Leader]",
+"Remove [Chivalry] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+"Remove [Limes] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+"Remove [Maneuver] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+"Remove [Charismatic Leader] [in capital] <upon turn start> <after adopting [Totalitarianism]>",
+],
+				"requires": ["Ideology"],
+				"row": 19,
+				"column": 5
+			},
+			{
+				"name": "Cold War",
+				"uniques": [
+"Comment [Policies enabled:
+* International Waters
+* Second Strike Capability
+* Containment
+* Cryptography
+Policies obsolete:
+* Maritime Industries
+* Press Gangs]",
+"Remove [Maritime Industries] [in capital] <upon turn start> <after adopting [Cold War]>",
+"Remove [Press Gangs] [in capital] <upon turn start> <after adopting [Cold War]>",
+],
+				"requires": ["Ideology"],
+				"row": 20,
+				"column": 6
+			},	
+			{
+				"name": "Space Race",
+				"uniques": [
+"Comment [Policies enabled:
+* Integrated Space Cell
+* Sattelite Broadcasts
+Policies obsolete:
+* Military Research]",
+"Remove [Military Research] [in capital] <upon turn start> <after adopting [Space Race]>",
+],
+				"requires": ["Cold War"],
+				"row": 21,
+				"column": 8
+			},
+			{
+				"name": "Globalization",
+				"uniques": [
+"Comment [Policies enabled:
+* Strategic Air Force
+* International Space Agency
+* Ecommerce
+Policies Obsolete:
+* Their Finest Hour
+* Triangular Trade
+Plantation:
+* +2 Gold]",
+"Remove [Their Finest Hour] [in capital] <upon turn start> <after adopting [Globalization]>",
+"Remove [Triangular Trade] [in capital] <upon turn start> <after adopting [Globalization]>",
+],
+				"requires": ["Rapid Deployment","Space Race"],
+				"row": 22,
+				"column": 6
+			},	
+			{
+				"name": "Venture Politics",
+				"uniques": [
+"Comment [Governments enabled:
+* Corporate Libertarianism]",
+],
+				"requires": ["Globalization","Social Media"],
+				"row": 23,
+				"column": 8
+			},	
+			{
+				"name": "Distributed Sovereignty",
+				"uniques": [
+"Comment [Governments enabled:
+* Digital Democracy]",
+],
+				"requires": ["Globalization","Social Media"],
+				"row": 24,
+				"column": 5
+			},
+			{
+				"name": "Information Warfare",
+				"uniques": [
+"Comment [Policies enabled:
+* Integrated Attack Logistics
+* Rabblerousing]",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 25,
+				"column": 7
+			},
+			{
+				"name": "Smart Power Doctrine",
+				"uniques": [
+"Comment [Policies enabled:
+* Diplomatic Capital
+* Global Coalition]",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 26,
+				"column": 4
+			},	
+			{
+				"name": "Exodus Imperative",
+				"uniques": [
+"Comment [Policies enabled:
+* Aerospace Contractors]",
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 27,
+				"column": 6
+			},
+			{
+				"name": "Future Civic",
+				"uniques": [
+"Production to [Science] conversion in cities changed by [33]%",
+"Gifts of Gold to City-States generate [25]% more Influence"
+],
+				"requires": ["Information Warfare","Global Warming Mitigation","Cultural Hegemony",
+					"Smart Power Doctrine","Exodus Imperative"],
+				"row": 28,
+				"column": 6
+			}, 
+
+// Row 3s
+			{
+				"name": "Foreign Trade",
+				"uniques": [
+"Comment [Policies enabled:
+* Caravansaries
+* Maritime Industries]",
+"[-25]% Culture cost of adopting new Policies",
+],
+				"requires": ["Code of Laws"],
+				"row": 2,
+				"column": 11
+			},
+			{
+				"name": "Mysticism",
+				"uniques": [
+"Comment [Policies enabled:
+* Inspiration
+* Revelation
+Wonders enabled:
+* Oracle]",
+//"Free [Envoy] appears",
+"[-20]% Culture cost of adopting new Policies",
+],
+				"requires": ["Foreign Trade"],
+				"row": 4,
+				"column": 11
+			},
+			{
+				"name": "Drama and Poetry",
+				"uniques": [
+"Comment [Policies enabled:
+* Literary Tradition
+Districts enabled:
+* Theatre Square
+* Acropolis 
+Buildings enabled:
+* Amphitheater
+* Marae]",
+"[-10]% Culture cost of adopting new Policies",
+],
+				"requires": ["Early Empire"],
+				"row": 5,
+				"column": 10
+			},
+			{
+				"name": "Theology",
+				"uniques": [
+"Comment [Policies enabled:
+* Scripture
+Policies obsolete:
+* God King
+Wonders enabled:
+* Mahabodhi Temple
+Buildings enabled:
+* Temple 
+* Prasat 
+* Stave Church 
+* Madrasa]",
+"Remove [God King] [in capital] <upon turn start> <after adopting [Theology]>",
+//"Free [Envoy] appears",
+],
+				"requires": ["Drama and Poetry","Mysticism"],
+				"row": 7,
+				"column": 11
+			},
+			{
+				"name": "Civil Service",
+				"uniques": [
+"Comment [Policies enabled:
+* Retainers
+* Meritocracy
+* Civil Prestige
+Wonders enabled:
+* Meenakshi Temple 
+Mekewap: 
+* +1 Food, +1 Production]",
+],
+				"requires": ["Defensive Tactics","Recorded History"],
+				"row": 8,
+				"column": 9
+			},
+			{
+				"name": "Divine Right",
+				"uniques": [
+"Comment [Governments enabled:
+* Monarchy
+Policies enabled:
+* Chivalry 
+* Gothic Architecture
+Policies obsolete:
+* Maneuver
+* Corvée
+Wonders enabled:
+* Mont St. Michel
+* Kotoku-in 
+Units enabled:
+* Tagma]",
+"Remove [Maneuver] [in capital] <upon turn start> <after adopting [Divine Right]>",
+"Remove [Corvée] [in capital] <upon turn start> <after adopting [Divine Right]>",
+],
+				"requires": ["Civil Service","Theology"],
+				"row": 10,
+				"column": 11
+			},
+			{
+				"name": "Reformed Church",
+				"uniques": [
+"Comment [Governments enabled:
+* Theocracy
+Policies enabled:
+* Wars of Religion
+* Religious Orders
+* Simultaneum
+Wonders enabled:
+* St. Basil's Cathedral 
+Tile improvements enabled:
+* Golf Course]",
+],
+				"requires": ["Divine Right"],
+				"row": 12,
+				"column": 11
+			},
+			{
+				"name": "The Enlightenment",
+				"uniques": [
+"Comment [Policies enabled:
+* Free Market
+* Liberalism
+* Rationalism
+Policies obsolete:
+* Urban Planning]",
+"Remove [Urban Planning] [in capital] <upon turn start> <after adopting [The Enlightenment]>",
+],
+				"requires": ["Diplomatic Service"],
+				"row": 13,
+				"column": 8
+			},
+			{
+				"name": "Opera and Ballet", 
+				"uniques": [
+"Comment [Policies enabled:
+* Grand Opera
+* Symphonies
+Wonders enabled:
+* Bolshoi Theatre]",
+//"[2] free [Envoy] units appear",
+],
+				"requires": ["The Enlightenment"],
+				"row": 15,
+				"column": 11
+			},
+			{
+				"name": "Scorched Earth",
+				"uniques": [
+"Comment [Policies enabled:
+* Total War
+* Expropriation
+* Military Organization
+Policies Obsolete:
+* Raid
+* Sack
+* Colonization
+* Land Surveyors
+* Strategos]",
+//"[2] free [Envoy] units appear",
+"Remove [Raid] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Sack] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Colonization] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Land Surveyors] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+"Remove [Strategos] [in capital] <upon turn start> <after adopting [Scorched Earth]>",
+],
+				"requires": ["Civil Engineering","Nationalism"],
+				"row": 16,
+				"column": 7
+			},
+			{
+				"name": "Mobilization",
+				"uniques": [
+"Comment [Policies enabled:
+* Levée en Masse
+Policies obsolete:
+* Conscription]",
+"Remove [Conscription] [in capital] <upon turn start> <after adopting [Mobilization]>",
+],
+				"requires": ["Urbanization"],
+				"row": 17,
+				"column": 11
+			},
+			{
+				"name": "Nuclear Program",
+				"uniques": [
+"Comment [Policies enabled:
+* Nobel Prize
+Policies obsolete:
+* Inspiration]",
+//"[3] free [Envoy] units appear",
+"Remove [Inspiration] [in capital] <upon turn start> <after adopting [Nuclear Program]>",
+],
+				"requires": ["Ideology"],
+				"row": 19,
+				"column": 7
+			},
+			{
+				"name": "Class Struggle",
+				"uniques": [
+"Comment [Governements enabled:
+* Communism
+Policies enabled:
+* Defense of the Motherland
+* Patriotic War
+* Collectivization
+* Five-Year Plan
+Policies obsolete:
+* Craftsmen
+* Natural Philosophy]",
+"Remove [Craftsmen] [in capital] <upon turn start> <after adopting [Class Struggle]>",
+"Remove [Natural Philosophy] [in capital] <upon turn start> <after adopting [Class Struggle]>",
+],
+				"requires": ["Ideology"],
+				"row": 19,
+				"column": 9
+			},
+			{
+				"name": "Professional Sports",
+				"uniques": [
+"Comment [Policies enabled:
+* Sports Media
+Policies obsolete:
+* Aesthetics
+Buildings enabled:
+* Stadium 
+* Aquatics Center 
+Wonders enabled:
+* Estadio de Maracana
+Tile Improvements enabled:
+* Ski Resort
+Stepwell:
+* +1 Food]",
+"Remove [Aesthetics] [in capital] <upon turn start> <after adopting [Professional Sports]>",
+],
+				"requires": ["Ideology"],
+				"row": 20,
+				"column": 11
+			},	
+			{
+				"name": "Social Media",
+				"uniques": [
+"Comment [Policies enabled:
+* Online Communities
+* Collective activism
+* Communications Office
+Policies Obsolete:
+* Praetorium]",
+"Remove [Praetorium] [in capital] <upon turn start> <after adopting [Social Media]>",
+],
+				"requires": ["Professional Sports","Space Race"],
+				"row": 22,
+				"column": 11
+			},	
+			{
+				"name": "Optimization Imperative",
+				"uniques": [
+"Comment [Governments enabled:
+* Synthetic Technocracy]",
+],
+				"requires": ["Globalization","Social Media"],
+				"row": 24,
+				"column": 9
+			},
+			{
+				"name": "Cultural Hegemony",
+				"uniques": [
+"Comment [Policies enabled: 
+* Non-State Actors]"
+],
+				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
+					"Venture Politics","Distributed Sovereignty","Optimization Imperative"],
+				"row": 26,
+				"column": 10
+			},	
+
+// Finisher
+			{
+				"name": "Civic Tree Complete",
+				"uniques": ["Triggers a Cultural Victory upon completion"]
+			}
+		]
+	}
+]
