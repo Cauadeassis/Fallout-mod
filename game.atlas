@@ -1571,20 +1571,6 @@ BuildingIcons/Torre de Belem
   orig: 200, 200
   offset: 0, 0
   index: -1
-Fallout
-  rotate: false
-  xy: 4, 868
-  size: 1341, 1173
-  orig: 1341, 1173
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Fallout
-  rotate: false
-  xy: 4, 868
-  size: 1341, 1173
-  orig: 1341, 1173
-  offset: 0, 0
-  index: -1
 ImprovementIcons/Acropolis
   rotate: false
   xy: 1044, 516
