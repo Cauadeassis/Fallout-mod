@@ -529,7 +529,6 @@ Tile Improvements enabled:
 * Open-Air Museum]",
 "[+20]% Production when constructing [Field Cannon] units [in all cities]",
 "[+20]% Production when constructing [Garde Imperiale] units [in all cities]",
-"[+20]% Production when constructing [Redcoat] units [in all cities]",
 "Remove [Feudal Contract] [in capital] <upon turn start> <after adopting [Nationalism]>",
 ],
 				"requires": ["The Enlightenment"],

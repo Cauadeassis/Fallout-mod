@@ -53,7 +53,6 @@
 		"strength": 14,
 		"cost": 30,
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "Skirmisher",
 		"attackSound": "nonmetalhit"
 	},
 	//Land Melee
@@ -76,7 +75,6 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Apprenticeship",
 		"requiredResource": "Iron",
-		"upgradesTo": "Man-At-Arms",
 		"attackSound": "metalhit"
 	},
 	{
@@ -90,7 +88,6 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Apprenticeship",
 		"requiredResource": "Iron",
-		"upgradesTo": "Man-At-Arms",
 		"uniques": [
 			"Can build [Roman Fort] improvements on tiles"
 		],
@@ -118,7 +115,6 @@
 		"cost": 60,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
 	//Anti-Cavalry
@@ -141,7 +137,6 @@
 		"cost": 180,
 		"requiredTech": "Military Tactics",
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Pike and Shot",
 		"attackSound": "metalhit"
 	},
 	//Light Cavalry
@@ -154,7 +149,6 @@
 		"requiredTech": "Horseback Riding",
 		"obsoleteTech": "Castles",
 		"requiredResource": "Horses",
-		"upgradesTo": "Courser",
 		"attackSound": "horse"
 	},
 	{
@@ -207,7 +201,6 @@
 		"requiredTech": "Stirrups",
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
-		"upgradesTo": "Cuirassier",
 		"attackSound": "horse"
 	},
 	{
@@ -618,7 +611,6 @@
 		"cost": 370,
 		"requiredTech": "Sanitation",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Supply Convoy",
 		"uniques": [
 			"All adjacent units heal [+20] HP when healing"
 		]

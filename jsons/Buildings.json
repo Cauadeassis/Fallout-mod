@@ -596,28 +596,6 @@
 		],
 	},
 	{
-		"name": "Hippodrome District",
-		"replaces": "Entertainment Complex District",
-		"uniqueTo": "Byzantium",
-		"cost": 27,
-		"requiredResource": "Districts",
-		"maintenance": 1,
-		"cannotBeBuiltWith": "Water Park",
-		"uniques": [
-			"Creates a [Entertainment Complex] improvement on a specific tile",
-			"Unsellable",
-			"Cannot be purchased",
-			"Never destroyed when the city is captured",
-			"Free [Tagma] appears <after adopting [Divine Right]>",
-			"[1] units cost no maintenance",
-			/*
-"[+1 Food] from [Trade Route (Domestic)] tiles [in this city]",
-"[+1 Food] from [Trade Route (International)] tiles [in this city]",
-*/
-			"Only available <after adopting [Games and Recreation]>"
-		],
-	},
-	{
 		"name": "Harbor District",
 		"cost": 54,
 		"greatPersonPoints": {
@@ -1160,20 +1138,6 @@
 		],
 		"requiredTech": "Machinery",
 		"quote": "'Kilwa is one of the most beautifully built cities in the world; the houses there are entirely made of wood, their rooftops out of rope grass, and it rains with great vigour.' –Ibn Battuta"
-	},
-	{
-		"name": "Kotoku-in",
-		"isWonder": true,
-		"cost": 710,
-		"percentStatBonus": {
-			"faith": 20
-		},
-		"uniques": [
-			"[4] free [Warrior Monk] units appear",
-			"Only available <after adopting [Divine Right]> <in cities with a [Temple]>",
-			"Only available <in cities with a [Holy Site District]>"
-		],
-		"quote": "'O ye who tread the Narrow Way, by Tophet-flare to Judgment Day, be gentle when ‘the heathen’ pray, to Buddha at Kamakura!' –Rudyard Kipling"
 	},
 	{
 		"name": "Meenakshi Temple",
@@ -5907,29 +5871,6 @@
 		],
 	},
 	{
-		"name": "Simon Bolivar",
-		"cost": 1,
-		"hurryCostModifier": -100,
-		"requiredResource": "Leader",
-		"uniqueTo": "Gran Colombia",
-		"uniques": [
-			"Can only be built <in [in capital] cities>",
-			"Only available <with [Leader]>",
-			"Moves to new capital when capital changes",
-			"Destroyed when the city is captured",
-			"Unsellable",
-			"Free [Comandante General] appears <after discovering [Horseback Riding]>",
-			"Free [Comandante General] appears <after discovering [Stirrups]>",
-			"Free [Comandante General] appears <after discovering [Gunpowder]>",
-			"Free [Comandante General] appears <after discovering [Military Science]>",
-			"Free [Comandante General] appears <after discovering [Horseback Riding]>",
-			"Free [Comandante General] appears <after discovering [Steel]>",
-			"Free [Comandante General] appears <after discovering [Combined Arms]>",
-			"Free [Comandante General] appears <after discovering [Composites]>",
-			"Free [Comandante General] appears <after discovering [Advanced AI]>",
-		],
-	},
-	{
 		"name": "Suleiman",
 		"cost": 1,
 		"hurryCostModifier": -100,
@@ -6020,23 +5961,6 @@
 			"Destroyed when the city is captured",
 			"Unsellable",
 			"Gain a free [Monument] [in all cities]",
-		],
-	},
-	{
-		"name": "Victoria",
-		"cost": 1,
-		"hurryCostModifier": -100,
-		"requiredResource": "Leader",
-		"uniqueTo": "England",
-		"uniques": [
-			"Can only be built <in [in capital] cities>",
-			"Only available <with [Leader]>",
-			"Moves to new capital when capital changes",
-			"Destroyed when the city is captured",
-			"Unsellable",
-			"Enables the Redcoat Unique unit. ",
-			"[1] free [Redcoat] units appear <in cities with a [Royal Navy Dockyard]>",
-			"[1] free [Redcoat] units appear <in cities with a [City Center]> <on foreign continents>",
 		],
 	},
 	{
