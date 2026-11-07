@@ -4,131 +4,119 @@
         "movementType": "Land"
     },
     {
-        "name": "Anti-Cavalry",
-        "movementType": "Land",
-        "uniques": [
-            "[+67]% Strength <vs [Light Cavalry] units>",
-            "[+67]% Strength <vs [Heavy Cavalry] units>"
-        ]
+        "name": "Sword",
+        "movementType": "Land"
     },
     {
-        "name": "Land Melee",
-        "movementType": "Land",
-        "uniques": [
-            "[+33]% Strength <vs [Anti-Cavalry] units>"
-        ]
+        "name": "Gunpowder",
+        "movementType": "Land"
     },
     {
-        "name": "Warrior Monk",
-        "movementType": "Land",
+        "name": "Archery",
+        "movementType": "Land"
     },
     {
-        "name": "Land Ranged",
-        "movementType": "Land",
-        "uniques": [
-            "[-46]% Strength <vs cities> <when attacking>",
-            "[-46]% Strength <vs [Water] units> <when attacking>"
-        ]
+        "name": "Ranged Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
     },
     {
         "name": "Siege",
         "movementType": "Land",
-        "uniques": [
-            "[-46]% Strength <vs [Land] units> <when attacking>",
-            "[-46]% Strength <vs [Water] units> <when attacking>"
+        "civilopediaText": [
+            { "text": "Siege units are extremely powerful against cities, but need to be Set Up before they can attack.\nOnce your siege unit is set up, it can attack from the current tile,\n  but once moved to another tile, it will need to be set up again." }
         ]
     },
-    {
-        "name": "Light Cavalry",
-        "movementType": "Land",
-        "uniques": [
-            "Ignores Zone of Control"
-        ],
-    },
-    {
-        "name": "Heavy Cavalry",
-        "movementType": "Land",
-        "uniques": [
-            "Ignores Zone of Control"
-        ],
-    },
-    {
-        "name": "Recon",
-        "movementType": "Land"
-    },
-    {
-        "name": "Support",
-        "movementType": "Land"
-    },
-    {
-        "name": "Naval Melee",
-        "movementType": "Water"
-    },
-    {
-        "name": "Naval Ranged",
-        "movementType": "Water"
-    },
-    {
-        "name": "Naval Raider",
-        "movementType": "Water",
-        "uniques": [
-            "Invisible to non-adjacent units",
-            "Can see invisible [Naval Raider] units",
-            "Ignores Zone of Control"
-        ]
-    },
-    {
-        "name": "Naval Carrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "Air Fighter",
-        "movementType": "Air",
-        "uniques": [
-            "Aircraft",
-            "[100]% chance to intercept air attacks",
-            "Can see over obstacles",
-            "Only available <in cities with a [Aerodrome District]>"
-        ]
-    },
-    {
-        "name": "Air Bomber",
-        "movementType": "Air",
-        "uniques": [
-            "Aircraft",
-            "Can see over obstacles",
-            "Only available <in cities with a [Aerodrome District]>"
-        ]
-    },
-    {
-        "name": "Nuclear Device",
-        "movementType": "Air",
-        "uniques": [
-            "Missile",
-            "Self-destructs when attacking",
-            "Cannot be intercepted",
-            "[+200]% maintenance costs",
-            "Only available <if [Manhattan Project] is constructed>"
-        ]
-    },
-    {
-        "name": "Thermonuclear Device",
-        "movementType": "Air",
-        "uniques": [
-            "Missile",
-            "Self-destructs when attacking",
-            "Cannot be intercepted",
-            "[+200]% maintenance costs",
-            "Only available <if [Manhattan Project] is constructed>"
-        ]
-    },
-    {
-        "name": "GDR",
-        "movementType": "Land"
-    },
-    //To be removed
     {
         "name": "Civilian Water",
         "movementType": "Water"
     },
+    {
+        "name": "Melee Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
 ]

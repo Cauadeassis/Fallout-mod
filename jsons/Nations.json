@@ -9,103 +9,139 @@
 		]
 		//		"innerColor": [255,255,255]
 	},
-	// Nations
-	{
-		"name": "America",
-		"leaderName": "Teddy Roosevelt",
-		"adjective": [
-			"American"
+		
+{
+    "name": "Brotherhood of Steel",
+    "leaderName": "Arthur Maxson",
+    "adjective": [
+        "Brotherhood"
+    ],
+    "startBias": [
+        "Mountain"
+    ],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "You have mistaken our restraint for weakness. The Brotherhood will not tolerate your threat.",
+    "attacked": "You dare challenge the Brotherhood of Steel? Prepare to face the full force of our arsenal!",
+    "defeated": "Our chapter may fall, but the Brotherhood will endure. Our knowledge and our mission must survive.",
+    "introduction": "I am Elder Arthur Maxson, leader of the Brotherhood of Steel. We preserve the technology of the old world and ensure that its power does not fall into the wrong hands.",
+    "neutralHello": "State your business. The Brotherhood has little time for idle conversation.",
+    "hateHello": "You are a threat to the preservation of humanity. Do not test our patience.",
+    "tradeRequest": "The Brotherhood is willing to negotiate. Technology and resources can serve both our interests.",
+    "outerColor": [
+        35,
+        38,
+        42
+    ],
+    "innerColor": [
+        235,
+        229,
+        210
+    ],
+	"uniques": [
+			"[+10]% Science when constructing [Military] units [in all cities]",
+			"[+50]% XP gained from combat <for [Military] units>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+			"[+2 Science] from every [Barracks]",
+            "[+4 Science] from every [Armory]",
+            "[+6 Science] from every [Military Academy]"
 		],
-		"startBias": [
-			"Mountain"
-		],
-		"preferredVictoryType": "Cultural",
-		"declaringWar": "I wanted to avoid this you know. But your idea of peace left me no choice.",
-		"attacked": "If I must choose between righteousness and peace, I choose righteousness.",
-		"defeated": "Congratulations. Instead of the United States of America, your nation will go far.",
-		"introduction": "Welcome to the United States of America. If you conduct yourself well, you can consider us friends.",
-		"neutralHello": "You have my thanks.",
-		"hateHello": "How dare you!",
-		"tradeRequest": "It's good to see you. My diplomatic delegation should be arriving soon! I'm sure you'll give them a warm welcome.",
-		"outerColor": [
-			0,
-			79,
-			205
-		],
-		"innerColor": [
-			243,
-			245,
-			249
-		],
-		"uniqueName": "Founding Fathers",
-		"uniqueText": "Receive twice the permanent bonus from government, and receive the ability to convert Diplomatic Policy Slots into Wildcard Policy Slots (get -5% City-State influence degradation each time you do so).",
-		"uniques": [
-			"[+10]% Production when constructing [All] wonders [in all cities] <if [Autocracy] is constructed>",
-			"[+15]% Great Person generation [in all cities] <if [Classical Republic] is constructed>",
-			"[+20]% XP gained from combat <for [Military] units> <if [Oligarchy] is constructed>",
-			"[Gold] cost of purchasing items in cities [-15]% <if [Merchant Republic] is constructed>",
-			"[-25]% City-State Influence degradation <if [Monarchy] is constructed>",
-			"[Faith] cost of purchasing items in cities [-15]% <if [Theocracy] is constructed>",
-			"[+3 Production] per [5] population [in all cities] <if [Communism] is constructed>",
-			"[+2 Science] from [Academy] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Science] from [Observatory] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Science] from [Seowon] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+4 Gold] from [Customs house] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+4 Gold] from [Suguba] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+1 Food, +2 Gold] from [Harbor] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Faith] from [Holy site] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Faith] from [Lavra] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Production] from [Manufactory] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Production] from [Hansa] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Production] from [Oppidum] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Culture] from [Landmark] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+2 Culture] from every [Acropolis] <if [Democracy] is constructed>",
-			"[+1 Production, +2 Gold] from [Citadel] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+1 Production, +2 Gold] from [Ikanda] tiles [in all cities] <if [Democracy] is constructed>",
-			"[+50]% Production when constructing [Military] units [in all cities] <if [Fascism] is constructed>",
-		],
-		"cities": [
-			"Washington",
-			"New York",
-			"Philadelphia",
-			"Boston",
-			"Baltimore",
-			"Charleston",
-			"New Orleans",
-			"Cincinnati",
-			"Los Angeles",
-			"St. Louis",
-			"Chicago",
-			"Buffalo",
-			"San Francisco",
-			"Cleveland",
-			"Detroit",
-			"Houston",
-			"Atlanta",
-			"Dallas",
-			"San Diego",
-			"Phoenix",
-			"San Antonio",
-			"San Jose",
-			"Seattle",
-			"Portland",
-			"Miami",
-			"Denver",
-			"Jacksonville",
-			"Kansas City",
-			"Richmond",
-			"Pittsburgh",
-			"Las Vegas",
-			"Albuquerque",
-			"Minneapolis",
-			"Sparks",
-			"Nashville",
-			"San Juan",
-			"Providence",
-			"Springfield",
-			"Boise",
-			"Centralia"
-		]
-	},
-	
+    "cities": [
+        "Lost Hills",
+        "The Citadel",
+        "Hidden Valley",
+        "Fort Atlas",
+        "Boston Airport",
+        "Adams Air Force Base",
+        "Fort Defiance",
+        "Camp Venture",
+        "HELIOS One",
+        "San Francisco"
+    ]
+},
+{
+    "name": "New California Republic",
+    "leaderName": "Aaron Kimball",
+    "adjective": [
+        "NCR"
+    ],
+    "startBias": [
+        "Plains"
+    ],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "The New California Republic will not tolerate threats to democracy and order. Bear our flag, or face our army.",
+    "attacked": "You are making a grave mistake. The NCR military will mobilize with the full force of the Republic behind us!",
+    "defeated": "The Republic may have lost this battle, but the ideals of liberty and law will outlive this war.",
+    "introduction": "Greetings. I am President Aaron Kimball of the New California Republic. We bring law, democracy, and civilization back to the wasteland.",
+    "neutralHello": "Welcome. State your business with the Republic. We have a nation to build.",
+    "hateHello": "You are a obstacle to expansion and rule of law. Tread carefully around NCR territory.",
+    "tradeRequest": "Fair trade benefits the Republic and its allies. Let us see if we can reach an agreement.",
+    "outerColor": [
+        212,
+        175,
+        55
+    ],
+    "innerColor": [
+        89,
+        60,
+        31
+    ],
+    "uniques": [
+            "[+1 Production, +1 Food] from each Trade Route [in all cities]",
+			"[-50]% maintenance on road & railroads",
+			"[-25]% maintenance costs <for [Military] units>",
+			"[-25]% Culture cost of natural border growth [in all cities]",
+        ],
+    "cities": [
+        "Shady Sands",
+        "The Boneyard",
+        "The Hub",
+        "Vault City",
+        "Maxson",
+        "Dayglow",
+        "Redding",
+        "Camp McCarran",
+        "Boulder City",
+        "Mojave Outpost"
+    ]
+},
+{
+    "name": "The Legion",
+    "leaderName": "Caesar",
+    "adjective": [
+        "Legion"
+    ],
+    "startBias": [
+        "Desert"
+    ],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "The weak must yield to the strong. The Bull will trample everything in its path, starting with you.",
+    "attacked": "Foolish profligate! You have brought the wrath of Caesar upon your own heads.",
+    "defeated": "The Son of Mars falls... but the Legion is an idea born of blood, and it will never die.",
+    "introduction": "I am Caesar, leader of the Legion. Under my command, the tribes of the wasteland are forged into an unbreakable empire.",
+    "neutralHello": "Speak quickly, profligate. The Legion values strength and action, not empty words.",
+    "hateHello": "Your weak civilization is an affront to history. Degenerates like you belong on a cross.",
+    "tradeRequest": "If a tribute or trade serves the expansion of the Legion, we shall hear your terms.",
+		"outerColor": [70, 0, 118],
+		"innerColor": [240, 199, 0],
+    "uniques": [
+            "[+50]% Production when constructing [Military] units [in all cities]",
+			"[+100]% XP gained from combat <for [Military] units>",
+            "[+2 Happiness, +2 Production] [in all cities with a garrison]"
+        ],
+    "cities": [
+        "Flagstaff",
+        "The Fort",
+        "Two Sun",
+        "Phoenix",
+        "Reseda",
+        "Denver",
+        "Nelson",
+        "Cottonwood Cove",
+        "Camp Searchlight",
+        "Callville Bay"
+    ]
+}
+
+
+
 ]
