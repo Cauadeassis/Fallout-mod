@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "Reconstruction era",
+        "era": "Survival era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -72,7 +72,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Reconstruction era",
+        "era": "Survival era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -143,7 +143,7 @@
     },
     {
         "name": "Honor",
-        "era": "Reconstruction era",
+        "era": "Survival era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -216,7 +216,7 @@
     },
     {
         "name": "Piety",
-        "era": "Classical era",
+        "era": "Reconstruction era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -282,7 +282,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Recivilization era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -351,7 +351,7 @@
     },
     {
         "name": "Commerce",
-        "era": "Medieval era",
+        "era": "Recivilization era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,

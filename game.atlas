@@ -2012,7 +2012,7 @@ TechIcons/Apprenticeship
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Archery
+TechIcons/Dismantle
   rotate: false
   xy: 1913, 1089
   size: 100, 100
@@ -4258,7 +4258,7 @@ TechIcons/Military Tactics
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Mining
+TechIcons/Forests Cleaning
   rotate: false
   xy: 1300, 1497
   size: 100, 100
@@ -4300,7 +4300,7 @@ TechIcons/Plastics
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Pottery
+TechIcons/Agriculture
   rotate: false
   xy: 1948, 1929
   size: 95, 100
@@ -4363,7 +4363,7 @@ TechIcons/Rocketry
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Sailing
+TechIcons/Boats
   rotate: false
   xy: 436, 957
   size: 100, 100

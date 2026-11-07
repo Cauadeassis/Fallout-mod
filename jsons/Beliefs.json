@@ -3,69 +3,7 @@
         "name": "City Patron Godess",
         "type": "Pantheon",
         "uniques": [
-            "[+25]% Production when constructing [All] buildings [in this city] <before the [Classical era]>"
-        ]
-    },
-    {
-        "name": "Dance of the Aurora",
-        "type": "Pantheon",
-        "replacementTextForUniques": "Holy sites (and replacements) get +1 Faith for each adjacent Tundra.",
-        "uniques": [
-            "[+1 Faith] from every [Holy site] <with [1] to [1] neighboring [Tundra] tiles>",
-            "[+2 Faith] from every [Holy site] <with [2] to [2] neighboring [Tundra] tiles>",
-            "[+3 Faith] from every [Holy site] <with [3] to [3] neighboring [Tundra] tiles>",
-            "[+4 Faith] from every [Holy site] <with [4] to [4] neighboring [Tundra] tiles>",
-            "[+5 Faith] from every [Holy site] <with [5] to [5] neighboring [Tundra] tiles>",
-            "[+6 Faith] from every [Holy site] <with [6] to [6] neighboring [Tundra] tiles>",
-            "[+1 Faith] from every [Lavra] <with [1] to [1] neighboring [Tundra] tiles>",
-            "[+2 Faith] from every [Lavra] <with [2] to [2] neighboring [Tundra] tiles>",
-            "[+3 Faith] from every [Lavra] <with [3] to [3] neighboring [Tundra] tiles>",
-            "[+4 Faith] from every [Lavra] <with [4] to [4] neighboring [Tundra] tiles>",
-            "[+5 Faith] from every [Lavra] <with [5] to [5] neighboring [Tundra] tiles>",
-            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Tundra] tiles>",
-            "[+1 Faith] from every [Holy site] <if [Scripture] is constructed> <with [1] to [1] neighboring [Tundra] tiles>",
-            "[+2 Faith] from every [Holy site] <if [Scripture] is constructed> <with [2] to [2] neighboring [Tundra] tiles>",
-            "[+3 Faith] from every [Holy site] <if [Scripture] is constructed> <with [3] to [3] neighboring [Tundra] tiles>",
-            "[+4 Faith] from every [Holy site] <if [Scripture] is constructed> <with [4] to [4] neighboring [Tundra] tiles>",
-            "[+5 Faith] from every [Holy site] <if [Scripture] is constructed> <with [5] to [5] neighboring [Tundra] tiles>",
-            "[+6 Faith] from every [Holy site] <if [Scripture] is constructed> <with [6] to [6] neighboring [Tundra] tiles>",
-            "[+1 Faith] from every [Lavra] <if [Scripture] is constructed> <with [1] to [1] neighboring [Tundra] tiles>",
-            "[+2 Faith] from every [Lavra] <if [Scripture] is constructed> <with [2] to [2] neighboring [Tundra] tiles>",
-            "[+3 Faith] from every [Lavra] <if [Scripture] is constructed> <with [3] to [3] neighboring [Tundra] tiles>",
-            "[+4 Faith] from every [Lavra] <if [Scripture] is constructed> <with [4] to [4] neighboring [Tundra] tiles>",
-            "[+5 Faith] from every [Lavra] <if [Scripture] is constructed> <with [5] to [5] neighboring [Tundra] tiles>",
-            "[+6 Faith] from every [Lavra] <if [Scripture] is constructed> <with [6] to [6] neighboring [Tundra] tiles>"
-        ]
-    },
-    {
-        "name": "Desert Folklore",
-        "type": "Pantheon",
-        "replacementTextForUniques": "Holy sites (and replacements) get +1 Faith for each adjacent Desert.",
-        "uniques": [
-            "[+1 Faith] from every [Holy site] <with [1] to [1] neighboring [Desert] tiles>",
-            "[+2 Faith] from every [Holy site] <with [2] to [2] neighboring [Desert] tiles>",
-            "[+3 Faith] from every [Holy site] <with [3] to [3] neighboring [Desert] tiles>",
-            "[+4 Faith] from every [Holy site] <with [4] to [4] neighboring [Desert] tiles>",
-            "[+5 Faith] from every [Holy site] <with [5] to [5] neighboring [Desert] tiles>",
-            "[+6 Faith] from every [Holy site] <with [6] to [6] neighboring [Desert] tiles>",
-            "[+1 Faith] from every [Lavra] <with [1] to [1] neighboring [Desert] tiles>",
-            "[+2 Faith] from every [Lavra] <with [2] to [2] neighboring [Desert] tiles>",
-            "[+3 Faith] from every [Lavra] <with [3] to [3] neighboring [Desert] tiles>",
-            "[+4 Faith] from every [Lavra] <with [4] to [4] neighboring [Desert] tiles>",
-            "[+5 Faith] from every [Lavra] <with [5] to [5] neighboring [Desert] tiles>",
-            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Desert] tiles>",
-            "[+1 Faith] from every [Holy site] <if [Scripture] is constructed> <with [1] to [1] neighboring [Desert] tiles>",
-            "[+2 Faith] from every [Holy site] <if [Scripture] is constructed> <with [2] to [2] neighboring [Desert] tiles>",
-            "[+3 Faith] from every [Holy site] <if [Scripture] is constructed> <with [3] to [3] neighboring [Desert] tiles>",
-            "[+4 Faith] from every [Holy site] <if [Scripture] is constructed> <with [4] to [4] neighboring [Desert] tiles>",
-            "[+5 Faith] from every [Holy site] <if [Scripture] is constructed> <with [5] to [5] neighboring [Desert] tiles>",
-            "[+6 Faith] from every [Holy site] <if [Scripture] is constructed> <with [6] to [6] neighboring [Desert] tiles>",
-            "[+1 Faith] from every [Lavra] <if [Scripture] is constructed> <with [1] to [1] neighboring [Desert] tiles>",
-            "[+2 Faith] from every [Lavra] <if [Scripture] is constructed> <with [2] to [2] neighboring [Desert] tiles>",
-            "[+3 Faith] from every [Lavra] <if [Scripture] is constructed> <with [3] to [3] neighboring [Desert] tiles>",
-            "[+4 Faith] from every [Lavra] <if [Scripture] is constructed> <with [4] to [4] neighboring [Desert] tiles>",
-            "[+5 Faith] from every [Lavra] <if [Scripture] is constructed> <with [5] to [5] neighboring [Desert] tiles>",
-            "[+6 Faith] from every [Lavra] <if [Scripture] is constructed> <with [6] to [6] neighboring [Desert] tiles>"
+            "[+25]% Production when constructing [All] buildings [in this city] <before the [Reconstruction era]>"
         ]
     },
     {
@@ -90,14 +28,6 @@
         ]
     },
     {
-        "name": "Fire Godess",
-        "type": "Pantheon",
-        "uniques": [
-            "[+2 Faith] from every [Geothermal Fissure]",
-            "[+2 Faith] from every [Volcanic Soil]"
-        ]
-    },
-    {
         "name": "God of Craftsman",
         "type": "Pantheon",
         "uniques": [
@@ -115,7 +45,7 @@
         "name": "God of the Forge",
         "type": "Pantheon",
         "uniques": [
-            "[+25]% Production when constructing [Military] units [in this city] <before the [Medieval era]>"
+            "[+25]% Production when constructing [Military] units [in this city] <before the [Recivilization era]>"
         ]
     },
     {
@@ -175,7 +105,7 @@
         "name": "Monument to the Gods",
         "type": "Pantheon",
         "uniques": [
-            "[+15]% Production when constructing [All] wonders [in all cities] <before the [Medieval era]>"
+            "[+15]% Production when constructing [All] wonders [in all cities] <before the [Recivilization era]>"
         ]
     },
     {
@@ -185,16 +115,7 @@
             "[+1 Culture] from every [Plantation]"
         ]
     },
-    {
-        "name": "Religious Idols",
-        "type": "Pantheon",
-        "uniques": [
-            "[+2 Faith] from every [Amber]",
-            "[+2 Faith] from every [Copper]",
-            "[+2 Faith] from every [Jade]",
-            "[+2 Faith] from every [Silver]"
-        ]
-    },
+ 
     {
         "name": "River Godess",
         "type": "Pantheon",
@@ -208,37 +129,6 @@
         "uniques": [
             "[+25]% Production when constructing [Settler] units [in this city]",
             "[-15]% Culture cost of natural border growth [in this city]"
-        ]
-    },
-    {
-        "name": "Sacred Path",
-        "type": "Pantheon",
-        "replacementTextForUniques": "Holy sites (and replacements) get +1 Faith for each adjacent Jungle.",
-        "uniques": [
-            "[+1 Faith] from every [Holy site] <with [1] to [1] neighboring [Jungle] tiles>",
-            "[+2 Faith] from every [Holy site] <with [2] to [2] neighboring [Jungle] tiles>",
-            "[+3 Faith] from every [Holy site] <with [3] to [3] neighboring [Jungle] tiles>",
-            "[+4 Faith] from every [Holy site] <with [4] to [4] neighboring [Jungle] tiles>",
-            "[+5 Faith] from every [Holy site] <with [5] to [5] neighboring [Jungle] tiles>",
-            "[+6 Faith] from every [Holy site] <with [6] to [6] neighboring [Jungle] tiles>",
-            "[+1 Faith] from every [Lavra] <with [1] to [1] neighboring [Jungle] tiles>",
-            "[+2 Faith] from every [Lavra] <with [2] to [2] neighboring [Jungle] tiles>",
-            "[+3 Faith] from every [Lavra] <with [3] to [3] neighboring [Jungle] tiles>",
-            "[+4 Faith] from every [Lavra] <with [4] to [4] neighboring [Jungle] tiles>",
-            "[+5 Faith] from every [Lavra] <with [5] to [5] neighboring [Jungle] tiles>",
-            "[+6 Faith] from every [Lavra] <with [6] to [6] neighboring [Jungle] tiles>",
-            "[+1 Faith] from every [Holy site] <if [Scripture] is constructed> <with [1] to [1] neighboring [Jungle] tiles>",
-            "[+2 Faith] from every [Holy site] <if [Scripture] is constructed> <with [2] to [2] neighboring [Jungle] tiles>",
-            "[+3 Faith] from every [Holy site] <if [Scripture] is constructed> <with [3] to [3] neighboring [Jungle] tiles>",
-            "[+4 Faith] from every [Holy site] <if [Scripture] is constructed> <with [4] to [4] neighboring [Jungle] tiles>",
-            "[+5 Faith] from every [Holy site] <if [Scripture] is constructed> <with [5] to [5] neighboring [Jungle] tiles>",
-            "[+6 Faith] from every [Holy site] <if [Scripture] is constructed> <with [6] to [6] neighboring [Jungle] tiles>",
-            "[+1 Faith] from every [Lavra] <if [Scripture] is constructed> <with [1] to [1] neighboring [Jungle] tiles>",
-            "[+2 Faith] from every [Lavra] <if [Scripture] is constructed> <with [2] to [2] neighboring [Jungle] tiles>",
-            "[+3 Faith] from every [Lavra] <if [Scripture] is constructed> <with [3] to [3] neighboring [Jungle] tiles>",
-            "[+4 Faith] from every [Lavra] <if [Scripture] is constructed> <with [4] to [4] neighboring [Jungle] tiles>",
-            "[+5 Faith] from every [Lavra] <if [Scripture] is constructed> <with [5] to [5] neighboring [Jungle] tiles>",
-            "[+6 Faith] from every [Lavra] <if [Scripture] is constructed> <with [6] to [6] neighboring [Jungle] tiles>"
         ]
     },
     {
@@ -333,22 +223,6 @@
         "uniques": [
             "[+3 Food] from every [Shrine]",
             "[+3 Food] from every [Temple]"
-        ]
-    },
-    {
-        "name": "Religious Community",
-        "type": "Follower",
-        "uniques": [
-            "[+2 Gold] from every [Holy site]",
-            "[+2 Gold] from every [Shrine]",
-            "[+2 Gold] from every [Temple]"
-        ]
-    },
-    {
-        "name": "Reliquaries",
-        "type": "Follower",
-        "uniques": [
-            "[+7 Faith] from every [Archaeological Dig]"
         ]
     },
     {
