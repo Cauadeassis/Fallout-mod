@@ -1,0 +1,10 @@
+{
+	"ruleVariants": {
+		"Grassland+Fallout Forest": ["Grassland", "ForestG", "Fallout"],
+		"Grassland+Hill+Fallout Forest": ["Grassland+Hill", "ForestGH", "Fallout"],
+		"Plains+Fallout Forest": ["Plains", "ForestP", "Fallout"],
+		"Plains+Hill+Fallout Forest": ["Plains+Hill", "ForestPH", "Fallout"],
+		"Tundra+Fallout Forest": ["Tundra", "ForestT", "Fallout"],
+		"Tundra+Hill+Fallout Forest": ["Tundra+Hill", "ForestTH", "Fallout"]
+	}
+}
