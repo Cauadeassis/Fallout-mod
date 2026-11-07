@@ -5,6 +5,15 @@
 		"Plains+Fallout Forest": ["Plains", "ForestP", "Fallout"],
 		"Plains+Hill+Fallout Forest": ["Plains+Hill", "ForestPH", "Fallout"],
 		"Tundra+Fallout Forest": ["Tundra", "ForestT", "Fallout"],
-		"Tundra+Hill+Fallout Forest": ["Tundra+Hill", "ForestTH", "Fallout"]
+		"Tundra+Hill+Fallout Forest": ["Tundra+Hill", "ForestTH", "Fallout"],
+		"Grassland+Fallout Jungle": ["Grassland", "JungleG", "Fallout"],
+		"Grassland+Hill+Fallout Jungle": ["Grassland+Hill", "JungleG", "Fallout"],
+		"Plains+Fallout Jungle": ["Plains", "JungleP", "Fallout"],
+		"Plains+Hill+Fallout Jungle": ["Plains+Hill", "JungleP", "Fallout"],
+		"Grassland+Fallout Marsh": ["Grassland", "Marsh", "Fallout"],
+		"Desert+Fallout Oasis": ["Desert", "Oasis", "Fallout"],
+		"Grassland+Fallout Flood plains": ["Grassland", "Flood plains", "Fallout"],
+		"Plains+Fallout Flood plains": ["Plains", "Flood plains", "Fallout"],
+		"Desert+Fallout Flood plains": ["Desert", "Flood plains", "Fallout"]
 	}
 }

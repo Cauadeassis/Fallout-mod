@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient era",
+		"era": "Reconstruction era",
 		"techCost": 25,
 		"buildingCost": 60,
 		"wonderCost": 150,
@@ -18,7 +18,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient era",
+		"era": "Reconstruction era",
 		"techCost": 25,
 		"buildingCost": 60,
 		"wonderCost": 150,
@@ -51,7 +51,7 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient era",
+		"era": "Reconstruction era",
 		"techCost": 50,
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -100,7 +100,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Ancient era",
+		"era": "Reconstruction era",
 		"techCost": 80,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -329,7 +329,7 @@
 					"Buttress"
 				],
 				"uniques": [
-					"Enables [Embarked] units to enter ocean tiles <starting from the [Ancient era]>"
+					"Enables [Embarked] units to enter ocean tiles <starting from the [Reconstruction era]>"
 				],
 				"quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' - John Quincy Adams"
 			},

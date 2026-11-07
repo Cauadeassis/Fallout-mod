@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Civic Tree",
-		"era": "Ancient era",
+		"era": "Reconstruction era",
 		"uniques": ["Each city founded increases culture cost of policies [100]% less than normal","Free Social Policy"],
 		"policies": [
 

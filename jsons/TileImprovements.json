@@ -1049,6 +1049,50 @@
 		"shortcutKey": "X"
 	},
 	{
+		"name": "Remove Fallout Jungle",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Fallout Jungle"],
+		"techRequired": "Pottery",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Jungle] tile"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout Marsh",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Fallout Marsh"],
+		"techRequired": "Pottery",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Marsh] tile"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout Oasis",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Fallout Oasis"],
+		"techRequired": "Pottery",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Oasis] tile"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout Flood plains",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Fallout Flood plains"],
+		"techRequired": "Pottery",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Flood plains] tile"
+		],
+		"shortcutKey": "X"
+	},
+	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
 		"terrainsCanBeBuiltOn": [
