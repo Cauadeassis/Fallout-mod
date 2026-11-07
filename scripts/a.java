@@ -1,0 +1,1 @@
+// java -jar /tmp/Unciv.jar mod-ci
