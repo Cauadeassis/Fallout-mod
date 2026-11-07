@@ -1,67 +1,26 @@
 [
 	{
-		"name": "Admiral",
-		"food": 1,
-		"gold": 2,
-		"color": [
-			0,
-			255,
-			0
-		]
+		"name":"Scientist",
+		"science":3,
+		"greatPersonPoints": {"Great Scientist":3},
+		"color": [0,0,255]
 	},
 	{
-		"name": "Artist",
-		"culture": 2,
-		"color": [
-			160,
-			32,
-			240
-		]
+		"name":"Merchant",
+		"gold":3,
+		"greatPersonPoints": {"Great Merchant":3},
+		"color": [255,215,0]
 	},
 	{
-		"name": "Engineer",
-		"production": 2,
-		"color": [
-			139,
-			69,
-			19
-		]
+		"name":"Artist",
+		"culture":2,
+		"greatPersonPoints": {"Great Artist":3},
+		"color": [160,32,240]
 	},
 	{
-		"name": "General",
-		"production": 1,
-		"gold": 2,
-		"color": [
-			229,
-			0,
-			0
-		]
-	},
-	{
-		"name": "Merchant",
-		"gold": 4,
-		"color": [
-			255,
-			215,
-			0
-		]
-	},
-	{
-		"name": "Prophet",
-		"faith": 2,
-		"color": [
-			255,
-			255,
-			255
-		]
-	},
-	{
-		"name": "Scientist",
-		"science": 2,
-		"color": [
-			0,
-			0,
-			255
-		]
+		"name":"Engineer",
+		"production":2,
+		"greatPersonPoints": {"Great Engineer":3},
+		"color": [139,69,19]
 	}
 ]
