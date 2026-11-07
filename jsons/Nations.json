@@ -38,7 +38,7 @@
         210
     ],
 	"uniques": [
-			"[+10]% Science when constructing [Military] units [in all cities]",
+			"[+15]% [Science] [in all cities] <when at war>",
 			"[+50]% XP gained from combat <for [Military] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 			"[+2 Science] from every [Barracks]",
@@ -86,10 +86,10 @@
         31
     ],
     "uniques": [
-            "[+1 Production, +1 Food] from each Trade Route [in all cities]",
+            "[+3 Production, +3 Food] from each Trade Route",
 			"[-50]% maintenance on road & railroads",
 			"[-25]% maintenance costs <for [Military] units>",
-			"[-25]% Culture cost of natural border growth [in all cities]",
+			"[-25]% Culture cost of natural border growth [in all cities]"
         ],
     "cities": [
         "Shady Sands",
