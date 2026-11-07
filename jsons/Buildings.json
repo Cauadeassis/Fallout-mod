@@ -54,10 +54,10 @@
     "name": "Fertilizer Rig",
     "cost": 80,
     "maintenance": 1,
-    "techRequired": "Fertilizers",
+    "requiredTech": "Fertilizers",
     "requiredResource": "Animal Remains",
     "uniques": [
-        "[+1 Food] from [Plantation] tiles"
+        "[+1 Food] from [Plantation] tiles [in this city]"
     ]
 },
 	{
