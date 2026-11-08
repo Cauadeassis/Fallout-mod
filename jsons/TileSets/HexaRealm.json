@@ -14,6 +14,27 @@
 		"Desert+Fallout Oasis": ["Desert", "Oasis", "Fallout"],
 		"Grassland+Fallout Flood plains": ["Grassland", "Flood plains", "Fallout"],
 		"Plains+Fallout Flood plains": ["Plains", "Flood plains", "Fallout"],
-		"Desert+Fallout Flood plains": ["Desert", "Flood plains", "Fallout"]
+		"Desert+Fallout Flood plains": ["Desert", "Flood plains", "Fallout"],
+
+		// NATURAL IRON
+			"Tundra+Forest+Iron": ["Tundra","Iron", "ForestT"],
+	"Tundra+Hill+Forest+Iron": ["Tundra+Hill","Iron","ForestT"],
+	"Grassland+Forest+Iron": ["Grassland","Iron", "ForestG"],
+	"Grassland+Jungle+Iron": ["Grassland","Iron", "JungleG"],
+	"Grassland+Hill+Forest+Iron": ["Grassland+Hill","Iron","ForestGH"],
+	"Plains+Forest+Iron": ["Plains","Iron", "ForestP"],
+	"Plains+Jungle+Iron": ["Plains","Iron", "JungleP"],
+	"Plains+Hill+Forest+Iron": ["Plains+Hill","Iron","ForestPH"],
+	"Grassland+Marsh+Iron": ["Grassland", "Iron", "Marsh"],
+	// FALLOUT IRON
+	"Tundra+Fallout Forest+Iron": ["Tundra","Iron", "ForestT", "Fallout"],
+	"Tundra+Hill+Fallout Forest+Iron": ["Tundra+Hill","Iron","Forest", "Fallout"],
+	"Grassland+Fallout Forest+Iron": ["Grassland","Iron", "Forest", "Fallout"],
+	"Grassland+Fallout Jungle+Iron": ["Grassland","Iron", "Jungle", "Fallout"],
+	"Grassland+Hill+Fallout Forest+Iron": ["Grassland+Hill","Iron","Forest", "Fallout"],
+	"Plains+Fallout Forest+Iron": ["Plains","Iron", "Forest", "Fallout"],
+	"Plains+Fallout Jungle+Iron": ["Plains","Iron", "Jungle", "Fallout"],
+	"Plains+Hill+Fallout Forest+Iron": ["Plains+Hill","Iron","Forest", "Fallout"],
+	"Grassland+Fallout Marsh+Iron": ["Grassland", "Iron", "Marsh", "Fallout"]
 	}
 }
