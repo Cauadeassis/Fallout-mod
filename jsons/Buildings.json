@@ -15,6 +15,7 @@
 	},
 	{
 		"name": "Water Purificator",
+		"cost": 40,
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -30,6 +31,54 @@
     "requiredResource": "Animal Remains",
     "uniques": [
         "[+1 Food] from [Plantation] tiles [in this city]"
+    ]
+},
+	{
+    "name": "Greenhouse",
+    "cost": 80,
+	"food": 3,
+	"percentStatBonus": {"food": 10},
+    "maintenance": 2,
+    "requiredTech": "Greenhouses"
+},
+	{
+    "name": "Botanic Garden",
+	"happiness": 2,
+	"culture": 1,
+	"science": 2,
+    "cost": 80,
+	"food": 3,
+    "maintenance": 2,
+	"greatPersonPoints": {"Great Scientist": 1},
+    "requiredTech": "Greenhouses",
+    "uniques": [
+        "[+25]% Great Person generation [in this city]", 
+		"Must be next to [Fresh water]"
+    ]
+}, 
+
+{
+    "name": "Search for Survivors",
+    "cost": 120,
+    "requiredTech": "Fallout Cleaning",
+	"isNationalWonder": true,
+    "uniques": [
+		"Requires at least [5] population",
+		"Cost increases by [30] per owned city",
+		"Reveal up to [All] [All] within a [6] tile radius",
+		"[+3] population [in this city]"
+    ]
+},
+
+{
+    "name": "Foundry",
+    "cost": 80,
+    "maintenance": 1,
+	"production": 2,
+    "requiredTech": "Dismantle",
+    "requiredResource": "Iron",
+    "uniques": [
+        "[+1 Production] per [3] population [in this city]"
     ]
 },
 

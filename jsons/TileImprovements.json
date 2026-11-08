@@ -1,14 +1,13 @@
 [
 	{
 		"name": "Plantation",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains", "Desert", "Hill"],
 		"turnsToBuild": 6,
 		"food": 1,
 		"techRequired": "Agriculture",
 		"uniques": [
+			"Can only be built to improve a resource <before discovering [Greenhouses]>",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "P"
@@ -20,12 +19,21 @@
 		"techRequired": "Dismantle",
 		"uniques": [
 			"Can only be built to improve a resource",
-			"[+1 Production] <after discovering [Chemistry]>", 
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 
 	// Resource-specific
+		{
+		"name": "Scrapyard",
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Dismantle",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
 	{
     "name": "Butchery",
     "turnsToBuild": 6,
@@ -44,8 +52,7 @@
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Boats",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 
@@ -54,7 +61,6 @@
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 6,
-		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
 		"shortcutKey": "O"
 	},
@@ -64,7 +70,6 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [
@@ -77,7 +82,6 @@
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [
@@ -92,7 +96,6 @@
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"techRequired": "Forests Cleaning",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
@@ -100,21 +103,12 @@
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
-		"techRequired": "Bronze Working",
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout",
-		"turnsToBuild": 2,
-		// Has no tech requirements as it can always be built
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
@@ -151,8 +145,8 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
-            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
+		"uniques": [
+            "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -166,14 +160,14 @@
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units",
+		"uniques": ["Great Improvement", "Will not be replaced by automated units",
             "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built",
+		"uniques": ["Great Improvement", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -224,12 +218,19 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor", "Marks a barbarian camp"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-	}
+	},
 
 	// FALLOUT IMPROVEMENTS
+		{
+		"name": "Remove Fallout",
+		"turnsToBuild": 10,
+		"techRequired": "Fallout Cleaning",
+		"uniques": ["Excluded from map editor"],
+		"shortcutKey": "X"
+	},
 	{
 		"name": "Remove Fallout Forest",
-		"turnsToBuild": 7,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": [
 			"Fallout Forest"
 		],
@@ -241,46 +242,42 @@
 	},
 	{
 		"name": "Remove Fallout Jungle",
-		"turnsToBuild": 4,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Jungle"],
-		"techRequired": "Agriculture",
+		"techRequired": "Forests Cleaning",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Jungle] tile"
 		],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout Marsh",
-		"turnsToBuild": 4,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Marsh"],
-		"techRequired": "Agriculture",
+		"techRequired": "Forests Cleaning",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Marsh] tile"
 		],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout Oasis",
-		"turnsToBuild": 4,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Oasis"],
-		"techRequired": "Agriculture",
+		"techRequired": "Fallout Cleaning",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Oasis] tile"
 		],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout Flood plains",
-		"turnsToBuild": 4,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Flood plains"],
-		"techRequired": "Agriculture",
+		"techRequired": "Fallout Cleaning",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Flood plains] tile"
 		],
 		"shortcutKey": "X"
-	},
+	}
 ]
