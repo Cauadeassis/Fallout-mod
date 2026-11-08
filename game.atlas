@@ -4,191 +4,219 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-ImprovementIcons/Butchery
-  rotate: false
-  xy: 140, 356
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Fishing Boats
+BuildingIcons/Public Hospitals
   rotate: false
   xy: 720, 708
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Public Schools
+  rotate: false
+  xy: 828, 816
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Butchery
+  rotate: false
+  xy: 140, 464
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fishing Boats
+  rotate: false
+  xy: 720, 816
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Fort
   rotate: false
-  xy: 1684, 1273
+  xy: 1684, 1381
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Fallout Flood plains
   rotate: false
-  xy: 248, 356
+  xy: 1684, 1273
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Fallout Forest
   rotate: false
-  xy: 248, 356
+  xy: 1684, 1273
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Fallout Jungle
   rotate: false
-  xy: 248, 356
+  xy: 1684, 1273
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Fallout Marsh
   rotate: false
-  xy: 248, 356
+  xy: 1684, 1273
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Remove Fallout Oasis
   rotate: false
-  xy: 248, 356
+  xy: 1684, 1273
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Scrapyard
   rotate: false
-  xy: 828, 708
+  xy: 356, 464
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/America
   rotate: false
-  xy: 4, 220
+  xy: 4, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Brotherhood of Steel
   rotate: false
-  xy: 4, 816
+  xy: 4, 924
   size: 1672, 941
   orig: 1672, 941
   offset: 0, 0
   index: -1
 NationIcons/New California Republic
   rotate: false
-  xy: 4, 464
+  xy: 4, 572
   size: 580, 344
   orig: 580, 344
   offset: 0, 0
   index: -1
 NationIcons/The Legion
   rotate: false
-  xy: 4, 4
+  xy: 936, 816
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Animal Remains
   rotate: false
-  xy: 592, 595
+  xy: 592, 703
   size: 120, 213
   orig: 120, 213
   offset: 0, 0
   index: -1
 BuildingIcons/Fertilizer Rig
   rotate: false
-  xy: 592, 595
+  xy: 592, 703
   size: 120, 213
   orig: 120, 213
   offset: 0, 0
   index: -1
 TechIcons/Decontamination
   rotate: false
-  xy: 592, 487
+  xy: 592, 595
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hazmat Suit
   rotate: false
-  xy: 1684, 1501
+  xy: 1684, 1609
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-TechIcons/Water Purification
-  rotate: false
-  xy: 4, 328
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-BuildingIcons/Water Purificator
-  rotate: false
-  xy: 4, 328
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Animal Remains
-  rotate: false
-  xy: 1948, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Iron
-  rotate: false
-  xy: 1804, 1411
-  size: 100, 82
-  orig: 100, 82
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Test
-  rotate: false
-  xy: 1684, 1381
-  size: 112, 112
-  orig: 112, 112
-  offset: 0, 0
-  index: -1
-UnitIcons/Legion
-  rotate: false
-  xy: 4, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Scout
-  rotate: false
-  xy: 720, 600
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Settler
+TechIcons/Trading
   rotate: false
   xy: 1684, 1165
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TechIcons/Water Purification
+  rotate: false
+  xy: 4, 436
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/Water Purificator
+  rotate: false
+  xy: 4, 436
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Animal Remains
+  rotate: false
+  xy: 1948, 1809
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Iron
+  rotate: false
+  xy: 1804, 1519
+  size: 100, 82
+  orig: 100, 82
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Test
+  rotate: false
+  xy: 1684, 1489
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+UnitIcons/Legion
+  rotate: false
+  xy: 4, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Medic
+  rotate: false
+  xy: 248, 464
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Scout
+  rotate: false
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Settler
+  rotate: false
+  xy: 828, 708
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 356, 356
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 828, 600
+  xy: 464, 464
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

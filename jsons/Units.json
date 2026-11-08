@@ -2,7 +2,7 @@
 
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
-	/* Ancient Era */
+	/* Basic units */
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -52,6 +52,36 @@
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+	},
+
+	/* Survivor era */
+		{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Boats",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+			{
+		"name": "Explorer Boat",
+		"unitType": "Civilian Water",
+		"movement": 5,
+		"cost": 30,
+		"requiredTech": "Boats",
+		"uniques": ["[+1] Sight"]
+	},
+	/* Reconstruction era */
+		{
+		"name": "Medic",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 40,
+		"requiredTech": "Communitary Buildings",
+		"uniques": [
+			"All adjacent units heal [+25] HP when healing"
+		]
 	},
 	/* Great people */
 
