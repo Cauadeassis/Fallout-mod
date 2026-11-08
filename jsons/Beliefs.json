@@ -51,9 +51,7 @@
     {
         "name": "God of the Open Sky",
         "type": "Pantheon",
-        "uniques": [
-            "[+1 Culture] from every [Pasture]"
-        ]
+		"uniques": []
     },
     {
         "name": "God of the Sea",
@@ -80,17 +78,13 @@
         "name": "Goddess of the Harvest",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from every [Wheat]",
-            "[+2 Faith] from every [Maize]",
-            "[+2 Faith] from every [Rice]"
-        ]
+			"[+2 Faith] from every [Wheat]"
+		]
     },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": [
-            "[+1 Food, +1 Production] from every [Camp]"
-        ]
+		"uniques": []
     },
     {
         "name": "Lady of the Reeds and Marshes",
@@ -131,13 +125,6 @@
             "[-15]% Culture cost of natural border growth [in this city]"
         ]
     },
-    {
-        "name": "Stone Circles",
-        "type": "Pantheon",
-        "uniques": [
-            "[+2 Faith] from every [Quarry]"
-        ]
-    },
     ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Cathedral",
@@ -149,23 +136,17 @@
     {
         "name": "Dar-e Mehr",
         "type": "Follower",
-        "uniques": [
-            "May buy [Dar-e Mehr] buildings for [380] [Faith] [in cities following this religion]"
-        ]
+		"uniques": []
     },
     {
         "name": "Gurdwara",
         "type": "Follower",
-        "uniques": [
-            "May buy [Gurdwara] buildings for [380] [Faith] [in cities following this religion]"
-        ]
+		"uniques": []
     },
     {
         "name": "Meeting House",
         "type": "Follower",
-        "uniques": [
-            "May buy [Meeting House] buildings for [380] [Faith] [in cities following this religion]"
-        ]
+		"uniques": []
     },
     {
         "name": "Mosque",
@@ -184,31 +165,22 @@
     {
         "name": "Stupa",
         "type": "Follower",
-        "uniques": [
-            "May buy [Stupa] buildings for [380] [Faith] [in cities following this religion]"
-        ]
+		"uniques": []
     },
     {
         "name": "Synagogue",
         "type": "Follower",
-        "uniques": [
-            "May buy [Synagogue] buildings for [380] [Faith] [in cities following this religion]"
-        ]
+		"uniques": []
     },
     {
         "name": "Wat",
         "type": "Follower",
-        "uniques": [
-            "May buy [Wat] buildings for [380] [Faith] [in cities following this religion]"
-        ]
+		"uniques": []
     },
     {
         "name": "Choral Music",
         "type": "Follower",
-        "uniques": [
-            "[+2 Culture] from every [Shrine]",
-            "[+4 Culture] from every [Temple]"
-        ]
+		"uniques": []
     },
     {
         "name": "Divine inspiration",
@@ -220,10 +192,7 @@
     {
         "name": "Feed the World",
         "type": "Follower",
-        "uniques": [
-            "[+3 Food] from every [Shrine]",
-            "[+3 Food] from every [Temple]"
-        ]
+		"uniques": []
     },
     {
         "name": "Work Ethic",
@@ -363,8 +332,7 @@
         "name": "Scripture",
         "type": "Enhancer",
         "uniques": [
-            "[+25]% Natural religion spread [in all cities]",
-            "[+25]% Natural religion spread [in all cities] <after discovering [Printing]>"
-        ]
+			"[+25]% Natural religion spread [in all cities]"
+		]
     }
 ]

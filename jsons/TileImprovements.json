@@ -14,15 +14,6 @@
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Forests Cleaning",
-		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "L"
-	},
-	{
 		"name": "Mine",
 		"production": 1,
 		"turnsToBuild": 7,
@@ -32,15 +23,6 @@
 			"[+1 Production] <after discovering [Chemistry]>", 
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "T"
 	},
 
 	// Resource-specific
@@ -56,42 +38,7 @@
         "Pillaging this improvement yields approximately [+10 Gold]"
     ],
     "shortcutKey": "B"
-}
-	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "C"
-	},
-	{
-		"name": "Oil well",
-		"turnsToBuild": 9,
-		"techRequired": "Biology",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "W"
-	},
-	{
-		"name": "Offshore Platform",
-		"turnsToBuild": 1,  // Allows this to be constructed for city-states
-		"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-
-	{
-		"name": "Quarry",
-		"turnsToBuild": 8,
-		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "Q"
-	},
+},
 	{
 		"name": "Fishing Boats",
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states

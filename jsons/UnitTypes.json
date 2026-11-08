@@ -12,10 +12,6 @@
         "movementType": "Land"
     },
     {
-        "name": "Dismantle",
-        "movementType": "Land"
-    },
-    {
         "name": "Ranged Gunpowder",
         "movementType": "Land"
     },

@@ -64,7 +64,6 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [4] cities for free",
                     "Get the leader title of [Lord [leaderName]]"
                 ]
             }
@@ -195,12 +194,8 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
-                ],
+					"[-33]% Gold cost of upgrading <for [Military] units>"
+				],
                 "requires": ["Military Caste"],
                 "row": 3,
                 "column": 4
@@ -225,18 +220,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
-            "Only available <before adopting [Rationalism]>",
+			"Only available <before adopting [Rationalism]>",
             "[-100]% weight to this choice for AI decisions <when religion is disabled>"
         ],
         "policies": [
             {
                 "name": "Organized Religion",
-                "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+1 Faith] from every [Temple]"
-                ],
+				"uniques": [],
                 "row": 1,
                 "column": 2
             },
@@ -248,7 +238,7 @@
             },
             {
                 "name": "Theocracy",
-                "uniques": ["[+10]% [Gold] from every [Temple]"],
+				"uniques": [],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 1
@@ -375,10 +365,8 @@
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[-33]% maintenance on road & railroads",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
-                ],
+					"[-33]% maintenance on road & railroads"
+				],
                 "row": 1,
                 "column": 4
             },
@@ -392,12 +380,8 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from every [Mint]",
-                    "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Bank]",
-                    "[+1 Science] from every [Stock Exchange]"
-                ],
+					"[Gold] cost of purchasing items in cities [-25]%"
+				],
                 "requires": ["Trade Unions"],
                 "row": 2,
                 "column": 4
@@ -412,8 +396,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
-                    "[+100]% Gold from Great Merchant trade missions",
+					"[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
@@ -446,20 +429,14 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-                    "[-50]% weight to this choice for AI decisions"
+					"[-50]% weight to this choice for AI decisions"
                 ],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Free Thought",
-                "uniques": [
-                    "[+1 Science] from every [Trading post]",
-                    "[+17]% [Science] from every [University]"
-                ],
+				"uniques": [],
                 "requires": ["Secularism"],
                 "row": 2,
                 "column": 2
@@ -593,9 +570,7 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[+3 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[-25]% enemy spy effectiveness [in all cities]"
+					"[-25]% enemy spy effectiveness [in all cities]"
                 ],
                 "requires": ["Militarism"],
                 "row": 2,
@@ -647,10 +622,7 @@
             },
             {
                 "name": "Planned Economy",
-                "uniques": [
-                    "[+25]% [Science] from every [Factory]",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
-                ],
+				"uniques": [],
                 "row": 1,
                 "column": 3
             },
@@ -676,8 +648,7 @@
                 "requires": ["Socialism"],
                 "uniques": [
                     "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "[+1 Production] from every [Mine]"
                 ],
                 "row": 3,
                 "column": 3
