@@ -137,7 +137,6 @@
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": [
-			"Agriculture"
 		],
 		"aiMajorCivBonusStartingUnits": [
 			"Era Starting Unit"
@@ -170,7 +169,6 @@
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": [
-			"Agriculture"
 		],
 		"aiMajorCivBonusStartingUnits": [
 			"Era Starting Unit",
@@ -204,7 +202,6 @@
 		"aiUnitMaintenanceModifier": 0.65,
 		"aiUnitSupplyModifier": 0.4,
 		"aiFreeTechs": [
-			"Agriculture"
 		],
 		"aiMajorCivBonusStartingUnits": [
 			"Worker",
@@ -239,7 +236,6 @@
 		"aiUnitMaintenanceModifier": 0.1,
 		"aiUnitSupplyModifier": 0.5,
 		"aiFreeTechs": [
-			"Agriculture"
 		],
 		"aiMajorCivBonusStartingUnits": [
 			"Settler",

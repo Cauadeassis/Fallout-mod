@@ -60,12 +60,12 @@
 {
     "name": "Search for Survivors",
     "cost": 120,
-    "requiredTech": "Fallout Cleaning",
+    "requiredTech": "Hazmat Suits",
 	"isNationalWonder": true,
     "uniques": [
 		"Requires at least [5] population",
 		"Cost increases by [30] per owned city",
-		"Reveal up to [All] [All] within a [6] tile radius",
+		"Reveal up to [All] [All] within a [8] tile radius",
 		"[+3] population [in this city]"
     ]
 },
@@ -75,7 +75,7 @@
     "cost": 80,
     "maintenance": 1,
 	"production": 2,
-    "requiredTech": "Dismantle",
+    "requiredTech": "Dismantling",
     "requiredResource": "Iron",
     "uniques": [
         "[+1 Production] per [3] population [in this city]"

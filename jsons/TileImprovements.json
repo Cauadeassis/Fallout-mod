@@ -4,7 +4,6 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains", "Desert", "Hill"],
 		"turnsToBuild": 6,
 		"food": 1,
-		"techRequired": "Agriculture",
 		"uniques": [
 			"Can only be built to improve a resource <before discovering [Greenhouses]>",
 			"Can also be built on tiles adjacent to fresh water",
@@ -16,7 +15,7 @@
 		"name": "Mine",
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Dismantle",
+		"techRequired": "Dismantling",
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
@@ -28,7 +27,7 @@
 		"name": "Scrapyard",
 		"production": 1,
 		"turnsToBuild": 5,
-		"techRequired": "Dismantle",
+		"techRequired": "Dismantling",
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
@@ -224,7 +223,7 @@
 		{
 		"name": "Remove Fallout",
 		"turnsToBuild": 10,
-		"techRequired": "Fallout Cleaning",
+		"techRequired": "Hazmat Suits",
 		"uniques": ["Excluded from map editor"],
 		"shortcutKey": "X"
 	},
@@ -234,7 +233,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Fallout Forest"
 		],
-		"techRequired": "Forests Cleaning",
+		"techRequired": "Decontamination",
 		"uniques": [
 			"Turn this tile into a [Forest] tile"
 		],
@@ -244,7 +243,7 @@
 		"name": "Remove Fallout Jungle",
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Jungle"],
-		"techRequired": "Forests Cleaning",
+		"techRequired": "Decontamination",
 		"uniques": [
 			"Turn this tile into a [Jungle] tile"
 		],
@@ -254,7 +253,7 @@
 		"name": "Remove Fallout Marsh",
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Marsh"],
-		"techRequired": "Forests Cleaning",
+		"techRequired": "Decontamination",
 		"uniques": [
 			"Turn this tile into a [Marsh] tile"
 		],
@@ -264,7 +263,7 @@
 		"name": "Remove Fallout Oasis",
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Oasis"],
-		"techRequired": "Fallout Cleaning",
+		"techRequired": "Hazmat Suits",
 		"uniques": [
 			"Turn this tile into a [Oasis] tile"
 		],
@@ -274,7 +273,7 @@
 		"name": "Remove Fallout Flood plains",
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Fallout Flood plains"],
-		"techRequired": "Fallout Cleaning",
+		"techRequired": "Hazmat Suits",
 		"uniques": [
 			"Turn this tile into a [Flood plains] tile"
 		],

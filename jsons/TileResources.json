@@ -5,7 +5,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
 			"Fallout Jungle",
-			"Fallout"
+			"Jungle"
 		],
 		"food": 1,
 		"improvement": "Plantation",
@@ -21,6 +21,7 @@
 		"terrainsCanBeFoundOn": [
 			"Plains",
 			"Fallout Flood plains",
+			"Flood plains",
 			"Desert",
 			"Fallout"
 		], // Desert only if fresh water
@@ -48,6 +49,9 @@
 			"Fallout Marsh",
 			"Fallout Jungle",
 			"Fallout Forest",
+			"Marsh",
+			"Forest",
+			"Jungle",
 			"Grassland",
 			"Plains",
 			"Desert",
@@ -79,7 +83,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "Dismantle",
+		"revealedBy": "Dismantling",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -90,7 +94,10 @@
 			"Fallout Jungle",
 			"Fallout Forest",
 			"Fallout Marsh",
-			"Fallout"
+			"Fallout",
+						"Marsh",
+			"Forest",
+			"Jungle"
 		],
 		"production": 1,
 		"improvement": "Scrapyard",
@@ -123,6 +130,9 @@
 			"Fallout Jungle",
 			"Fallout Forest",
 			"Fallout Marsh",
+						"Marsh",
+			"Forest",
+			"Jungle",
 			"Fallout"
 		],
 		"production": 1,
@@ -155,10 +165,13 @@
 			"Fallout Forest",
 			"Fallout Marsh",
 			"Fallout Jungle",
+						"Marsh",
+			"Forest",
+			"Jungle",
 			"Fallout"
 		],
 		"production": 1,
-		"revealedBy": "Dismantle",
+		"revealedBy": "Dismantling",
 		"improvement": "Scrapyard",
 		"improvementStats": {"production": 1},
 		"uniques": [
@@ -178,6 +191,9 @@
 			"Fallout Marsh",
 			"Fallout Jungle",
 			"Fallout Forest",
+						"Marsh",
+			"Forest",
+			"Jungle",
 			"Tundra",
 			"Snow",
 			"Fallout"
@@ -204,6 +220,7 @@
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Fallout Flood plains",
+			"Flood plains",
 			"Fallout"
 		],
 		"gold": 2,
@@ -221,6 +238,9 @@
 			"Fallout Jungle",
 			"Fallout Forest",
 			"Fallout Marsh",
+						"Marsh",
+			"Forest",
+			"Jungle",
 			"Fallout"
 		],
 		"gold": 2,
@@ -239,6 +259,8 @@
 		"terrainsCanBeFoundOn": [
 			"Fallout Jungle",
 			"Fallout Forest",
+			"Forest",
+			"Jungle",
 			"Hill",
 			"Fallout"
 		],
@@ -262,6 +284,8 @@
 			"Hill",
 			"Fallout Forest",
 			"Fallout Jungle",
+			"Forest",
+			"Jungle",
 			"Fallout"
 		],
 		"gold": 2,
@@ -283,6 +307,8 @@
 			"Hill",
 			"Fallout Forest",
 			"Fallout Jungle",
+			"Forest",
+			"Jungle",
 			"Tundra",
 			"Grassland",
 			"Fallout"
@@ -309,6 +335,7 @@
 			"Plains",
 			"Desert",
 			"Fallout Flood plains",
+			"Flood plains",
 			"Fallout"
 		],
 		"gold": 2,
@@ -324,6 +351,8 @@
 		"terrainsCanBeFoundOn": [
 			"Fallout Forest",
 			"Fallout Jungle",
+			"Forest",
+			"Jungle",
 			"Fallout"
 		],
 		"gold": 2,
@@ -343,6 +372,9 @@
 			"Fallout Jungle",
 			"Fallout Forest",
 			"Fallout Marsh",
+						"Marsh",
+			"Forest",
+			"Jungle",
 			"Fallout"
 		],
 		"gold": 2,
@@ -379,6 +411,8 @@
 			"Fallout Flood plains",
 			"Grassland",
 			"Fallout Marsh",
+						"Marsh",
+			"Flood plains",
 			"Fallout"
 		],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
@@ -442,6 +476,9 @@
 			"Fallout Jungle",
 			"Fallout Forest",
 			"Fallout Flood plains",
+			"Forest",
+			"Jungle",
+			"Flood plains",
 			"Fallout"
 		],
 		"food": 1,
@@ -463,6 +500,8 @@
 			"Hill",
 			"Fallout Forest",
 			"Fallout Jungle",
+			"Forest",
+			"Jungle",
 			"Grassland",
 			"Tundra",
 			"Fallout"
@@ -517,6 +556,7 @@
 			"Tundra",
 			"Plains",
 			"Fallout Forest",
+			"Forest",
 			"Fallout"
 		],
 		"gold": 1,

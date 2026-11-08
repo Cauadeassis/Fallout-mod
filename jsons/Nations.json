@@ -65,7 +65,7 @@
         "NCR"
     ],
     "startBias": [
-        "Plains"
+        "Desert"
     ],
     "preferredVictoryType": "Domination",
     "declaringWar": "The New California Republic will not tolerate threats to democracy and order. Bear our flag, or face our army.",
@@ -111,7 +111,7 @@
         "Legion"
     ],
     "startBias": [
-        "Desert"
+        "Mountain"
     ],
     "preferredVictoryType": "Domination",
     "declaringWar": "The weak must yield to the strong. The Bull will trample everything in its path, starting with you.",

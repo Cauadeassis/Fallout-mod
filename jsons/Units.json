@@ -7,7 +7,6 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"requiredTech": "Water Purification",
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
@@ -16,7 +15,6 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"requiredTech": "Water Purification",
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
@@ -27,7 +25,6 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"requiredTech": "Water Purification",
 		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -38,7 +35,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"requiredTech": "Water Purification",
 		"uniques": [],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -53,7 +49,6 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 40,
-		"requiredTech": "Water Purification",
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"

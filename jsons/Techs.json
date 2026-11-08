@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "Water Purification",
-				"row": 6,
+				"row": 5,
 				"quote": "Once invented, water purifiers saved humanity",
 				"uniques": ["Starting tech"]
 			}
@@ -22,14 +22,29 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Agriculture",
-				"row": 4,
+				"name": "Fertilizers",
+				"row": 1,
 				"prerequisites": ["Water Purification"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+						{
+				"name": "Greenhouses",
+				"row": 3,
+				"prerequisites": ["Water Purification"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+									{
+				"name": "Refrigeration",
+				"row": 5,
+				"prerequisites": ["Water Purification"],
+                "uniques": [
+					"[50]% Food is carried over after population increases [in all cities]"
+			],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 
 			{
-				"name": "Forests Cleaning",
+				"name": "Decontamination",
 				"row": 7,
 				"prerequisites": ["Water Purification"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
@@ -45,36 +60,15 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Fertilizers",
-				"row": 1,
-				"prerequisites": ["Agriculture"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-						{
-				"name": "Greenhouses",
-				"row": 3,
-				"prerequisites": ["Agriculture"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-									{
-				"name": "Refrigeration",
-				"row": 5,
-				"prerequisites": ["Agriculture"],
-                "uniques": [
-					"[50]% Food is carried over after population increases [in all cities]"
-			],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-									{
-				"name": "Fallout Cleaning",
+				"name": "Hazmat Suits",
 				"row": 7,
-				"prerequisites": ["Forests Cleaning"],
+				"prerequisites": ["Decontamination"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 						{
-				"name": "Dismantle",
+				"name": "Dismantling",
 				"row": 9,
-				"prerequisites": ["Forests Cleaning"],
+				"prerequisites": ["Decontamination"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			}
 		]

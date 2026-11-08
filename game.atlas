@@ -6,28 +6,63 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ImprovementIcons/Butchery
   rotate: false
-  xy: 908, 988
+  xy: 140, 356
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fishing Boats
   rotate: false
-  xy: 1448, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Forest
-  rotate: false
-  xy: 1556, 988
+  xy: 720, 708
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fort
   rotate: false
-  xy: 1684, 1089
+  xy: 1684, 1273
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Flood plains
+  rotate: false
+  xy: 248, 356
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Forest
+  rotate: false
+  xy: 248, 356
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Jungle
+  rotate: false
+  xy: 248, 356
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Marsh
+  rotate: false
+  xy: 248, 356
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Oasis
+  rotate: false
+  xy: 248, 356
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Scrapyard
+  rotate: false
+  xy: 828, 708
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,532 +76,119 @@ NationIcons/America
   index: -1
 NationIcons/Brotherhood of Steel
   rotate: false
-  xy: 4, 1096
+  xy: 4, 816
   size: 1672, 941
   orig: 1672, 941
   offset: 0, 0
   index: -1
 NationIcons/New California Republic
   rotate: false
-  xy: 4, 744
+  xy: 4, 464
   size: 580, 344
   orig: 580, 344
   offset: 0, 0
   index: -1
 NationIcons/The Legion
   rotate: false
-  xy: 1880, 937
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Aluminum
-  rotate: false
-  xy: 800, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Amber
-  rotate: false
-  xy: 1684, 1521
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Animal Remains
   rotate: false
-  xy: 212, 523
+  xy: 592, 595
   size: 120, 213
   orig: 120, 213
   offset: 0, 0
   index: -1
 BuildingIcons/Fertilizer Rig
   rotate: false
-  xy: 212, 523
+  xy: 592, 595
   size: 120, 213
   orig: 120, 213
   offset: 0, 0
   index: -1
-ResourceIcons/Antiquity Site
+TechIcons/Decontamination
   rotate: false
-  xy: 1892, 1801
+  xy: 592, 487
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Artefact Slots
+TechIcons/Hazmat Suit
   rotate: false
-  xy: 1684, 1837
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Artefacts
-  rotate: false
-  xy: 1684, 1837
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Bananas
-  rotate: false
-  xy: 340, 636
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cattle
-  rotate: false
-  xy: 1684, 1413
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cinnamon
-  rotate: false
-  xy: 4, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Citrus
-  rotate: false
-  xy: 772, 448
-  size: 97, 100
-  orig: 97, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Coal
-  rotate: false
-  xy: 1892, 1693
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cocoa
-  rotate: false
-  xy: 340, 528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Coffee
-  rotate: false
-  xy: 448, 636
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Copper
-  rotate: false
-  xy: 1016, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cotton
-  rotate: false
-  xy: 1684, 1305
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Crabs
-  rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Deer
-  rotate: false
-  xy: 448, 528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Diamonds
-  rotate: false
-  xy: 1124, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Diplomatic Policy Slots
-  rotate: false
-  xy: 4, 536
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Economic Policy Slots
-  rotate: false
-  xy: 4, 536
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Military Policy Slots
-  rotate: false
-  xy: 4, 536
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Wildcard Policy Slots
-  rotate: false
-  xy: 4, 536
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Districts
-  rotate: false
-  xy: 1684, 1197
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Dyes
-  rotate: false
-  xy: 1232, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Fish
-  rotate: false
-  xy: 1340, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Furs
-  rotate: false
-  xy: 800, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Gypsum
-  rotate: false
-  xy: 908, 884
-  size: 100, 96
-  orig: 100, 96
-  offset: 0, 0
-  index: -1
-ResourceIcons/Honey
-  rotate: false
-  xy: 1016, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Horses
-  rotate: false
-  xy: 1124, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Incense
-  rotate: false
-  xy: 1232, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Iron
-  rotate: false
-  xy: 1340, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ivory
-  rotate: false
-  xy: 1792, 1521
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Jade
-  rotate: false
-  xy: 1792, 1413
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Leader
-  rotate: false
-  xy: 1792, 1305
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Maize
-  rotate: false
-  xy: 1792, 1089
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Mercury
-  rotate: false
-  xy: 112, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Niter
-  rotate: false
-  xy: 112, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Oil
-  rotate: false
-  xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Olives
-  rotate: false
-  xy: 1556, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Power
-  rotate: false
-  xy: 592, 888
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Rice
-  rotate: false
-  xy: 772, 556
-  size: 98, 100
-  orig: 98, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Salt
-  rotate: false
-  xy: 1664, 981
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sheep
-  rotate: false
-  xy: 556, 528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Shipwreck
-  rotate: false
-  xy: 1900, 1585
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Silk
-  rotate: false
-  xy: 1900, 1477
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Silver
-  rotate: false
-  xy: 1900, 1369
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Spices
-  rotate: false
-  xy: 1900, 1261
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Spies
-  rotate: false
-  xy: 1684, 1629
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sugar
-  rotate: false
-  xy: 1900, 1153
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tea
-  rotate: false
-  xy: 1900, 1045
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tier 1 Government
-  rotate: false
-  xy: 4, 328
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tier 2 Government
-  rotate: false
-  xy: 4, 328
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tier 3 Government
-  rotate: false
-  xy: 4, 328
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tier 4 Government
-  rotate: false
-  xy: 4, 328
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tobacco
-  rotate: false
-  xy: 1772, 873
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Trade Route
-  rotate: false
-  xy: 1880, 829
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Truffles
-  rotate: false
-  xy: 1448, 790
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Turtles
-  rotate: false
-  xy: 1556, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Uranium
-  rotate: false
-  xy: 664, 660
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Whales
-  rotate: false
-  xy: 664, 444
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Wheat
-  rotate: false
-  xy: 712, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Wine
-  rotate: false
-  xy: 820, 772
-  size: 100, 100
-  orig: 100, 100
+  xy: 1684, 1501
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 TechIcons/Water Purification
   rotate: false
-  xy: 1892, 1909
+  xy: 4, 328
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Water Purificator
   rotate: false
-  xy: 1892, 1909
+  xy: 4, 328
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Animal Remains
   rotate: false
-  xy: 928, 820
+  xy: 1948, 1701
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Iron
   rotate: false
-  xy: 1448, 898
+  xy: 1804, 1411
   size: 100, 82
   orig: 100, 82
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Test
   rotate: false
-  xy: 592, 768
+  xy: 1684, 1381
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 UnitIcons/Legion
   rotate: false
-  xy: 1792, 1197
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scout
   rotate: false
-  xy: 1772, 981
+  xy: 720, 600
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Settler
   rotate: false
-  xy: 556, 636
+  xy: 1684, 1165
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 664, 552
+  xy: 356, 356
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 772, 664
+  xy: 828, 600
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
