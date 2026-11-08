@@ -28,14 +28,14 @@
     "hateHello": "You are a threat to the preservation of humanity. Do not test our patience.",
     "tradeRequest": "The Brotherhood is willing to negotiate. Technology and resources can serve both our interests.",
 "outerColor": [
-        255,
-        114,
-        114
-    ],
-    "innerColor": [
         147,
         7,
         7
+    ],
+    "innerColor": [
+                255,
+        114,
+        114
     ],
 	"uniques": [
 			"[+15]% [Science] [in all cities] <when at war>",
