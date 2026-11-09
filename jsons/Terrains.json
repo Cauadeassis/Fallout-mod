@@ -1,21 +1,38 @@
 [
+
+	// WONDERS
 	{
-		"name": "Bermuda Triangle",
+		"name": "Nuka Cola Factory",
 		"type": "NaturalWonder",
-		"occursOn": [
-			"Ocean"
-		],
-		"overrideStats": true,
+		"gold": 10,
+		"food": 4,
+		"happiness": 2,
+		"occursOn": ["Plains", "Grassland", "Desert"],
 		"uniques": [
-			"Must be adjacent to [6] [Ocean] tiles",
-			"Occurs on latitudes from [20] to [60] percent of distance equator to pole",
-			"Occurs in groups of [3] to [3] tiles"
+			"Must be adjacent to [0] [Coast] tiles"
 		],
-		"turnsInto": "Ocean",
-		"impassable": false,
+		"turnsInto": "Plains",
+		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
+		{
+		"name": "Dinky, the T-Rex",
+		"type": "NaturalWonder",
+		"gold": 5,
+		"culture": 5,
+		"happiness": 2,
+		"occursOn": ["Plains", "Grassland", "Desert"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles"
+		],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+
+
 	{
 		"name": "Atoll",
 		"type": "TerrainFeature",
@@ -55,8 +72,8 @@
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
-			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+			
 		]
 	},
 	{
@@ -90,8 +107,8 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Grassland] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			
 		]
 	},
 	{
@@ -127,8 +144,8 @@
 			"Considered [Food] when determining start locations <in [Hill] Regions>",
 			"Considered [Food] when determining start locations <in [Plains] Regions>",
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			
 		]
 	},
 	{
@@ -153,8 +170,8 @@
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 			"Becomes [Plains] when adjacent to [River]",
-			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+			
 		]
 	},
 	{
@@ -176,8 +193,8 @@
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
+			
 		]
 	},
 	{
@@ -193,8 +210,8 @@
 		"uniques": [
 			"Fresh water",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Considered [Desirable] when determining start locations"
+			
 		]
 	},
 	{
@@ -212,8 +229,8 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Always Fertility [-2] for Map Generation"
+			
 		]
 	},
 	{
@@ -236,8 +253,8 @@
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Becomes [Tundra] when adjacent to [River]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Never receives any resources <in [Hill] tiles>",
-			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
+			"Never receives any resources <in [Hill] tiles>"
+			
 		]
 	},
 	{

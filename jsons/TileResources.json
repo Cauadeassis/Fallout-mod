@@ -40,42 +40,6 @@
 	},
 // STRATEGIC RESOURCES
 	{
-		"name": "Animal Remains",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Fallout",
-			"Marsh",
-			"Forest",
-			"Jungle",
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
-		],
-		"revealedBy": "Fertilizers",
-		"improvement": "Butchery",
-		"uniques": [
-			"Guaranteed with Strategic Balance resource option",
-			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
-			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
-			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
-			"Generated with weight [26] <in [Hill] tiles>",
-			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [{Fallout} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
-			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout]>",
-			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
-		],
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
-	},
-	{
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Dismantling",
@@ -502,6 +466,83 @@
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [{Fallout} {Hill}] tiles>"
+		]
+	},
+
+	// FALLOUT RESOURCES
+	{
+		"name": "Animal Remains",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Fallout",
+			"Marsh",
+			"Forest",
+			"Jungle",
+			"Grassland",
+			"Plains",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
+		],
+		"revealedBy": "Fertilizers",
+		"improvement": "Butchery",
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option",
+			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [26] <in [Hill] tiles>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [{Fallout} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
+			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout]>",
+			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
+		],
+		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
+	},
+		{
+		"name": "Pre-war Books",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"science": 2,
+		"improvedBy": ["Collection site"],
+		"improvementStats": { "science": 2, "culture": 2 },
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>"
+		]
+	},
+		{
+		"name": "Sculptures",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"culture": 2,
+		"improvedBy": ["Collection site"],
+		"improvementStats": { "culture": 3 },
+		"uniques": [
+			"Generated on every [15] tiles <in [Coast] tiles>",
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated with weight [10] <in [Desert] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+		]
+	},
+	{
+		"name": "Computers",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"science": 1,
+		"improvedBy": ["Collection site"],
+		"improvementStats": { "science": 1 },
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated near City States with weight [10]"
 		]
 	}
 ]
