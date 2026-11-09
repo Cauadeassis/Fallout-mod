@@ -55,7 +55,6 @@
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
-			"Becomes [Fallout] when adjacent to [Coast]",
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
 		]
@@ -427,7 +426,6 @@
 		],
 		"occursOn": [
 			"Grassland",
-			"Coast",
 			"Plains",
 			"Desert",
 			"Tundra",
