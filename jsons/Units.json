@@ -61,7 +61,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Boats",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Trading]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
 			{
@@ -78,7 +78,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 40,
-		"requiredTech": "Communitary Buildings",
+		"requiredTech": "Public Buildings",
 		"uniques": [
 			"All adjacent units heal [+25] HP when healing"
 		]

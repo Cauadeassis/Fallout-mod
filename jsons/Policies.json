@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tradition",
+        "name": "Survivalism",
         "era": "Survival era",
         "priorities": {
             "Neutral": 5,
@@ -61,7 +61,7 @@
                 "column": 4
             },
             {
-                "name": "Tradition Complete",
+                "name": "Survivalism Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
                     "Get the leader title of [Lord [leaderName]]"
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "name": "Liberty",
+        "name": "Expansionism",
         "era": "Survival era",
         "priorities": {
             "Neutral": 10,
@@ -132,7 +132,7 @@
                 "column": 5
             },
             {
-                "name": "Liberty Complete",
+                "name": "Expansionism Complete",
                 "uniques": [
                     "Free Great Person",
                     "Get the leader title of [Consul [leaderName]]"
@@ -141,8 +141,8 @@
         ]
     },
     {
-        "name": "Honor",
-        "era": "Survival era",
+        "name": "State",
+        "era": "Reconstruction era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -150,61 +150,46 @@
             "Domination": 5,
             "Scientific": 5
         },
-        "uniques": [
-            "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments"
-        ],
+        "uniques": [],
         "policies": [
             {
-                "name": "Warrior Code",
-                "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
-                    "Free [Great General] appears"
-                ],
+                "name": "Taxes",
+                "uniques": [],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "Discipline",
-                "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
-                ],
+                "name": "Slavery",
+                "uniques": [],
                 "row": 1,
                 "column": 4
             },
             {
-                "name": "Military Tradition",
-                "uniques": [
-                    "[+50]% XP gained from combat <for [Military] units>"
-                ],
-                "requires": ["Warrior Code"],
+                "name": "Conscription",
+                "uniques": [],
                 "row": 2,
                 "column": 2
             },
-            {
-                "name": "Military Caste",
-                "uniques": [
-                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
-                ],
-                "requires": ["Discipline"],
+                        {
+                "name": "Bans",
+                "uniques": [],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "Professional Army",
+                "name": "Human Tests",
                 "uniques": [
-					"[-33]% Gold cost of upgrading <for [Military] units>"
-				],
-                "requires": ["Military Caste"],
-                "row": 3,
-                "column": 4
+                    "[-10]% [Happiness] [in all cities]",
+                    "[-10]% [Food] [in all cities]"
+                ],
+                "row": 2,
+                "column": 6
             },
-            {
-                "name": "Honor Complete",
+                        {
+                "name": "State Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-                    "Get the leader title of [[leaderName] the Great]"
+                    "Free Great Person",
+                    "Get the leader title of [Statesman [leaderName]]"
                 ]
             }
         ]

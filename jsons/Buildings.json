@@ -99,7 +99,7 @@
 		"maintenance": 2,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Communitary Buildings"
+		"requiredTech": "Public Buildings"
 	},
 		{
 		"name": "Public Hospitals",
@@ -107,9 +107,108 @@
 		"science": 3,
 		"percentStatBonus": {"food": 20},
 		"maintenance": 2,
-		"uniques": ["[1] free [Medic] units appear"],
-		"requiredTech": "Communitary Buildings"
+		"uniques": ["Free [Medic] appears"],
+		"requiredTech": "Public Buildings"
 	},
+
+	// Culture buildings
+
+	{
+    "name": "Taxes",
+    "cost": 1,
+	"isNationalWonder": true,
+    "uniques": [
+		"[-1 Happiness] per [3] population [in all cities]",
+		"[+35]% [Gold] [in all cities]",
+		"Cost increases by [50] per owned city",
+		"Only available <after adopting [Taxes]>"
+    ]
+},
+	{
+    "name": "NCR Taxes",
+	"uniqueTo": "New California Republic",
+	"replaces": "Taxes",
+    "cost": 1,
+	"isNationalWonder": true,
+    "uniques": [
+		"[-1 Happiness] per [4] population [in all cities]",
+		"[+50]% [Gold] [in all cities]",
+		"Cost increases by [30] per owned city",
+		"Only available <after adopting [Taxes]>"
+    ]
+},
+	{
+    "name": "Slavery",
+    "cost": 1,
+	"isNationalWonder": true,
+    "uniques": [
+		"[-1 Happiness] per [4] population [in all cities]",
+		"[-1] population [in all cities]",
+		"[+25]% [Gold] [in all cities]",
+		"[+25]% [Production] [in all cities]",
+		"Cost increases by [50] per owned city",
+		"Only available <after adopting [Slavery]>"
+    ]
+},
+	{
+    "name": "Caesar's Slavery",
+    "cost": 1,
+		"uniqueTo": "The Legion",
+	"replaces": "Slavery",
+	"isNationalWonder": true,
+    "uniques": [
+		"[-1] population [in all cities]",
+		"[+30]% [Gold] [in all cities]",
+		"[+30]% [Production] [in all cities]",
+		"[+15]% Production when constructing [Military] units [in all cities]",
+		"Cost increases by [30] per owned city",
+		"Only available <after adopting [Slavery]>"
+    ]
+},
+	{
+    "name": "Conscription",
+    "cost": 1,
+	"isNationalWonder": true,
+    "uniques": [
+		"[-1 Happiness] per [4] population [in all cities]",
+		"[+50]% Production when constructing [Military] units [in all cities]",
+		"Cost increases by [50] per owned city",
+		"Only available <after adopting [Conscription]>"
+    ]
+},
+	{
+    "name": "Ban Preservatives",
+    "cost": 1,
+	"happiness": -4,
+	"percentStatBonus": {"food": 10},
+	"isNationalWonder": true,
+    "uniques": [
+		"Cost increases by [50] per owned city",
+		"Only available <after adopting [Bans]>"
+    ]
+},
+	{
+    "name": "Ban Toxic Fertilizers",
+    "cost": 1,
+	"happiness": 2,
+	"gold": -10,
+	"percentStatBonus": {"food": 10},
+	"isNationalWonder": true,
+    "uniques": [
+		"Cost increases by [50] per owned city",
+		"Only available <after adopting [Bans]>"
+    ]
+},
+	{
+    "name": "Human Tests",
+    "cost": 60,
+	"happiness": -1,
+    "uniques": [
+		"[-2] population [in this city]",
+		"Free [Great Scientist] appears",
+		"Only available <after adopting [Human Tests]>"
+    ]
+},
 
 	// Religious buildings
 
