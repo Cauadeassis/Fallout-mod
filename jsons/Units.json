@@ -65,7 +65,7 @@
             "Uncapturable", "Automation is a primary action"]
 	},
 			{
-		"name": "Explorer Boat",
+		"name": "Explorer",
 		"unitType": "Civilian Water",
 		"movement": 5,
 		"cost": 30,

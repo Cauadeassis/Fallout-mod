@@ -17,7 +17,7 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Fresh water] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Fallout] tiles [in this city]"],
 		"requiredTech": "Water Purification"
 	},
 	// Column 2
@@ -28,7 +28,7 @@
     "requiredTech": "Fertilizers",
     "requiredResource": "Animal Remains",
     "uniques": [
-        "[+1 Food] from [Plantation] tiles [in this city]"
+        "[+1 Food, +1 Gold] from [Plantation] tiles [in this city]"
     ]
 },
 	{
@@ -105,7 +105,7 @@
 		"science": 3,
 		"percentStatBonus": {"food": 20},
 		"maintenance": 2,
-		"uniques": ["Free [Medic] appears"],
+		"uniques": ["Free [Medic] appears", "All newly-trained [Land] units [in this city] receive the [Stimpak I] promotion"],
 		"requiredTech": "Public Buildings"
 	},
 

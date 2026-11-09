@@ -277,6 +277,13 @@ UnitIcons/Medic
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Stimpak
+  rotate: false
+  xy: 356, 630
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Scout
   rotate: false
   xy: 1684, 1348
