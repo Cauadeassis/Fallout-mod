@@ -97,7 +97,7 @@
 	{
 		"name": "Plains",
 		"type": "Land",
-		"food": 1,
+		"food": 2,
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [
@@ -417,6 +417,7 @@
 		"name": "Fallout",
 		"type": "TerrainFeature",
 		"production": 1,
+		"food": -1,
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": [

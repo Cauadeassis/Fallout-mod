@@ -22,7 +22,7 @@
 	},
 	// Column 2
 	{
-    "name": "Fertilizer Rig",
+    "name": "Fertilizers",
     "cost": 80,
     "maintenance": 1,
     "requiredTech": "Fertilizers",
@@ -69,14 +69,14 @@
 },
 
 {
-    "name": "Foundry",
+    "name": "Public Foundry",
     "cost": 80,
     "maintenance": 1,
-	"production": 2,
-    "requiredTech": "Dismantling",
+	"greatPersonPoints": {"Great Engineer": 1},
+    "requiredTech": "Public Buildings",
     "requiredResource": "Iron",
     "uniques": [
-        "[+1 Production] per [3] population [in this city]"
+        "[+1 Production] per [2] population [in this city]"
     ]
 },
 

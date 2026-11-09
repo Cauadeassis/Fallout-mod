@@ -26,7 +26,7 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Scouting I"],
 		"attackSound": "nonmetalhit"
 	},
 	{

@@ -142,7 +142,7 @@
 	// Scout
 	{
 		"name": "Scouting I",
-		"uniques": ["[+1] Sight"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Scout"],
         "column": 8,
         "row": 1
@@ -336,13 +336,16 @@
 		"uniques": ["[+15]% Strength"]
 	},
 		{
+		"name": "Hazmat Suit",
+		"uniques": ["Double movement in [Fallout]"]
+	},
+		{
 		"name": "Stimpak I",
 		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"]
 	},
-
-	{
-		"name": "Ignore terrain cost",
-		"uniques": ["Ignores terrain cost"]
+			{
+		"name": "Stimpak II",
+		"uniques": ["[+25] HP when healing <in [Foreign Land] tiles>"]
 	},
 
     {

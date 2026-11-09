@@ -33,7 +33,7 @@
 				"row": 3,
 				"prerequisites": ["Water Purification"],
                 "uniques": [
-					"[50]% Food is carried over after population increases [in all cities]"
+					"[10]% Food is carried over after population increases [in all cities]"
 			],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
