@@ -1,6 +1,4 @@
 [
-	// Ancient Era
-
 	// Always available
 	{
 		"name": "Palace",
@@ -15,7 +13,7 @@
 	},
 	{
 		"name": "Water Purificator",
-		"cost": 40,
+		"cost": 20,
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -194,7 +192,7 @@
 },
 	{
     "name": "Human Tests",
-    "cost": 60,
+    "cost": 1,
 	"happiness": -1,
     "uniques": [
 		"[-2] population [in this city]",

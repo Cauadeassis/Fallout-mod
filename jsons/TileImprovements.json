@@ -227,57 +227,5 @@
 		"techRequired": "Hazmat Suit",
 		"uniques": ["Excluded from map editor"],
 		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout Forest",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": [
-			"Fallout Forest"
-		],
-		"techRequired": "Decontamination",
-		"uniques": [
-			"Turn this tile into a [Forest] tile"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout Jungle",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": ["Fallout Jungle"],
-		"techRequired": "Decontamination",
-		"uniques": [
-			"Turn this tile into a [Jungle] tile"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout Marsh",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": ["Fallout Marsh"],
-		"techRequired": "Decontamination",
-		"uniques": [
-			"Turn this tile into a [Marsh] tile"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout Oasis",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": ["Fallout Oasis"],
-		"techRequired": "Hazmat Suit",
-		"uniques": [
-			"Turn this tile into a [Oasis] tile"
-		],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout Flood plains",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": ["Fallout Flood plains"],
-		"techRequired": "Hazmat Suit",
-		"uniques": [
-			"Turn this tile into a [Flood plains] tile"
-		],
-		"shortcutKey": "X"
 	}
 ]

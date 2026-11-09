@@ -1,5 +1,4 @@
 [
-	//Exemplo de maravilha natural
 	{
 		"name": "Bermuda Triangle",
 		"type": "NaturalWonder",
@@ -17,7 +16,6 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-	// Base terrains
 	{
 		"name": "Atoll",
 		"type": "TerrainFeature",
@@ -135,13 +133,7 @@
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
 			"[+3] to Fertility for Map Generation",
-			"Becomes [Fallout Flood plains] when adjacent to [River]",
 			"Becomes [Fallout] when adjacent to [Fallout]",
-			"Becomes [Fallout] when adjacent to [Fallout Forest]",
-			"Becomes [Fallout] when adjacent to [Fallout Jungle]",
-			"Becomes [Fallout] when adjacent to [Fallout Marsh]",
-			"Becomes [Fallout] when adjacent to [Fallout Oasis]",
-			"Becomes [Fallout] when adjacent to [Fallout Flood plains]",
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
 			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
@@ -179,13 +171,7 @@
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
 			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 			"[+4] to Fertility for Map Generation",
-			"Becomes [Fallout Flood plains] when adjacent to [River]",
 			"Becomes [Fallout] when adjacent to [Fallout]",
-			"Becomes [Fallout] when adjacent to [Fallout Forest]",
-			"Becomes [Fallout] when adjacent to [Fallout Jungle]",
-			"Becomes [Fallout] when adjacent to [Fallout Marsh]",
-			"Becomes [Fallout] when adjacent to [Fallout Oasis]",
-			"Becomes [Fallout] when adjacent to [Fallout Flood plains]",
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
 			"A Region can not contain more [Grassland] tiles than [Plains] tiles",
@@ -217,11 +203,6 @@
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
 			"[+2] to Fertility for Map Generation",
 			"Becomes [Fallout] when adjacent to [Fallout]",
-			"Becomes [Fallout] when adjacent to [Fallout Forest]",
-			"Becomes [Fallout] when adjacent to [Fallout Jungle]",
-			"Becomes [Fallout] when adjacent to [Fallout Marsh]",
-			"Becomes [Fallout] when adjacent to [Fallout Oasis]",
-			"Becomes [Fallout] when adjacent to [Fallout Flood plains]",
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
@@ -248,13 +229,7 @@
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-			"Becomes [Fallout Flood plains] when adjacent to [River]",
 			"Becomes [Fallout] when adjacent to [Fallout]",
-			"Becomes [Fallout] when adjacent to [Fallout Forest]",
-			"Becomes [Fallout] when adjacent to [Fallout Jungle]",
-			"Becomes [Fallout] when adjacent to [Fallout Marsh]",
-			"Becomes [Fallout] when adjacent to [Fallout Oasis]",
-			"Becomes [Fallout] when adjacent to [Fallout Flood plains]",
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
@@ -315,11 +290,6 @@
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Undesirable] when determining start locations",
 			"Becomes [Fallout] when adjacent to [Fallout]",
-			"Becomes [Fallout] when adjacent to [Fallout Forest]",
-			"Becomes [Fallout] when adjacent to [Fallout Jungle]",
-			"Becomes [Fallout] when adjacent to [Fallout Marsh]",
-			"Becomes [Fallout] when adjacent to [Fallout Oasis]",
-			"Becomes [Fallout] when adjacent to [Fallout Flood plains]",
 			"Becomes [Tundra] when adjacent to [River]",
 			"Becomes [Volcanic Soil] when adjacent to [Volcano]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
@@ -327,8 +297,6 @@
 			"[+5 Science] <for every adjacent [Bermuda Triangle]>"
 		]
 	},
-	// Terrain features
-	// Natural features
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
@@ -354,6 +322,7 @@
 			"Has an elevation of [2] for visibility calculations",
 			"Occurs in groups around high elevations",
 			"[+1] to Fertility for Map Generation",
+			"Becomes [Fallout] when adjacent to [Fallout]",
 			"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
 			"Considered [Desirable] when determining start locations",
@@ -379,6 +348,7 @@
 			"Rough terrain",
 			"Vegetation",
 			"Doesn't generate naturally",
+			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Provides a one-time bonus of [+20 Production] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -414,6 +384,7 @@
 			"Rough terrain",
 			"Vegetation",
 			"Doesn't generate naturally",
+			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Provides a one-time bonus of [+10 Production, +10 Food] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",			
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -440,6 +411,7 @@
 			"Provides a one-time bonus of [+20 Food] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",
 			"Rare feature",
 			"Doesn't generate naturally",
+			"Becomes [Fallout] when adjacent to [Fallout]",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -459,6 +431,7 @@
 			"Fresh water",
 			"Rare feature",
 			"Doesn't generate naturally",
+			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Only [All Road] improvements may be built on this tile",
 			"Always Fertility [4] for Map Generation",
 			"Considered [Food] when determining start locations",
@@ -479,6 +452,7 @@
 		],
 		"uniques": [
 			"Doesn't generate naturally",
+			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
@@ -499,7 +473,6 @@
 			"Considered [Undesirable] when determining start locations"
 		]
 	},
-	// Fallout features
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
@@ -507,7 +480,8 @@
 		"unbuildable": true,
 		"uniques": [
 			"Nullifies all other stats this tile provides",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Becomes [Fallout] when adjacent to [Fallout]"
 		],
 		"occursOn": [
 			"Grassland",
@@ -523,117 +497,5 @@
 			"Oasis"
 		],
 		"defenceBonus": -0.15
-	},
-	{
-		"name": "Fallout Forest",
-		"type": "TerrainFeature",
-		"production": 1,
-		"movementCost": 2,
-		"overrideStats": false,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Tundra", "Plains", "Grassland", "Hill"],
-		"uniques": [
-			"Rough terrain",
-			"Vegetation",
-			"Nullifies all other stats this tile provides",
-			"Provides a one-time bonus of [+20 Production] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",
-			"Blocks line-of-sight from tiles at same elevation",
-			"[25]% Chance to be destroyed by nukes",
-			"A Region is formed with at least [30]% [Fallout Forest] tiles, with priority [3]",
-			"A Region is formed with at least [35]% [Fallout Forest] tiles and [Fallout Jungle] tiles, with priority [3]",
-			"A Region can not contain more [Fallout Jungle] tiles than [Fallout Forest] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Production] when determining start locations",
-			"Considered [Food] when determining start locations <in [Fallout Forest] Regions>",
-			"Considered [Food] when determining start locations <in [Tundra] Regions>",
-			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
-		"name": "Fallout Jungle",
-		"type": "TerrainFeature",
-		"food": 1,
-		"movementCost": 2,
-		"overrideStats": false,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Plains", "Grassland"],
-		"uniques": [
-			"Rough terrain",
-			"Vegetation",
-			"Nullifies all other stats this tile provides",
-			"Provides a one-time bonus of [+10 Production, +10 Food] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",
-			"Blocks line-of-sight from tiles at same elevation",
-			"[25]% Chance to be destroyed by nukes",
-			"[-1] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Fallout Jungle] tiles, with priority [2]",
-			"A Region is formed with at least [35]% [Fallout Jungle] tiles and [Fallout Forest] tiles, with priority [2]",
-			"A Region can not contain more [Fallout Forest] tiles than [Fallout Jungle] tiles",
-			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
-		"name": "Fallout Marsh",
-		"type": "TerrainFeature",
-		"food": 1,
-		"movementCost": 3,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"],
-		"uniques": [
-			"Provides a one-time bonus of [+20 Food] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",
-			"Rare feature",
-			"Nullifies all other stats this tile provides",
-			"[-2] to Fertility for Map Generation",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
-		"name": "Fallout Oasis",
-		"type": "TerrainFeature",
-		"food": 2,
-		"gold": 1,
-		"movementCost": 1,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Desert"],
-		"uniques": [
-			"Fresh water",
-			"Rare feature",
-			"Nullifies all other stats this tile provides",
-			"Only [All Road] improvements may be built on this tile",
-			"Always Fertility [4] for Map Generation",
-			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
-		]
-	},
-	{
-		"name": "Fallout Flood plains",
-		"type": "TerrainFeature",
-		"food": 1,
-		"overrideStats": true,
-		"movementCost": 1,
-		"defenceBonus": -0.15,
-		"occursOn": ["Grassland", "Plains", "Desert"],
-		"uniques": [
-			"Nullifies all other stats this tile provides",
-			"Always Fertility [5] for Map Generation",
-			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
-		]
 	}
-	/*
-	{
-		"name": "Atoll",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"food": 1,
-		"production": 1,
-		"occursOn": ["Coast"],
-		"uniques": ["Rare feature"]
-	},
-*/
 ]
