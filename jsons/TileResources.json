@@ -1,18 +1,17 @@
 [
-	// Bonus resources
 	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
-			"Fallout Jungle",
+			"Fallout",
 			"Jungle"
 		],
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
 		"uniques": [
-			"Generated on every [14] tiles <in [Fallout Jungle] tiles>",
-			"Generated on every [16] tiles <in [Fallout Jungle] tiles> <in [Hill] Regions>"
+			"Generated on every [14] tiles <in [Fallout] tiles>",
+			"Generated on every [16] tiles <in [Fallout] tiles> <in [Hill] Regions>"
 		]
 	},
 	{
@@ -20,11 +19,10 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
 			"Plains",
-			"Fallout Flood plains",
 			"Flood plains",
 			"Desert",
 			"Fallout"
-		], // Desert only if fresh water
+		],
 		"food": 1,
 		"improvement": "Plantation",
 		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
@@ -46,9 +44,6 @@
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
 			"Fallout",
-			"Fallout Marsh",
-			"Fallout Jungle",
-			"Fallout Forest",
 			"Marsh",
 			"Forest",
 			"Jungle",
@@ -67,10 +62,10 @@
 			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [26] <in [Hill] tiles>",
-			"Minor deposits generated with weight [10] <in [Fallout Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [{Fallout Jungle} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [Fallout Forest] tiles>",
-			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout Forest]> <in tiles without [Fallout Jungle]>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [{Fallout} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
+			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout]>",
 			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
@@ -91,11 +86,8 @@
 			"Tundra",
 			"Snow",
 			"Hill",
-			"Fallout Jungle",
-			"Fallout Forest",
-			"Fallout Marsh",
 			"Fallout",
-						"Marsh",
+			"Marsh",
 			"Forest",
 			"Jungle"
 		],
@@ -107,10 +99,10 @@
 			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
 			"Generated with weight [26] <in [Hill] tiles>",
-			"Minor deposits generated with weight [10] <in [Fallout Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [{Fallout Jungle} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [Fallout Forest] tiles>",
-			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout Forest]> <in tiles without [Fallout Jungle]>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [{Fallout} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
+			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout]>",
 			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
@@ -127,10 +119,7 @@
 			"Grassland",
 			"Plains",
 			"Hill",
-			"Fallout Jungle",
-			"Fallout Forest",
-			"Fallout Marsh",
-						"Marsh",
+			"Marsh",
 			"Forest",
 			"Jungle",
 			"Fallout"
@@ -140,11 +129,9 @@
 		"improvementStats": {"production": 1},
 		"uniques": [
 			"Generated with weight [35] <in [Hill] tiles>",
-			"Generated with weight [30] <in [Fallout Jungle] tiles> <in tiles without [Hill]>",
-			"Generated with weight [30] <in [Fallout Forest] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Fallout Marsh] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Fallout Jungle] tiles>",
-			"Minor deposits generated with weight [10] <in [Fallout Forest] tiles>",
+			"Generated with weight [30] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles>",
 			"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
 			"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
 			"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
@@ -162,10 +149,7 @@
 			"Tundra",
 			"Hill",
 			"Snow",
-			"Fallout Forest",
-			"Fallout Marsh",
-			"Fallout Jungle",
-						"Marsh",
+			"Marsh",
 			"Forest",
 			"Jungle",
 			"Fallout"
@@ -178,7 +162,7 @@
 			"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
-			"Minor deposits generated with weight [20] <in [Fallout Jungle] tiles>",
+			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
@@ -188,10 +172,7 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
-			"Fallout Marsh",
-			"Fallout Jungle",
-			"Fallout Forest",
-						"Marsh",
+			"Marsh",
 			"Forest",
 			"Jungle",
 			"Tundra",
@@ -202,10 +183,9 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-			"Generated with weight [35] <in [Fallout Marsh] tiles> <in tiles without [Hill]>",
-			"Generated with weight [70] <in [Fallout Jungle] tiles> <in tiles without [Hill]>",
-			"Generated with weight [70] <in [Fallout Forest] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Fallout Forest] tiles>",
+			"Generated with weight [35] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Generated with weight [70] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
 		],
@@ -219,7 +199,6 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
-			"Fallout Flood plains",
 			"Flood plains",
 			"Fallout"
 		],
@@ -235,10 +214,7 @@
 		"name": "Dyes",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Fallout Jungle",
-			"Fallout Forest",
-			"Fallout Marsh",
-						"Marsh",
+			"Marsh",
 			"Forest",
 			"Jungle",
 			"Fallout"
@@ -247,8 +223,6 @@
 		"improvement": "Plantation",
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Fallout Jungle] Regions>",
-			"Generated with weight [30] <in [Fallout Forest] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [Hill] tiles>"
 		]
@@ -257,8 +231,6 @@
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Fallout Jungle",
-			"Fallout Forest",
 			"Forest",
 			"Jungle",
 			"Hill",
@@ -268,22 +240,19 @@
 		"improvement": "Mine",
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
-			"Generated with weight [20] <in [Fallout Jungle] Regions>",
 			"Generated with weight [15] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Fallout Forest] tiles> <in tiles without [Hill]>"
+			"Doesn't generate naturally <in [Fallout] tiles> <in tiles without [Hill]>"
 		]
 	},
 	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Hill",
-			"Fallout Forest",
-			"Fallout Jungle",
 			"Forest",
 			"Jungle",
 			"Fallout"
@@ -296,8 +265,7 @@
 			"Generated with weight [5] <in [Plains] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Fallout Forest] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Fallout Jungle] tiles> <in tiles without [Hill]>"
+			"Doesn't generate naturally <in [Fallout] tiles> <in tiles without [Hill]>"
 		]
 	},
 	{
@@ -305,8 +273,6 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Hill",
-			"Fallout Forest",
-			"Fallout Jungle",
 			"Forest",
 			"Jungle",
 			"Tundra",
@@ -321,8 +287,7 @@
 			"Generated with weight [20] <in [Grassland] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Fallout Forest] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Fallout Jungle] tiles> <in tiles without [Hill]>",
+			"Doesn't generate naturally <in [Fallout] tiles> <in tiles without [Hill]>",
 			"Doesn't generate naturally <in [{Tundra} {Hill}] tiles>",
 			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
 			"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
@@ -334,7 +299,6 @@
 		"terrainsCanBeFoundOn": [
 			"Plains",
 			"Desert",
-			"Fallout Flood plains",
 			"Flood plains",
 			"Fallout"
 		],
@@ -349,8 +313,6 @@
 		"name": "Silk",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Fallout Forest",
-			"Fallout Jungle",
 			"Forest",
 			"Jungle",
 			"Fallout"
@@ -358,8 +320,6 @@
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": [
-			"Generated with weight [5] <in [Fallout Jungle] Regions>",
-			"Generated with weight [30] <in [Fallout Forest] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Hill] tiles>"
@@ -369,10 +329,7 @@
 		"name": "Spices",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Fallout Jungle",
-			"Fallout Forest",
-			"Fallout Marsh",
-						"Marsh",
+			"Marsh",
 			"Forest",
 			"Jungle",
 			"Fallout"
@@ -380,14 +337,12 @@
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": [
-			"Generated with weight [30] <in [Fallout Jungle] Regions>",
-			"Generated with weight [10] <in [Fallout Forest] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
 			"Generated with weight [5] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
 			"Doesn't generate naturally <in [Hill] tiles>",
-					"Doesn't generate naturally <in [{Tundra} {Fallout Forest}] tiles>"
+			"Doesn't generate naturally <in [{Tundra} {Fallout}] tiles>"
 		]
 	},
 	{
@@ -408,18 +363,14 @@
 		"name": "Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Fallout Flood plains",
 			"Grassland",
-			"Fallout Marsh",
-						"Marsh",
+			"Marsh",
 			"Flood plains",
 			"Fallout"
 		],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": [
-			"Generated with weight [20] <in [Fallout Jungle] Regions>",
 			"Generated with weight [15] <in [Desert] Regions>",
 			"Generated with weight [20] <in [Grassland] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -473,9 +424,6 @@
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
-			"Fallout Jungle",
-			"Fallout Forest",
-			"Fallout Flood plains",
 			"Forest",
 			"Jungle",
 			"Flood plains",
@@ -485,8 +433,6 @@
 		"gold": 1,
 		"improvement": "Plantation",
 		"uniques": [
-			"Generated with weight [35] <in [Fallout Jungle] Regions>",
-			"Generated with weight [5] <in [Fallout Forest] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]",
@@ -498,8 +444,6 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Hill",
-			"Fallout Forest",
-			"Fallout Jungle",
 			"Forest",
 			"Jungle",
 			"Grassland",
@@ -510,28 +454,16 @@
 		"improvement": "Mine",
 		"uniques": [
 			"Generated with weight [15] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Fallout Jungle] Regions>",
-			"Generated with weight [5] <in [Fallout Forest] Regions>",
 			"Generated with weight [10] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [20] <in [Grassland] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
 			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
-			"Doesn't generate naturally <in [Fallout Jungle] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Fallout Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"
+			"Doesn't generate naturally <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Doesn't generate naturally <in [Fallout] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"
 		]
 	},
-	/*
-	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation"
-	},
-	*/
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
@@ -555,7 +487,6 @@
 			"Desert",
 			"Tundra",
 			"Plains",
-			"Fallout Forest",
 			"Forest",
 			"Fallout"
 		],
@@ -565,13 +496,12 @@
 		"improvementStats": {"food": 1},
 		"uniques": [
 			"Generated with weight [15] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Fallout Forest] Regions>",
 			"Generated with weight [15] <in [Desert] Regions>",
 			"Generated with weight [10] <in [Hill] Regions>",
 			"Generated with weight [25] <in [Plains] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [{Fallout Forest} {Hill}] tiles>"
+			"Doesn't generate naturally <in [{Fallout} {Hill}] tiles>"
 		]
 	}
 ]
