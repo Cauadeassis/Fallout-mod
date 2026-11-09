@@ -6,308 +6,308 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Ban Preservatives
   rotate: false
-  xy: 140, 572
+  xy: 140, 630
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ban Toxic Fertilizers
   rotate: false
-  xy: 140, 572
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Bans
-  rotate: false
-  xy: 140, 572
+  xy: 140, 630
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Caesar's Slavery
   rotate: false
-  xy: 720, 924
+  xy: 720, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Slavery
   rotate: false
-  xy: 720, 924
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Slavery
-  rotate: false
-  xy: 720, 924
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/NCR Taxes
-  rotate: false
-  xy: 356, 572
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Taxes
-  rotate: false
-  xy: 356, 572
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Taxes
-  rotate: false
-  xy: 356, 572
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Public Hospitals
-  rotate: false
-  xy: 828, 834
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Public Schools
-  rotate: false
-  xy: 936, 924
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Butchery
-  rotate: false
-  xy: 592, 703
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Fishing Boats
-  rotate: false
-  xy: 4, 328
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Fort
-  rotate: false
-  xy: 248, 572
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Fallout Flood plains
-  rotate: false
-  xy: 1684, 1273
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Fallout Forest
-  rotate: false
-  xy: 1684, 1273
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Fallout Jungle
-  rotate: false
-  xy: 1684, 1273
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Fallout Marsh
-  rotate: false
-  xy: 1684, 1273
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Fallout Oasis
-  rotate: false
-  xy: 1684, 1273
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Scrapyard
-  rotate: false
-  xy: 464, 572
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/America
-  rotate: false
-  xy: 4, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Brotherhood of Steel
-  rotate: false
-  xy: 4, 1032
-  size: 1672, 941
-  orig: 1672, 941
-  offset: 0, 0
-  index: -1
-NationIcons/New California Republic
-  rotate: false
-  xy: 4, 680
-  size: 580, 344
-  orig: 580, 344
-  offset: 0, 0
-  index: -1
-NationIcons/The Legion
-  rotate: false
-  xy: 1684, 1165
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Conscription
-  rotate: false
-  xy: 1684, 1489
+  xy: 720, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Conscription
   rotate: false
-  xy: 1684, 1489
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Human Tests
-  rotate: false
-  xy: 720, 816
+  xy: 1684, 1547
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Human Tests
   rotate: false
-  xy: 720, 816
+  xy: 720, 874
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/NCR Taxes
+  rotate: false
+  xy: 356, 630
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Taxes
+  rotate: false
+  xy: 356, 630
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Public Hospitals
+  rotate: false
+  xy: 828, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Public Schools
+  rotate: false
+  xy: 936, 982
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Butchery
+  rotate: false
+  xy: 592, 761
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fishing Boats
+  rotate: false
+  xy: 4, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fort
+  rotate: false
+  xy: 248, 630
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Flood plains
+  rotate: false
+  xy: 1684, 1331
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Forest
+  rotate: false
+  xy: 1684, 1331
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Jungle
+  rotate: false
+  xy: 1684, 1331
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Marsh
+  rotate: false
+  xy: 1684, 1331
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Fallout Oasis
+  rotate: false
+  xy: 1684, 1331
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Scrapyard
+  rotate: false
+  xy: 464, 630
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/America
+  rotate: false
+  xy: 4, 494
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Brotherhood of Steel
+  rotate: false
+  xy: 4, 1090
+  size: 1672, 941
+  orig: 1672, 941
+  offset: 0, 0
+  index: -1
+NationIcons/New California Republic
+  rotate: false
+  xy: 4, 738
+  size: 580, 344
+  orig: 580, 344
+  offset: 0, 0
+  index: -1
+NationIcons/The Legion
+  rotate: false
+  xy: 1684, 1223
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Bans
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Conscription
+  rotate: false
+  xy: 1260, 1032
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Human Tests
+  rotate: false
+  xy: 1948, 1917
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Slavery
+  rotate: false
+  xy: 1318, 1032
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Taxes
+  rotate: false
+  xy: 1948, 1859
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 ResourceIcons/Animal Remains
   rotate: false
-  xy: 592, 811
+  xy: 592, 869
   size: 120, 213
   orig: 120, 213
   offset: 0, 0
   index: -1
 BuildingIcons/Fertilizer Rig
   rotate: false
-  xy: 592, 811
+  xy: 592, 869
   size: 120, 213
   orig: 120, 213
   offset: 0, 0
   index: -1
 TechIcons/Decontamination
   rotate: false
-  xy: 1804, 1609
+  xy: 1804, 1667
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hazmat Suit
   rotate: false
-  xy: 1684, 1717
+  xy: 1684, 1775
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 TechIcons/Trading
   rotate: false
-  xy: 4, 4
+  xy: 4, 62
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Water Purification
   rotate: false
-  xy: 4, 544
+  xy: 4, 602
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Water Purificator
   rotate: false
-  xy: 4, 544
+  xy: 4, 602
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Animal Remains
   rotate: false
-  xy: 1948, 1917
+  xy: 1948, 1975
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Iron
   rotate: false
-  xy: 828, 942
+  xy: 828, 1000
   size: 100, 82
   orig: 100, 82
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Test
   rotate: false
-  xy: 1684, 1597
+  xy: 1684, 1655
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 UnitIcons/Legion
   rotate: false
-  xy: 1684, 1381
+  xy: 1684, 1439
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Medic
   rotate: false
-  xy: 4, 220
+  xy: 4, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scout
   rotate: false
-  xy: 4, 112
+  xy: 4, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Settler
   rotate: false
-  xy: 1044, 924
+  xy: 1044, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 1152, 924
+  xy: 1152, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 1684, 1057
+  xy: 1684, 1115
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

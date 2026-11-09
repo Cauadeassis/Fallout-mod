@@ -154,25 +154,25 @@
         "policies": [
             {
                 "name": "Taxes",
-                "uniques": [],
+                "uniques": ["Unlocks Taxes"],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Slavery",
-                "uniques": [],
+                "uniques": ["Unlocks Slavery"],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Conscription",
-                "uniques": [],
+                "uniques": ["Unlocks Conscription"],
                 "row": 2,
                 "column": 2
             },
                         {
                 "name": "Bans",
-                "uniques": [],
+                "uniques": ["Unlocks Preservatives Ban", "Unlocks Toxic Fertilizers Ban"],
                 "row": 2,
                 "column": 4
             },
@@ -180,7 +180,8 @@
                 "name": "Human Tests",
                 "uniques": [
                     "[-10]% [Happiness] [in all cities]",
-                    "[-10]% [Food] [in all cities]"
+                    "[-10]% [Food] [in all cities]",
+                    "Unlocks Human Tests"
                 ],
                 "row": 2,
                 "column": 6

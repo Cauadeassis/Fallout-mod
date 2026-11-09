@@ -120,7 +120,6 @@
     "uniques": [
 		"[-1 Happiness] per [3] population [in all cities]",
 		"[+35]% [Gold] [in all cities]",
-		"Cost increases by [50] per owned city",
 		"Only available <after adopting [Taxes]>"
     ]
 },
@@ -133,7 +132,6 @@
     "uniques": [
 		"[-1 Happiness] per [4] population [in all cities]",
 		"[+50]% [Gold] [in all cities]",
-		"Cost increases by [30] per owned city",
 		"Only available <after adopting [Taxes]>"
     ]
 },
@@ -146,7 +144,6 @@
 		"[-1] population [in all cities]",
 		"[+25]% [Gold] [in all cities]",
 		"[+25]% [Production] [in all cities]",
-		"Cost increases by [50] per owned city",
 		"Only available <after adopting [Slavery]>"
     ]
 },
@@ -161,7 +158,6 @@
 		"[+30]% [Gold] [in all cities]",
 		"[+30]% [Production] [in all cities]",
 		"[+15]% Production when constructing [Military] units [in all cities]",
-		"Cost increases by [30] per owned city",
 		"Only available <after adopting [Slavery]>"
     ]
 },
@@ -172,7 +168,6 @@
     "uniques": [
 		"[-1 Happiness] per [4] population [in all cities]",
 		"[+50]% Production when constructing [Military] units [in all cities]",
-		"Cost increases by [50] per owned city",
 		"Only available <after adopting [Conscription]>"
     ]
 },
@@ -183,7 +178,6 @@
 	"percentStatBonus": {"food": 10},
 	"isNationalWonder": true,
     "uniques": [
-		"Cost increases by [50] per owned city",
 		"Only available <after adopting [Bans]>"
     ]
 },
@@ -195,7 +189,6 @@
 	"percentStatBonus": {"food": 10},
 	"isNationalWonder": true,
     "uniques": [
-		"Cost increases by [50] per owned city",
 		"Only available <after adopting [Bans]>"
     ]
 },
