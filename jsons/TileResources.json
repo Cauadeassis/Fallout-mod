@@ -3,7 +3,7 @@
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
-			"Fallout",
+			
 			"Jungle"
 		],
 		"food": 1,
@@ -20,8 +20,7 @@
 		"terrainsCanBeFoundOn": [
 			"Plains",
 			"Flood plains",
-			"Desert",
-			"Fallout"
+			"Desert"
 		],
 		"food": 1,
 		"improvement": "Plantation",
@@ -43,7 +42,6 @@
 		"name": "Animal Remains",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
-			"Fallout",
 			"Marsh",
 			"Forest",
 			"Jungle",
@@ -86,7 +84,6 @@
 			"Tundra",
 			"Snow",
 			"Hill",
-			"Fallout",
 			"Marsh",
 			"Forest",
 			"Jungle"
@@ -121,8 +118,7 @@
 			"Hill",
 			"Marsh",
 			"Forest",
-			"Jungle",
-			"Fallout"
+			"Jungle"
 		],
 		"production": 1,
 		"improvement": "Mine",
@@ -151,8 +147,7 @@
 			"Snow",
 			"Marsh",
 			"Forest",
-			"Jungle",
-			"Fallout"
+			"Jungle"
 		],
 		"production": 1,
 		"revealedBy": "Dismantling",
@@ -176,8 +171,7 @@
 			"Forest",
 			"Jungle",
 			"Tundra",
-			"Snow",
-			"Fallout"
+			"Snow"
 		],
 		"production": 1,
 		"improvement": "Mine",
@@ -199,8 +193,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
-			"Flood plains",
-			"Fallout"
+			"Flood plains"
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -216,8 +209,7 @@
 		"terrainsCanBeFoundOn": [
 			"Marsh",
 			"Forest",
-			"Jungle",
-			"Fallout"
+			"Jungle"
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -233,8 +225,7 @@
 		"terrainsCanBeFoundOn": [
 			"Forest",
 			"Jungle",
-			"Hill",
-			"Fallout"
+			"Hill"
 		],
 		"gold": 3,
 		"improvement": "Mine",
@@ -254,8 +245,7 @@
 			"Desert",
 			"Hill",
 			"Forest",
-			"Jungle",
-			"Fallout"
+			"Jungle"
 		],
 		"gold": 2,
 		"improvement": "Mine",
@@ -277,7 +267,7 @@
 			"Jungle",
 			"Tundra",
 			"Grassland",
-			"Fallout"
+			
 		],
 		"gold": 2,
 		"improvement": "Mine",
@@ -299,8 +289,8 @@
 		"terrainsCanBeFoundOn": [
 			"Plains",
 			"Desert",
-			"Flood plains",
-			"Fallout"
+			"Flood plains"
+			
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -314,8 +304,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Forest",
-			"Jungle",
-			"Fallout"
+			"Jungle"
+			
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -331,8 +321,8 @@
 		"terrainsCanBeFoundOn": [
 			"Marsh",
 			"Forest",
-			"Jungle",
-			"Fallout"
+			"Jungle"
+			
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -350,8 +340,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
-			"Plains",
-			"Fallout"
+			"Plains"
+			
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -365,8 +355,8 @@
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Marsh",
-			"Flood plains",
-			"Fallout"
+			"Flood plains"
+			
 		],
 		"gold": 2,
 		"improvement": "Plantation",
@@ -426,8 +416,8 @@
 		"terrainsCanBeFoundOn": [
 			"Forest",
 			"Jungle",
-			"Flood plains",
-			"Fallout"
+			"Flood plains"
+			
 		],
 		"food": 1,
 		"gold": 1,
@@ -447,8 +437,8 @@
 			"Forest",
 			"Jungle",
 			"Grassland",
-			"Tundra",
-			"Fallout"
+			"Tundra"
+			
 		],
 		"gold": 2,
 		"improvement": "Mine",
@@ -487,8 +477,7 @@
 			"Desert",
 			"Tundra",
 			"Plains",
-			"Forest",
-			"Fallout"
+			"Forest"
 		],
 		"gold": 1,
 		"food": 1,
