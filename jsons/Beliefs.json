@@ -121,7 +121,7 @@
         "name": "Religious Settlements",
         "type": "Pantheon",
         "uniques": [
-            "[+25]% Production when constructing [Settler] units [in this city]",
+            "[+25]% Production when constructing [G.E.C.K.] units [in this city]",
             "[-15]% Culture cost of natural border growth [in this city]"
         ]
     },

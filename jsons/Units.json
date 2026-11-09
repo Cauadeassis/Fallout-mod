@@ -11,9 +11,10 @@
 		"cost": 70
 	},
 	{
-		"name": "Settler",
+		"name": "G.E.C.K.",
 		"unitType": "Civilian",
 		"movement": 2,
+		"requiredTech": "G.E.C.K.",
 		"cost": 106,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],

@@ -7,9 +7,9 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Water Purification",
+				"name": "G.E.C.K.",
 				"row": 5,
-				"quote": "Once invented, water purifiers saved humanity",
+				"quote": "Garden of Eden Creation Kit",
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -24,14 +24,14 @@
 						{
 				"name": "Boats",
 				"row": 1,
-				"prerequisites": ["Water Purification"],
+				"prerequisites": ["G.E.C.K."],
                 "uniques": ["Enables embarkation for land units"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 												{
 				"name": "Refrigeration",
 				"row": 3,
-				"prerequisites": ["Water Purification"],
+				"prerequisites": ["G.E.C.K."],
                 "uniques": [
 					"[10]% Food is carried over after population increases [in all cities]"
 			],
@@ -40,20 +40,20 @@
 									{
 				"name": "Greenhouses",
 				"row": 5,
-				"prerequisites": ["Water Purification"],
+				"prerequisites": ["G.E.C.K."],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 			{
 				"name": "Fertilizers",
 				"row": 7,
-				"prerequisites": ["Water Purification"],
+				"prerequisites": ["G.E.C.K."],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 
 			{
 				"name": "Hazmat Suit",
 				"row": 9,
-				"prerequisites": ["Water Purification"],
+				"prerequisites": ["G.E.C.K."],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 

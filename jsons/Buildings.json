@@ -18,7 +18,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Fallout] tiles [in this city]"],
-		"requiredTech": "Water Purification"
+		"requiredTech": "G.E.C.K."
 	},
 	// Column 2
 	{
