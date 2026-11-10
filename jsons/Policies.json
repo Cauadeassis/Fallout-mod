@@ -103,8 +103,8 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+50]% Production when constructing [G.E.C.K.] units [in capital]",
-                    "Free [G.E.C.K.] appears"
+                    "[+50]% Production when constructing [Standard G.E.C.K.] units [in capital]",
+                    "Free [Standard G.E.C.K.] appears"
                 ],
                 "requires": ["Republic"],
                 "row": 2,

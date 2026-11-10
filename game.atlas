@@ -97,21 +97,21 @@ BuildingIcons/Human Tests
   index: -1
 BuildingIcons/Public Foundry
   rotate: false
-  xy: 1920, 1539
+  xy: 1624, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public Hospitals
   rotate: false
-  xy: 1624, 982
+  xy: 1732, 993
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public Schools
   rotate: false
-  xy: 1732, 993
+  xy: 464, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -153,7 +153,7 @@ ImprovementIcons/Fort
   index: -1
 ImprovementIcons/Refrigerator
   rotate: false
-  xy: 464, 122
+  xy: 808, 718
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -181,7 +181,7 @@ NationIcons/New California Republic
   index: -1
 NationIcons/The Legion
   rotate: false
-  xy: 248, 14
+  xy: 356, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -195,28 +195,28 @@ PolicyIcons/Bans
   index: -1
 PolicyIcons/Conscription
   rotate: false
-  xy: 512, 616
+  xy: 620, 660
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Human Tests
   rotate: false
-  xy: 1982, 1923
+  xy: 512, 488
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Slavery
   rotate: false
-  xy: 512, 558
+  xy: 1982, 1923
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Taxes
   rotate: false
-  xy: 1982, 1865
+  xy: 678, 660
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -300,21 +300,21 @@ ResourceIcons/Computers
   index: -1
 ResourceIcons/Pre-war Art
   rotate: false
-  xy: 700, 718
+  xy: 1920, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Pre-war Books
   rotate: false
-  xy: 1920, 1647
+  xy: 1920, 1539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Sculptures
   rotate: false
-  xy: 140, 14
+  xy: 248, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -368,16 +368,23 @@ UnitIcons/Worker
   orig: 256, 256
   offset: 0, 0
   index: -1
+TechIcons/Pipe Weapons
+  rotate: false
+  xy: 700, 718
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TechIcons/Trading
   rotate: false
-  xy: 356, 14
+  xy: 464, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Animal Remains
   rotate: false
-  xy: 512, 674
+  xy: 512, 546
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -440,14 +447,14 @@ UnitPromotionIcons/Stimpak
   index: -1
 UnitIcons/Scout
   rotate: false
-  xy: 808, 718
+  xy: 140, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 464, 14
+  xy: 512, 610
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -23,9 +23,9 @@
     },
     {
         "name": "squatters wishing to settle under your rule",
-        "notification": "A [G.E.C.K.] has joined us!",
+        "notification": "A [Standard G.E.C.K.] has joined us!",
         "uniques": [
-            "Free [G.E.C.K.] found in the ruins"
+            "Free [Standard G.E.C.K.] found in the ruins"
         ],
         "excludedDifficulties": [
             "Warlord",
