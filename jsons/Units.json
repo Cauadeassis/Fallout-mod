@@ -12,7 +12,7 @@
 		"cost": 70
 	},
 	{
-		"name": "G.E.C.K.",
+		"name": "Standard G.E.C.K.",
 		"unitType": "Civilian",
 		"movement": 2,
 		"requiredTech": "G.E.C.K.",
@@ -164,11 +164,11 @@
 		"movement": 4
 	},
 		{
-		"name": "Great Farmer",
+		"name": "Prime G.E.C.K.",
 		"unitType": "Civilian",
 		"uniques": [
 			"[+1] population [in all cities] <by consuming this unit>",
-			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
+			"Can instantly construct a [Oasis] improvement <by consuming this unit>",
 			"Great Person - [Food]",
 			"Uncapturable",
 			"Unbuildable"

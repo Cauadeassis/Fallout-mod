@@ -1,7 +1,7 @@
 [
 	// Always available
 	{
-		"name": "Palace",
+		"name": "G.E.C.K.",
 		"isNationalWonder": true,
 		"production": 3,
 		"science": 3,
@@ -14,12 +14,23 @@
 	{
 		"name": "Water Purificator",
 		"cost": 20,
-		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Fallout] tiles [in this city]"],
 		"requiredTech": "G.E.C.K."
 	},
+	{
+    "name": "River Purifier",
+    "cost": 20,
+    "maintenance": 1,
+    "mustBeAdjacentTo": "River",
+    "requiredBuildings": ["Water Purificator"],
+	"requiredTech": "G.E.C.K.",
+    "uniques": [
+		"[+1 Food] from [Fresh Water] tiles [in this city]",
+        "Provides [1] [Clean Water]"
+    ]
+},
 	// Column 2
 	{
     "name": "Fertilizers",
@@ -32,10 +43,18 @@
     ]
 },
 	{
+    "name": "Food Storage",
+    "cost": 80,
+	"uniques": ["[10]% Food is carried over after population increases [in this city]"],
+    "maintenance": 1,
+    "requiredTech": "Greenhouses"
+},
+	{
     "name": "Greenhouse",
     "cost": 80,
 	"food": 3,
 	"percentStatBonus": {"food": 10},
+	"greatPersonPoints": {"Prime G.E.C.K.": 1},
     "maintenance": 2,
     "requiredTech": "Greenhouses"
 },

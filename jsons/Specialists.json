@@ -24,10 +24,9 @@
 		"color": [139,69,19]
 	},
 		{
-		"name": "Farmer",
+		"name": "Prime G.E.C.K.",
 		"food": 2,
-		"gold": -1,
 		"color": [0, 215, 0],
-		"greatPersonPoints": { "Great Farmer": 3 }
+		"greatPersonPoints": { "Prime G.E.C.K.": 3 }
 	}
 ]
