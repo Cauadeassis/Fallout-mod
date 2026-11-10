@@ -81,7 +81,7 @@
 	// Transportation
 	{
 		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Forest", "Coast", "Grassland", "Hill", "Jungle", "Plains", "Tundra", "Snow"],
 		"turnsToBuild": 4,
 		    "techRequired": "Trading",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Coast", "Grassland", "Hill", "Plains", "Tundra", "Snow"],
 		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",

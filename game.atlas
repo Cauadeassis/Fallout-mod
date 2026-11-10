@@ -18,28 +18,7 @@ BuildingIcons/Ban Toxic Fertilizers
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Caesar's Slavery
-  rotate: false
-  xy: 1812, 1647
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Courthouse
-  rotate: false
-  xy: 1812, 1647
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/NCR Taxes
-  rotate: false
-  xy: 1812, 1647
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Slavery
   rotate: false
   xy: 1812, 1647
   size: 100, 100
@@ -62,7 +41,7 @@ BuildingIcons/Botanic Garden
   index: -1
 BuildingIcons/Conscription
   rotate: false
-  xy: 1812, 1539
+  xy: 1084, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -76,19 +55,12 @@ BuildingIcons/Food Storage
   index: -1
 BuildingIcons/Greenhouse
   rotate: false
-  xy: 1300, 982
+  xy: 1408, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Greenhouses
-  rotate: false
-  xy: 1300, 982
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Human Tests
   rotate: false
   xy: 1408, 982
   size: 100, 100
@@ -125,28 +97,28 @@ ImprovementIcons/Butchery
   index: -1
 ImprovementIcons/Collection Zone
   rotate: false
-  xy: 248, 122
+  xy: 1684, 1318
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Scrapyard
   rotate: false
-  xy: 248, 122
+  xy: 1684, 1318
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fishing Boats
   rotate: false
-  xy: 356, 122
+  xy: 1192, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fort
   rotate: false
-  xy: 1192, 982
+  xy: 1300, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -193,6 +165,34 @@ PolicyIcons/Bans
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Cannibalism
+  rotate: false
+  xy: 248, 122
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Human Tests
+  rotate: false
+  xy: 248, 122
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Human Traffic
+  rotate: false
+  xy: 248, 122
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Slavery
+  rotate: false
+  xy: 248, 122
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 PolicyIcons/Conscription
   rotate: false
   xy: 512, 444
@@ -207,6 +207,13 @@ PolicyIcons/Human Tests
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Human Traffic
+  rotate: false
+  xy: 692, 660
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/Slavery
   rotate: false
   xy: 692, 660
@@ -214,7 +221,7 @@ PolicyIcons/Slavery
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Taxes
+PolicyIcons/State
   rotate: false
   xy: 1982, 1923
   size: 50, 50
@@ -300,7 +307,7 @@ BuildingIcons/Water Purificator
   index: -1
 ResourceIcons/Computers
   rotate: false
-  xy: 1684, 1318
+  xy: 1812, 1539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -328,7 +335,7 @@ ResourceIcons/Sculptures
   index: -1
 TechIcons/Fertilizers
   rotate: false
-  xy: 1084, 982
+  xy: 356, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

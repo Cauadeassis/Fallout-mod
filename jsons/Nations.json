@@ -86,6 +86,8 @@
         31
     ],
     "uniques": [
+        "[+25]% [Gold] from every [Taxes]",
+        "[-10]% [Happiness] from every [Taxes]",
             "[+3 Production, +3 Food] from each Trade Route",
 			"[-50]% maintenance on road & railroads",
 			"[-25]% maintenance costs <for [Military] units>",
@@ -124,6 +126,8 @@
 		"outerColor": [70, 0, 118],
 		"innerColor": [240, 199, 0],
     "uniques": [
+                "[+10]% [Gold] from every [Slavery]",
+        "[+10]% [Production] from every [Slavery]",
             "[+50]% Production when constructing [Military] units [in all cities]",
 			"[+100]% XP gained from combat <for [Military] units>",
             "[+2 Happiness, +2 Production] [in all cities with a garrison]"

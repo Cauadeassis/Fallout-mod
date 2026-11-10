@@ -3,3 +3,4 @@
 // java -jar /tmp/Unciv.jar mod-ci
 // touch Images/TileSets/HexaRealm/Tiles/Fallout.png
 // java -jar /tmp/Unciv.jar mod-ci
+// https://github.com/Cauadeassis/Fallout-mod

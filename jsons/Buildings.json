@@ -23,7 +23,7 @@
     "name": "River Purifier",
     "cost": 20,
     "maintenance": 1,
-    "requiredBuildings": ["Water Purificator"],
+    "requiredBuilding": "Water Purificator",
 	"requiredTech": "G.E.C.K.",
     "uniques": [
 		"Must be on [River]",
@@ -75,19 +75,6 @@
 }, 
 
 {
-    "name": "Search for Survivors",
-    "cost": 120,
-    "requiredTech": "Hazmat Suit",
-	"isNationalWonder": true,
-    "uniques": [
-		"Requires at least [5] population",
-		"Cost increases by [30] per owned city",
-		"Reveal up to [All] [All] within a [8] tile radius",
-		"[+3] population [in this city]"
-    ]
-},
-
-{
     "name": "Public Foundry",
     "cost": 80,
     "maintenance": 1,
@@ -108,75 +95,86 @@
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Trading"
 	},
+
+	// Culture buildings
+
 	{
+    "name": "Search for Survivors",
+    "cost": 120,
+	"isNationalWonder": true,
+    "uniques": [
+		"Only available <after adopting [Search for Survivors]>",
+		"Requires at least [5] population",
+		"Cost increases by [30] per owned city",
+		"Reveal up to [All] [All] within a [8] tile radius",
+		"[+3] population [in this city]"
+    ]
+},
+	{
+    "name": "Cemetery",
+	"happiness": 2,
+	"culture": 4,
+	"maintenance": 1,
+    "cost": 60,
+    "uniques": [
+		"Only available <after adopting [Survivalism Complete]>",
+		"Requires at least [4] population"
+    ]
+},
+
+{
 		"name": "Public Schools",
 		"hurryCostModifier": 25,
 		"happiness": -1,
 		"culture": 2,
+		"cost": 50,
 		"maintenance": 2,
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Public Buildings"
+		"uniques": ["Only available <after adopting [Schools]>","[+1 Science] per [2] population [in this city]"]
+	},{
+		"name": "Military Schools",
+		"replaces": "Public Schools",
+		"hurryCostModifier": 25,
+		"cost": 50,
+		"uniqueTo": "The Legion",
+		"happiness": -1,
+		"maintenance": 2,
+		"requiredResource": "Clean Water",
+		"greatPersonPoints": {"Great Scientist": 1, "Great General": 1},
+		"uniques": [
+			"Only available <after adopting [Schools]>",
+			"[+1 Science] per [2] population [in this city]", "New [Military] units start with [15] XP [in this city]"]
 	},
 		{
 		"name": "Public Hospitals",
 		"hurryCostModifier": 25,
+		"cost": 50,
 		"science": 3,
-		"percentStatBonus": {"food": 20},
+		"percentStatBonus": {"food": 10},
 		"requiredResource": "Clean Water",
 		"maintenance": 2,
-		"uniques": ["Free [Medic] appears", "All newly-trained [Land] units [in this city] receive the [Stimpak I] promotion"],
-		"requiredTech": "Public Buildings"
+		"uniques": [
+			"Only available <after adopting [Hospitals]>",
+			"Free [Medic] appears", "All newly-trained [Land] units [in this city] receive the [Stimpak I] promotion"]
 	},
-
-	// Culture buildings
 
 	{
     "name": "Taxes",
     "cost": 1,
 	"isNationalWonder": true,
     "uniques": [
-		"[-1 Happiness] per [3] population [in all cities]",
-		"[+35]% [Gold] [in all cities]",
-		"Only available <after adopting [Taxes]>"
-    ]
-},
-	{
-    "name": "NCR Taxes",
-	"uniqueTo": "New California Republic",
-	"replaces": "Taxes",
-    "cost": 1,
-	"isNationalWonder": true,
-    "uniques": [
 		"[-1 Happiness] per [4] population [in all cities]",
-		"[+50]% [Gold] [in all cities]",
-		"Only available <after adopting [Taxes]>"
+		"[+35]% [Gold] [in all cities]",
+		"Only available <after adopting [State]>"
     ]
 },
 	{
     "name": "Slavery",
     "cost": 1,
-	"isNationalWonder": true,
     "uniques": [
-		"[-1 Happiness] per [4] population [in all cities]",
-		"[-1] population [in all cities]",
-		"[+25]% [Gold] [in all cities]",
-		"[+25]% [Production] [in all cities]",
-		"Only available <after adopting [Slavery]>"
-    ]
-},
-	{
-    "name": "Caesar's Slavery",
-    "cost": 1,
-		"uniqueTo": "The Legion",
-	"replaces": "Slavery",
-	"isNationalWonder": true,
-    "uniques": [
-		"[-1] population [in all cities]",
-		"[+30]% [Gold] [in all cities]",
-		"[+30]% [Production] [in all cities]",
-		"[+15]% Production when constructing [Military] units [in all cities]",
+		"[-1] population [in this city]",
+		"Free [Worker] appears",
 		"Only available <after adopting [Slavery]>"
     ]
 },
@@ -214,11 +212,19 @@
 	{
     "name": "Human Tests",
     "cost": 1,
-	"happiness": -1,
     "uniques": [
 		"[-2] population [in this city]",
 		"Free [Great Scientist] appears",
 		"Only available <after adopting [Human Tests]>"
+    ]
+},
+	{
+    "name": "Human Traffic",
+    "cost": 1,
+    "uniques": [
+		"[-2] population [in this city]",
+		"Free [Great Merchant] appears",
+		"Only available <after adopting [Human Traffic]>"
     ]
 },
 
