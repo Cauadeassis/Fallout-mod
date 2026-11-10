@@ -23,10 +23,10 @@
     "name": "River Purifier",
     "cost": 20,
     "maintenance": 1,
-    "mustBeAdjacentTo": "River",
     "requiredBuildings": ["Water Purificator"],
 	"requiredTech": "G.E.C.K.",
     "uniques": [
+		"Must be on [River]",
 		"[+1 Food] from [Fresh Water] tiles [in this city]",
         "Provides [1] [Clean Water]"
     ]
@@ -47,7 +47,7 @@
     "cost": 80,
 	"uniques": ["[10]% Food is carried over after population increases [in this city]"],
     "maintenance": 1,
-    "requiredTech": "Greenhouses"
+    "requiredTech": "Refrigeration"
 },
 	{
     "name": "Greenhouse",
@@ -114,6 +114,7 @@
 		"happiness": -1,
 		"culture": 2,
 		"maintenance": 2,
+		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Public Buildings"
@@ -123,6 +124,7 @@
 		"hurryCostModifier": 25,
 		"science": 3,
 		"percentStatBonus": {"food": 20},
+		"requiredResource": "Clean Water",
 		"maintenance": 2,
 		"uniques": ["Free [Medic] appears", "All newly-trained [Land] units [in this city] receive the [Stimpak I] promotion"],
 		"requiredTech": "Public Buildings"

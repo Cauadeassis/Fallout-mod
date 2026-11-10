@@ -27,15 +27,17 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Survivor] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Scouting I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Warrior",
+		"name": "Survivor",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
+		"upgradesTo": "Sledgehammer",
+		"obsoleteTech": "Pipe Weapons",
 		"cost": 40,
 		"uniques": [],
 		"attackSound": "nonmetalhit",
@@ -47,11 +49,11 @@
 		"name": "Legion",
 		"unitType": "Sword",
 		"uniqueTo": "The Legion",
-		"replaces": "Warrior",
+		"replaces": "Survivor",
 		"movement": 2,
-		"strength": 12,
+		"strength": 10,
 		"cost": 40,
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Remove Fallout] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Road] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -74,6 +76,30 @@
 		"requiredTech": "Boats",
 		"uniques": ["[+1] Sight"]
 	},
+		{
+		"name": "Nail Shooter",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Pipe Weapons",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "A shooter who uses nails as ammunition."}
+		]
+	},
+		{
+		"name": "Sledgehammer",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 60,
+		"requiredTech": "Pipe Weapons",
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+
 	/* Reconstruction era */
 		{
 		"name": "Medic",

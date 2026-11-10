@@ -181,7 +181,7 @@ NationIcons/New California Republic
   index: -1
 NationIcons/The Legion
   rotate: false
-  xy: 356, 14
+  xy: 512, 610
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -195,28 +195,28 @@ PolicyIcons/Bans
   index: -1
 PolicyIcons/Conscription
   rotate: false
-  xy: 620, 660
+  xy: 512, 444
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Human Tests
   rotate: false
-  xy: 512, 488
+  xy: 620, 596
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Slavery
   rotate: false
-  xy: 1982, 1923
+  xy: 692, 660
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Taxes
   rotate: false
-  xy: 678, 660
+  xy: 1982, 1923
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -278,6 +278,13 @@ ResourceIcons/Wine
   offset: 0, 0
   index: -1
 ResourceIcons/Clean Water
+  rotate: false
+  xy: 4, 94
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+BuildingIcons/River Purifier
   rotate: false
   xy: 4, 94
   size: 128, 128
@@ -368,23 +375,16 @@ UnitIcons/Worker
   orig: 256, 256
   offset: 0, 0
   index: -1
-TechIcons/Pipe Weapons
-  rotate: false
-  xy: 700, 718
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 TechIcons/Trading
   rotate: false
-  xy: 464, 14
+  xy: 512, 502
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Animal Remains
   rotate: false
-  xy: 512, 546
+  xy: 620, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -445,6 +445,20 @@ UnitPromotionIcons/Stimpak
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Nail Shooter
+  rotate: false
+  xy: 700, 718
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Pipe Weapons
+  rotate: false
+  xy: 700, 718
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Scout
   rotate: false
   xy: 140, 14
@@ -452,9 +466,16 @@ UnitIcons/Scout
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Warrior
+UnitIcons/Sledgehammer
   rotate: false
-  xy: 512, 610
+  xy: 356, 14
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Survivor
+  rotate: false
+  xy: 464, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

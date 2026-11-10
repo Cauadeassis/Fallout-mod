@@ -157,7 +157,7 @@
     // Great Person improvements
 	{
 		"name": "Academy",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow", "Forest","Jungle"],
 		"science": 8,
 		"uniques": [
             "Removes removable features when built",
@@ -165,34 +165,34 @@
 	},
 	{
 		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow", "Forest","Jungle"],
 		"culture": 6,
 		"uniques": ["Great Improvement", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow", "Forest","Jungle"],
 		"production": 4,
 		"uniques": ["Great Improvement", "Will not be replaced by automated units",
             "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow", "Forest","Jungle"],
 		"gold": 4,
 		"uniques": ["Great Improvement", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow", "Forest","Jungle"],
 		"faith": 6,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Citadel",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Tundra","Snow", "Forest","Jungle"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [100]%",
