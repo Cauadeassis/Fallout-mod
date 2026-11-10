@@ -7,6 +7,10 @@
         "name": "Sword",
         "movementType": "Land"
     },
+        {
+        "name": "Archer",
+        "movementType": "Land"
+    },
     {
         "name": "Gunpowder",
         "movementType": "Land"

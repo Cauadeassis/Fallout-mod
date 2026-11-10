@@ -40,6 +40,82 @@
 	},
 // STRATEGIC RESOURCES
 	{
+		"name": "Animal Remains",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": [
+			"Fallout",
+			"Marsh",
+			"Forest",
+			"Jungle",
+			"Grassland",
+			"Plains",
+			"Desert",
+			"Tundra",
+			"Snow",
+			"Hill"
+		],
+		"revealedBy": "Fertilizers",
+		"improvement": "Butchery",
+		"uniques": [
+			"Guaranteed with Strategic Balance resource option",
+			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [26] <in [Hill] tiles>",
+			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [{Fallout} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
+			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout]>",
+			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
+		],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+		{
+		"name": "Computers",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"science": 2,
+		"culture": 2,
+		"improvedBy": ["Collection site"],
+		"improvementStats": { "science": 2, "culture": 1 },
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>"
+		]
+	},
+			{
+		"name": "Amunnition",
+		"resourceType": "Strategic",
+		"revealedBy": "Dismantling",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"production": 1,
+		"improvedBy": ["Scrapyard"],
+		"improvementStats": { "gold": 1, "production": 1 },
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated with weight [30] <in [Hill] Regions>"
+		],
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+	},
+			/* {
+		"name": "Energy Cells",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"science": 1,
+		"production": 1,
+		"improvedBy": ["Collection site"],
+		"improvementStats": { "gold": 1, "production": 1, "science": 1 },
+		"uniques": [
+			"Generated with weight [30] <in [Forest] Regions>"
+		]
+	}, */
+	{
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Dismantling",
@@ -89,7 +165,7 @@
 			"Fallout"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Scrapyard",
 		"improvementStats": {"production": 1},
 		"uniques": [
 			"Generated with weight [35] <in [Hill] tiles>",
@@ -144,7 +220,7 @@
 			"Fallout"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Scrapyard",
 		"improvementStats": {"production": 1},
 		"uniques": [
 			"Generated with weight [35] <in [Fallout] tiles> <in tiles without [Hill]>",
@@ -158,21 +234,6 @@
 	},
 
 	// Luxury resources
-	{
-		"name": "Wine",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [
-			"Grassland",
-			"Plains",
-			"Fallout"
-		],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Refrigerator",
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
-	},
 	{
 		"name": "Whales",
 		"resourceType": "Luxury",
@@ -219,6 +280,10 @@
 		"name": "Clean Water",
 		"resourceType": "Luxury"
 	},
+			{
+		"name": "Energy",
+		"resourceType": "Luxury"
+	},
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
@@ -235,49 +300,12 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-
-	// FALLOUT RESOURCES
-	{
-		"name": "Animal Remains",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": [
-			"Fallout",
-			"Marsh",
-			"Forest",
-			"Jungle",
-			"Grassland",
-			"Plains",
-			"Desert",
-			"Tundra",
-			"Snow",
-			"Hill"
-		],
-		"revealedBy": "Fertilizers",
-		"improvement": "Butchery",
-		"uniques": [
-			"Guaranteed with Strategic Balance resource option",
-			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
-			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
-			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
-			"Generated with weight [26] <in [Hill] tiles>",
-			"Minor deposits generated with weight [10] <in [Fallout] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [{Fallout} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [Fallout] tiles>",
-			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Fallout]>",
-			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
-		],
-		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
-		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
-	},
 		{
 		"name": "Pre-war Books",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
 		"science": 2,
+		"culture": 2,
 		"improvedBy": ["Collection site"],
 		"improvementStats": { "science": 2, "culture": 2 },
 		"uniques": [
@@ -299,15 +327,27 @@
 		]
 	},
 		{
-		"name": "Victory",
+		"name": "Wine",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
+			"Forest",
+			"Jungle",
+			"Desert",
+			"Hill",
+			"Marsh",
+			"Snow",
+			"Tundra",
 			"Plains",
 			"Fallout"
 		],
-		"gold": 2,
+		"food": 1,
+		"gold": 1,
 		"improvement": "Refrigerator",
+		"improvementStats": {
+			"food": 1,
+			"gold": 1
+    	},
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
@@ -317,11 +357,25 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
+			"Forest",
+			"Jungle",
+			"Desert",
+			"Hill",
+			"Marsh",
+			"Snow",
+			"Tundra",
 			"Plains",
 			"Fallout"
 		],
-		"gold": 2,
+		"gold": 1,
+		"food": 1,
+		"culture": 1,
 		"improvement": "Refrigerator",
+		"improvementStats": {
+			"food": 1,
+			"gold": 1,
+			"culture": 1
+    	},
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
@@ -331,11 +385,22 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
+			"Forest",
+			"Jungle",
+			"Desert",
+			"Hill",
+			"Marsh",
+			"Snow",
+			"Tundra",
 			"Plains",
 			"Fallout"
 		],
-		"gold": 2,
+		"food": 2,
 		"improvement": "Refrigerator",
+		"improvementStats": {
+			"food": 1,
+			"gold": 1
+    },
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
@@ -345,11 +410,23 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
+			"Forest",
+			"Jungle",
+			"Desert",
+			"Hill",
+			"Marsh",
+			"Snow",
+			"Tundra",
 			"Plains",
 			"Fallout"
 		],
 		"gold": 2,
+		"culture": 1,
 		"improvement": "Refrigerator",
+		"improvementStats": {
+			"gold": 1,
+			"culture": 1
+    },
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
@@ -359,11 +436,23 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
+			"Forest",
+			"Jungle",
+			"Desert",
+			"Hill",
+			"Marsh",
+			"Snow",
+			"Tundra",
 			"Plains",
 			"Fallout"
 		],
 		"gold": 2,
+		"culture": 2,
 		"improvement": "Refrigerator",
+		"improvementStats": {
+			"gold": 1,
+			"culture": 1
+    },
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
@@ -373,24 +462,14 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
 		"culture": 2,
+		"gold": 2,
 		"improvedBy": ["Collection site"],
-		"improvementStats": { "culture": 3 },
+		"improvementStats": { "culture": 3, "gold": 2 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Jungle] tiles>",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Desert] Regions>",
 			"Generated with weight [15] <in [Hill] Regions>"
-		]
-	},
-	{
-		"name": "Computers",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
-		"science": 1,
-		"improvedBy": ["Collection site"],
-		"improvementStats": { "science": 1 },
-		"uniques": [
-			"Generated with weight [30] <in [Jungle] Regions>"
 		]
 	}
 ]

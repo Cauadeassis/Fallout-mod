@@ -6,126 +6,126 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Ban Preservatives
   rotate: false
-  xy: 1812, 1647
+  xy: 856, 862
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ban Toxic Fertilizers
   rotate: false
-  xy: 1812, 1647
+  xy: 856, 862
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Courthouse
   rotate: false
-  xy: 1812, 1647
+  xy: 856, 862
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Taxes
   rotate: false
-  xy: 1812, 1647
+  xy: 856, 862
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Botanic Garden
   rotate: false
-  xy: 856, 862
+  xy: 976, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Conscription
   rotate: false
-  xy: 1084, 982
+  xy: 356, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Food Storage
   rotate: false
-  xy: 1684, 1101
+  xy: 1300, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Greenhouse
   rotate: false
-  xy: 1408, 982
+  xy: 1516, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Greenhouses
   rotate: false
-  xy: 1408, 982
+  xy: 1516, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public Foundry
   rotate: false
-  xy: 1624, 982
+  xy: 464, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public Hospitals
   rotate: false
-  xy: 1732, 993
+  xy: 808, 718
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public Schools
   rotate: false
-  xy: 464, 122
+  xy: 140, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Butchery
   rotate: false
-  xy: 976, 982
+  xy: 248, 122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Collection Zone
   rotate: false
-  xy: 1684, 1318
+  xy: 1812, 1539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Scrapyard
   rotate: false
-  xy: 1684, 1318
+  xy: 1812, 1539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fishing Boats
   rotate: false
-  xy: 1192, 982
+  xy: 1684, 1101
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Fort
   rotate: false
-  xy: 1300, 982
+  xy: 1408, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Refrigerator
   rotate: false
-  xy: 808, 718
+  xy: 248, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -153,7 +153,7 @@ NationIcons/New California Republic
   index: -1
 NationIcons/The Legion
   rotate: false
-  xy: 512, 610
+  xy: 512, 287
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -167,65 +167,72 @@ PolicyIcons/Bans
   index: -1
 PolicyIcons/Cannibalism
   rotate: false
-  xy: 248, 122
+  xy: 1684, 1318
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Human Tests
   rotate: false
-  xy: 248, 122
+  xy: 1684, 1318
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Human Traffic
   rotate: false
-  xy: 248, 122
+  xy: 1684, 1318
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Slavery
   rotate: false
-  xy: 248, 122
+  xy: 1684, 1318
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Conscription
   rotate: false
-  xy: 512, 444
+  xy: 800, 660
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Human Tests
   rotate: false
-  xy: 620, 596
+  xy: 1982, 1923
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Human Traffic
   rotate: false
-  xy: 692, 660
+  xy: 858, 660
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Slavery
   rotate: false
-  xy: 692, 660
+  xy: 858, 660
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/State
   rotate: false
-  xy: 1982, 1923
+  xy: 1982, 1865
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Amunnition
+  rotate: false
+  xy: 1684, 1426
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Animal Remains
@@ -244,42 +251,42 @@ BuildingIcons/Fertilizers
   index: -1
 ResourceIcons/Atomic Cocktail
   rotate: false
-  xy: 1684, 1426
+  xy: 1812, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Beer
   rotate: false
-  xy: 1684, 1426
+  xy: 1812, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Sunset Sarsaparilla
   rotate: false
-  xy: 1684, 1426
+  xy: 1812, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Victory
   rotate: false
-  xy: 1684, 1426
+  xy: 1812, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Vodka
   rotate: false
-  xy: 1684, 1426
+  xy: 1812, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Wine
   rotate: false
-  xy: 1684, 1426
+  xy: 1812, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -307,35 +314,35 @@ BuildingIcons/Water Purificator
   index: -1
 ResourceIcons/Computers
   rotate: false
-  xy: 1812, 1539
+  xy: 1084, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Pre-war Art
   rotate: false
-  xy: 1920, 1647
+  xy: 1624, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Pre-war Books
   rotate: false
-  xy: 1920, 1539
+  xy: 1732, 993
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Sculptures
   rotate: false
-  xy: 248, 14
+  xy: 512, 611
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fertilizers
   rotate: false
-  xy: 356, 122
+  xy: 1192, 982
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -384,14 +391,14 @@ UnitIcons/Worker
   index: -1
 TechIcons/Trading
   rotate: false
-  xy: 512, 502
+  xy: 620, 610
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Animal Remains
   rotate: false
-  xy: 620, 654
+  xy: 728, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -431,58 +438,72 @@ UnitIcons/Explorer
   orig: 100, 101
   offset: 0, 0
   index: -1
+UnitIcons/Gunslinger
+  rotate: false
+  xy: 592, 719
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
 UnitIcons/Legion
   rotate: false
-  xy: 1516, 982
+  xy: 700, 718
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Medic
   rotate: false
-  xy: 592, 718
+  xy: 1920, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stimpak
   rotate: false
-  xy: 592, 718
+  xy: 1920, 1647
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nail Shooter
   rotate: false
-  xy: 700, 718
+  xy: 1920, 1539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Pipe Weapons
   rotate: false
-  xy: 700, 718
+  xy: 1920, 1539
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scout
   rotate: false
-  xy: 140, 14
+  xy: 356, 14
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Scrap Cannon
+  rotate: false
+  xy: 464, 14
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sledgehammer
   rotate: false
-  xy: 356, 14
+  xy: 512, 503
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Survivor
   rotate: false
-  xy: 464, 14
+  xy: 512, 395
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword", "Archer", "Gunpowder","Mounted","Scout","Siege","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -14,7 +14,7 @@
 		{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
         "column": 4,
         "row": 1
 	},
@@ -22,7 +22,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
         "column": 4,
         "row": 2
 	},
@@ -30,7 +30,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
         "column": 4,
         "row": 3
 	},
@@ -38,7 +38,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
         "column": 5,
         "row": 1
 	},
@@ -46,7 +46,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
         "column": 5,
         "row": 2
 	},
@@ -54,7 +54,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
         "column": 5,
         "row": 3
 	},
@@ -75,7 +75,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Ranged Gunpowder","Archer","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
 	},
@@ -83,7 +83,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Shock III", "Drill III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Archer","Ranged Gunpowder","Siege","Ranged Water"],
         "column": 3,
         "row": 4
 	},
@@ -118,7 +118,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored", "Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Helicopter"],
+		"unitTypes": ["Archer","Sword","Gunpowder","Mounted","Armored", "Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Helicopter"],
         "column": 6,
         "row": 4
 	},
@@ -267,7 +267,7 @@
 		"name": "March",
 		"prerequisites": ["Shock II","Drill II","Targeting I","Bombardment I"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Archer","Sword","Gunpowder","Ranged Gunpowder","Siege","Mounted"],
         "column": 10,
         "row": 3
 	},
@@ -283,7 +283,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Shock I","Drill I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Archer","Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
         "column": 24,
         "row": 4
 	},

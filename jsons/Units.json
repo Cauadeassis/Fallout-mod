@@ -78,16 +78,43 @@
 	},
 		{
 		"name": "Nail Shooter",
-		"unitType": "Ranged",
+		"unitType": "Archer",
 		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
+		"strength": 4,
+		"rangedStrength": 6,
 		"cost": 40,
+		"upgradesTo": "Gunslinger",
 		"requiredTech": "Pipe Weapons",
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "A shooter who uses nails as ammunition."}
 		]
+	},
+				{
+		"name": "Gunslinger",
+		"unitType": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 60,
+		"requiredTech": "Pipe Weapons",
+		"requiredResource": "Amunnition",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "The best shooter in the westside!"}
+		]
+	},
+			{
+		"name": "Scrap cannon",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 8,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Pipe Weapons",
+		"requiredResource": "Amunnition",
+		"attackSound": "tankshot",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[-1] Sight"],
 	},
 		{
 		"name": "Sledgehammer",
