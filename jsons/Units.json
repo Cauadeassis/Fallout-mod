@@ -98,7 +98,7 @@
 		"rangedStrength": 10,
 		"cost": 60,
 		"requiredTech": "Pipe Weapons",
-		"requiredResource": "Amunnition",
+		"requiredResource": "Ammunition",
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "The best shooter in the westside!"}
@@ -112,7 +112,7 @@
 		"rangedStrength": 8,
 		"cost": 75,
 		"requiredTech": "Pipe Weapons",
-		"requiredResource": "Amunnition",
+		"requiredResource": "Ammunition",
 		"attackSound": "tankshot",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[-1] Sight"],
 	},
