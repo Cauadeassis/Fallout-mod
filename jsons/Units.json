@@ -83,13 +83,13 @@
 		"strength": 4,
 		"rangedStrength": 6,
 		"cost": 40,
-		"upgradesTo": "Gunslinger",
 		"requiredTech": "Pipe Weapons",
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "A shooter who uses nails as ammunition."}
 		]
 	},
+				/*
 				{
 		"name": "Gunslinger",
 		"unitType": "Archer",
@@ -97,15 +97,14 @@
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 60,
-		"requiredTech": "Pipe Weapons",
 		"requiredResource": "Ammunition",
 		"attackSound": "shot",
         "civilopediaText": [
 			{"text": "The best shooter in the westside!"}
 		]
-	},
+	}, */
 			{
-		"name": "Scrap cannon",
+		"name": "Scrap Cannon",
 		"unitType": "Siege",
 		"movement": 1,
 		"strength": 8,
@@ -128,16 +127,8 @@
 	},
 
 	/* Reconstruction era */
-		{
-		"name": "Medic",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 40,
-		"requiredTech": "Public Buildings",
-		"uniques": [
-			"All adjacent units heal [+25] HP when healing"
-		]
-	},
+
+
 	/* Great people */
 
 	{
@@ -251,5 +242,5 @@
 			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
-	},
+	}
 ]

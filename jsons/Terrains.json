@@ -4,10 +4,26 @@
 	{
 		"name": "Nuka Cola Factory",
 		"type": "NaturalWonder",
-		"gold": 10,
-		"food": 4,
+		"production": 1,
 		"happiness": 2,
-		"occursOn": ["Plains", "Grassland", "Desert"],
+		"science": 2,
+		"culture": 2,
+		"food": 5,
+		"gold": 5,
+		"occursOn": ["Plains", "Grassland", "Desert", "Fallout"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles"
+		],
+		"turnsInto": "Plains",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+		{
+		"name": "PNG Test",
+		"type": "NaturalWonder",
+		"production": 4,
+		"occursOn": ["Plains", "Grassland", "Desert", "Fallout"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles"
 		],
@@ -19,10 +35,11 @@
 		{
 		"name": "Dinky, the T-Rex",
 		"type": "NaturalWonder",
+		"food": 2,
 		"gold": 5,
 		"culture": 5,
 		"happiness": 2,
-		"occursOn": ["Plains", "Grassland", "Desert"],
+		"occursOn": ["Plains", "Grassland", "Desert", "Fallout"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles"
 		],
@@ -413,7 +430,6 @@
 		"name": "Fallout",
 		"type": "TerrainFeature",
 		"production": 1,
-		"food": -1,
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": [

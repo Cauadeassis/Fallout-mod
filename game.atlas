@@ -195,35 +195,28 @@ BuildingIcons/Slavery
   index: -1
 PolicyIcons/Conscription
   rotate: false
-  xy: 800, 660
+  xy: 1982, 1923
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Human Tests
   rotate: false
-  xy: 1982, 1923
+  xy: 1982, 1865
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Human Traffic
   rotate: false
-  xy: 858, 660
+  xy: 1982, 1807
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Slavery
   rotate: false
-  xy: 858, 660
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/State
-  rotate: false
-  xy: 1982, 1865
+  xy: 1982, 1807
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -333,6 +326,20 @@ ResourceIcons/Pre-war Books
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Pre-war Money
+  rotate: false
+  xy: 728, 596
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/State
+  rotate: false
+  xy: 728, 596
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 ResourceIcons/Sculptures
   rotate: false
   xy: 512, 611
@@ -422,6 +429,13 @@ TileSets/HexaRealm/Tiles/Iron
   xy: 4, 4
   size: 100, 82
   orig: 100, 82
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/PNG Test
+  rotate: false
+  xy: 800, 646
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Test

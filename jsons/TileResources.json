@@ -27,8 +27,11 @@
 		"food": 1,
 		"improvement": "Plantation",
 		"uniques": [
-					"Generated on every [10] tiles <in [Fresh Water] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Marsh]>",
-					"Generated on every [20] tiles <in [Plains] tiles> <in tiles without [Fresh Water]>"
+					"Generated on every [10] tiles <in [Fresh Water] tiles>",
+					"Generated on every [20] tiles <in [Plains] tiles> <in tiles without [Fresh Water]>",
+					"Generated on every [0] tiles <in [Forest] tiles>",
+					"Generated on every [0] tiles <in [Jungle] tiles>",
+					"Generated on every [0] tiles <in [Marsh] tiles>"
 ]
 	},
 	{
