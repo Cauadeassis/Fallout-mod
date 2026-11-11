@@ -71,21 +71,27 @@
         },
         "uniques": ["Unlocks Taxes"],
         "policies": [
+                        {
+                "name": "Trading",
+                "uniques": ["Unlocks Roads", "Unlocks Grocery Store"],
+                "row": 1,
+                "column": 1
+            },
             {
                 "name": "Schools",
                 "uniques": ["Unlocks Public Schools"],
                 "row": 1,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Hospitals",
                 "uniques": ["Unlocks Public Hospitals", "[+2 Science] from every [Cemetery]"],
                 "row": 1,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Conscription",
-                "uniques": ["Unlocks Conscription"],
+                "uniques": ["Unlocks Conscription", "Unlocks Barracks"],
                 "row": 2,
                 "column": 2
             },

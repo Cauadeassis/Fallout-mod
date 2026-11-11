@@ -71,8 +71,7 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Forest", "Coast", "Grassland", "Hill", "Jungle", "Plains", "Tundra", "Snow"],
 		"turnsToBuild": 4,
-		    "techRequired": "Trading",
-		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"uniques": ["Only available <after adopting [Trading]>","Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [
             {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},

@@ -65,7 +65,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Boats",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Trading]>", "May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Navigation]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
 			{
