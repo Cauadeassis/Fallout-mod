@@ -266,8 +266,21 @@
     "uniques": [
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 		"[-1 Happiness] per [5] population [in all cities]",
-		"[+50]% Production when constructing [Military] units [in all cities]",
-		"Only available <after adopting [Conscription]>"
+		"[+50]% Production when constructing [Military] units [in all cities]"
+    ]
+},
+	{
+    "name": "Mobilization",
+    "cost": 1,
+	"isNationalWonder": true,
+	"faith": 5,
+	"uniqueTo": "Brotherhood of Steel",
+	"replaces": "Conscription",
+    "uniques": [
+		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+		"Provides [1] [Fusion Core]",
+		"Free [Power Armor I] appears",
+		"Free [Paladin] appears"
     ]
 },
 	{

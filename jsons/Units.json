@@ -242,5 +242,42 @@
 			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
+	},
+
+	// UNIQUE UNITS
+
+		{
+		"name": "Power Armor I",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Brotherhood of Steel",
+		"movement": 1,
+		"strength": 25,
+		"requiredResource": "Fusion Core",
+		"cost": 120,
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
+		"attackSound": "tankshot"
+	},
+			{
+		"name": "Paladin",
+		"unitType": "Sword",
+		"uniqueTo": "Brotherhood of Steel",
+		"replaces": "Sledgehammer",
+		"movement": 3,
+		"strength": 10,
+		"cost": 60,
+		"uniques": ["[+1] Sight"],
+		"attackSound": "metalhit"
+	},
+		{
+		"name": "Scribe",
+		"unitType": "Civilian",
+		"uniqueTo": "Brotherhood of Steel",
+		"replaces": "Great Scientist",
+		"uniques": [
+			"Instantly gain [1] [Fusion Core] <by consuming this unit>",
+			"Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
 	}
 ]

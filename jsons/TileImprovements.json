@@ -193,11 +193,11 @@
 		{
 		"name": "Oasis",
 		"food": 4,
+		"happiness": 2,
 		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
-			"Food source",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Will not be replaced by automated units"

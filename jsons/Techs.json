@@ -74,7 +74,7 @@
 	},
 		{
 		"columnNumber": 3,
-		"era": "Survival era",
+		"era": "Reconstruction era",
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -118,17 +118,6 @@
 				"prerequisites": ["Pipes and Wires"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			}
-		]
-	}, */
-
-	/* {
-		"columnNumber": 3,
-		"era": "Reconstruction era",
-		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
-		"techs": [
-			
 		]
 	}, */
 ]
