@@ -261,6 +261,7 @@
     "cost": 1,
 	"isNationalWonder": true,
     "uniques": [
+		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 		"[-1 Happiness] per [5] population [in all cities]",
 		"[+50]% Production when constructing [Military] units [in all cities]"
@@ -274,6 +275,7 @@
 	"uniqueTo": "Brotherhood of Steel",
 	"replaces": "Conscription",
     "uniques": [
+		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 		"Instantly gain [1] [Fusion Core]",
 		"Free [T-45] appears",
@@ -333,7 +335,8 @@
     "cost": 1,
 	"requiredBuilding": "Slavery",
     "uniques": [
-		"[-1 Food, +3 Gold, +1 Production] from [Plantation] tiles [in this city]"
+		"[-1 Food, +3 Gold, +1 Production] from [Plantation] tiles [in this city]",
+		"Only available <after adopting [Slavery]>"
     ]
 },
 	{
