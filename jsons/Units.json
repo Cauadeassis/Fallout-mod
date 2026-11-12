@@ -4,8 +4,9 @@
 
 	/* Basic units */
 		{
-		"name": "Worker 1",
+		"name": "Hazmat Worker",
 		"unitType": "Civilian",
+		"requiredTech": "Hazmat Suit",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
