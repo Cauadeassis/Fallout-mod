@@ -4,12 +4,41 @@
 
 	/* Basic units */
 		{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+			{
 		"name": "Hazmat Worker",
 		"unitType": "Civilian",
 		"requiredTech": "Hazmat Suit",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
+	},
+			{
+		"name": "Worker 2",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+				{
+		"name": "Worker 3",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 70
+	},
+				{
+		"name": "Worker 4",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		
 	},
 	{
 		"name": "Standard G.E.C.K.",
