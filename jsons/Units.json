@@ -10,6 +10,13 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
+		{
+		"name": "Worker 2",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
 	{
 		"name": "Standard G.E.C.K.",
 		"unitType": "Civilian",
@@ -142,7 +149,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 10,
-		"rangedStrength": 6,
+		"rangedStrength": 8,
 		"requiredTech": "Metallurgy",
 		"cost": 80,
 		"requiredResource": "Iron",
@@ -286,7 +293,7 @@
 		"uniqueTo": "The Legion",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 4,
+		"rangedStrength": 6,
 		"replaces": "Cannon",
 		"requiredTech": "Metallurgy",
 		"cost": 60,
