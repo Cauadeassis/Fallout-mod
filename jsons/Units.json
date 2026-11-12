@@ -46,16 +46,13 @@
 		]
 	},
 		{
-		"name": "Legion",
-		"unitType": "Sword",
-		"uniqueTo": "The Legion",
-		"replaces": "Survivor",
-		"movement": 2,
-		"strength": 10,
-		"cost": 40,
-		"uniques": ["Can build [Remove Fallout] improvements on tiles", "Can build [Fort] improvements on tiles", "Can build [Road] improvements on tiles"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"name": "T-45",
+		"unitType": "Gunpowder",
+		"movement": 1,
+		"strength": 25,
+		"cost": 120,
+		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [2] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
+		"attackSound": "tankshot"
 	},
 
 	/* Survivor era */
@@ -82,6 +79,7 @@
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 6,
+		"upgradesTo": "Gunslinger",
 		"cost": 40,
 		"requiredTech": "Pipe Weapons",
 		"attackSound": "shot",
@@ -89,31 +87,17 @@
 			{"text": "A shooter who uses nails as ammunition."}
 		]
 	},
-				/*
-				{
-		"name": "Gunslinger",
-		"unitType": "Archer",
-		"movement": 2,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 60,
-		"requiredResource": "Ammunition",
-		"attackSound": "shot",
-        "civilopediaText": [
-			{"text": "The best shooter in the westside!"}
-		]
-	}, */
 			{
 		"name": "Scrap Cannon",
 		"unitType": "Siege",
 		"movement": 1,
 		"strength": 8,
-		"rangedStrength": 8,
+		"rangedStrength": 4,
+		"upgradesTo": "Cannon",
 		"cost": 75,
 		"requiredTech": "Pipe Weapons",
-		"requiredResource": "Ammunition",
 		"attackSound": "tankshot",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[-1] Sight"],
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight"]
 	},
 		{
 		"name": "Sledgehammer",
@@ -126,7 +110,46 @@
 		"attackSound": "nonmetalhit"
 	},
 
-	/* Reconstruction era */
+	// Reconstruction era
+
+{
+		"name": "Gunslinger",
+		"unitType": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 10,
+		"requiredTech": "Ballistic Weaponry",
+		"cost": 60,
+		"requiredResource": "Ammunition",
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "The best shooter in the westside!"}
+		]
+	},
+						{
+		"name": "Handcannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"requiredTech": "Ballistic Weaponry",
+		"cost": 80,
+		"requiredResource": "Ammunition",
+		"attackSound": "shot",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>"]
+	},
+							{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 6,
+		"requiredTech": "Metallurgy",
+		"cost": 80,
+		"requiredResource": "Iron",
+		"attackSound": "shot",
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
+	},
 
 
 	/* Great people */
@@ -246,22 +269,38 @@
 
 	// UNIQUE UNITS
 
-		{
-		"name": "Power Armor I",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Brotherhood of Steel",
-		"movement": 1,
-		"strength": 25,
-		"requiredResource": "Fusion Core",
-		"cost": 120,
-		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
-		"attackSound": "tankshot"
+			{
+		"name": "Legion",
+		"unitType": "Sword",
+		"uniqueTo": "The Legion",
+		"replaces": "Survivor",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"uniques": ["Can build [Fort] improvements on tiles", "Can build [Road] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
+								{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"uniqueTo": "The Legion",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 4,
+		"replaces": "Cannon",
+		"requiredTech": "Metallurgy",
+		"cost": 60,
+		"attackSound": "shot",
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
+	},
+
 			{
 		"name": "Paladin",
 		"unitType": "Sword",
 		"uniqueTo": "Brotherhood of Steel",
 		"replaces": "Sledgehammer",
+		"requiredTech": "Pipe Weapons",
 		"movement": 3,
 		"strength": 10,
 		"cost": 60,

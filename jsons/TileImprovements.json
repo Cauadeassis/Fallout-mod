@@ -192,7 +192,7 @@
 	},
 		{
 		"name": "Oasis",
-		"food": 4,
+		"food": 5,
 		"happiness": 2,
 		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
