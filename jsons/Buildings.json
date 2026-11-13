@@ -61,11 +61,11 @@
 	{
     "name": "Botanic Garden",
 	"happiness": 2,
-	"culture": 1,
+	"culture": 2,
 	"science": 2,
     "cost": 80,
 	"food": 3,
-    "maintenance": 2,
+    "maintenance": 1,
 	"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
     "requiredTech": "Greenhouses",
     "uniques": [
@@ -81,7 +81,7 @@
     "cost": 80,
     "maintenance": 2,
 	"production": 3,
-	"percentStatBonus": {"production": 20},
+	"percentStatBonus": {"production": 10},
 	"greatPersonPoints": {"Great Engineer": 1},
     "requiredTech": "Metallurgy",
     "uniques": [
@@ -107,7 +107,7 @@
 	"requiredBuilding": "Plumbing",
     "requiredTech": "Pipes and Wires",
     "uniques": [
-"[+1 Happiness] per [2] population [in this city]"
+"[+1 Happiness] per [3] population [in this city]"
     ]
 },
 	{
@@ -145,7 +145,7 @@
 		"Requires at least [5] population",
 		"Cost increases by [30] per owned city",
 		"Reveal up to [All] [All] within a [8] tile radius",
-		"[+3] population [in this city]"
+		"[+1] population [in all cities]"
     ]
 },
 	{
@@ -153,7 +153,7 @@
 	"happiness": 2,
 	"culture": 4,
 	"maintenance": 1,
-    "cost": 60,
+    "cost": 100,
     "uniques": [
 		"Only available <after adopting [Survivalism Complete]>",
 		"Requires at least [4] population"
@@ -204,7 +204,7 @@
 		"name": "Public Schools",
 		"hurryCostModifier": 25,
 		"happiness": -1,
-		"cost": 50,
+		"cost": 100,
 		"maintenance": 2,
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
@@ -213,7 +213,7 @@
 		"name": "Military Schools",
 		"replaces": "Public Schools",
 		"hurryCostModifier": 25,
-		"cost": 50,
+		"cost": 100,
 		"uniqueTo": "The Legion",
 		"happiness": -1,
 		"maintenance": 2,
@@ -226,7 +226,7 @@
 		{
 		"name": "Public Hospitals",
 		"hurryCostModifier": 25,
-		"cost": 50,
+		"cost": 100,
 		"science": 3,
 		"percentStatBonus": {"food": 10},
 		"requiredResource": "Clean Water",
@@ -253,7 +253,7 @@
 	"isNationalWonder": true,
     "uniques": [
 		"Only available <after adopting [State Complete]>",
-		"[+1 Happiness, +1 Culture] per [3] population [in all cities]"
+		"[+1 Happiness, +1 Culture] per [4] population [in all cities]"
     ]
 },
 	{

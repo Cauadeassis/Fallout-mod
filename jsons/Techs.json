@@ -87,9 +87,9 @@
 		{
 		"columnNumber": 3,
 		"era": "Reconstruction era",
-		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
 		"techs": [
 									{
 				"name": "Navigation",
