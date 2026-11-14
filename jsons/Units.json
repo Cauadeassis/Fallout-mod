@@ -150,6 +150,15 @@
 		"attackSound": "shot",
 		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
 	},
+								{
+		"name": "Archimedes",
+		"unitType": "Archer",
+		"movement": 1,
+		"strength": 1,
+		"rangedStrength": 100,
+		"attackSound": "nuke",
+		"uniques": ["[+2] Range", "[-2] Sight", "Must set up to ranged attack", "Unbuildable"]
+	},
 
 
 	/* Great people */

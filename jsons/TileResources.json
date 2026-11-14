@@ -212,6 +212,15 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
+			{
+		"name": "Clean Water",
+		"resourceType": "Strategic"
+	},
+			{
+		"name": "Energy",
+		"resourceType": "Strategic"
+	},
+
 	// Luxury resources
 	{
 		"name": "Whales",
@@ -241,14 +250,6 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-		{
-		"name": "Clean Water",
-		"resourceType": "Luxury"
-	},
-			{
-		"name": "Energy",
-		"resourceType": "Luxury"
 	},
 	{
 		"name": "Crab",
