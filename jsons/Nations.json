@@ -139,5 +139,225 @@
         "Camp Searchlight",
         "Callville Bay"
     ]
-}
+},
+
+// City-states
+
+// Fallout New Vegas
+
+    {
+        "name": "Novac",
+        "adjective": ["Novac"],
+        "cityStateType": "Caravan Route",
+        "style": "Gang",
+        "startBias": ["Dinky, the T-Rex"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Novac"]
+    },
+    {
+        "name": "New Vegas",
+        "adjective": ["New Vegas"],
+        "cityStateType": "Caravan Route",
+        "style": "Gang",
+        "startBias": ["Desert"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+		"uniques": [
+			"[+100]% [Science] [in all cities]",
+			"[+100]% [Gold] [in all cities]",
+			"[+100]% [Happiness] [in all cities]",
+			"[+100]% [Culture] [in all cities]",
+			"[+100]% [Food] [in all cities]"
+		],
+        "cities": ["New Vegas"]
+    },
+    {
+        "name": "Primm",
+        "adjective": ["Primm"],
+        "cityStateType": "Caravan Route",
+        "style": "Gang",
+        "startBias": ["Desert"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Primm"]
+    },
+    {
+        "name": "Goodsprings",
+        "adjective": ["Goodsprings"],
+        "cityStateType": "Farming",
+        "style": "Gang",
+        "startBias": ["Desert"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Goodsprings"]
+    },
+    {
+        "name": "Jacobstown",
+        "adjective": ["Jacobstown"],
+        "cityStateType": "Refuge",
+        "style": "Gang",
+        "startBias": ["Forest", "Hill"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Jacobstown"]
+    },
+    {
+        "name": "Vault City",
+        "adjective": ["Vault City"],
+        "cityStateType": "Technocracy",
+        "style": "Gang",
+        "startBias": ["Desert"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Vault City"]
+    },
+    {
+        "name": "New Reno",
+        "adjective": ["New Reno"],
+        "cityStateType": "Culture",
+        "style": "Gang",
+        "startBias": ["Plains", "Grassland"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["New Reno"]
+    },
+    {
+        "name": "Broken Hills",
+        "adjective": ["Broken Hills"],
+        "cityStateType": "Industrial",
+        "style": "Gang",
+        "startBias": ["Desert", "Hill"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Broken Hills"]
+    },
+    {
+        "name": "Junktown",
+        "adjective": ["Junktown"],
+        "cityStateType": "Scrap Town",
+        "style": "Gang",
+        "startBias": ["Desert"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Junktown"]
+    },
+    {
+        "name": "Megaton",
+        "adjective": ["Megaton"],
+        "cityStateType": "Refuge",
+        "style": "Gang",
+        "startBias": ["Plains", "Grassland"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Megaton"]
+    },
+    {
+        "name": "Rivet City",
+        "adjective": ["Rivet City"],
+        "cityStateType": "Technocracy",
+        "style": "Gang",
+        "startBias": ["Coast"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Rivet City"]
+    },
+    {
+        "name": "Tenpenny Tower",
+        "adjective": ["Tenpenny Tower"],
+        "cityStateType": "Caravan Route",
+        "style": "Gang",
+        "startBias": ["Plains", "Grassland"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Tenpenny Tower"]
+    },
+    {
+        "name": "Underworld",
+        "adjective": ["Underworld"],
+        "cityStateType": "Refuge",
+        "style": "Gang",
+        "startBias": ["Plains", "Forest"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Underworld"]
+    },
+    {
+        "name": "Diamond City",
+        "adjective": ["Diamond City"],
+        "cityStateType": "Farming",
+        "style": "Gang",
+        "startBias": ["Grassland", "Plains"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Diamond City"]
+    },
+    {
+        "name": "Bunker Hill",
+        "adjective": ["Bunker Hill"],
+        "cityStateType": "Caravan Route",
+        "style": "Gang",
+        "startBias": ["Grassland", "Plains"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Bunker Hill"]
+    },
+    {
+        "name": "Goodneighbor",
+        "adjective": ["Goodneighbor"],
+        "cityStateType": "Refuge",
+        "style": "Gang",
+        "startBias": ["Grassland", "Forest"],
+        "declaringWar": "You leave us no choice. War it must be.",
+        "attacked": "Two men enter, one man leaves!",
+        "defeated": "You run Bartertown.",
+        "outerColor": [0, 0, 0],
+        "innerColor": [194, 7, 255],
+        "cities": ["Goodneighbor"]
+    }
 ]

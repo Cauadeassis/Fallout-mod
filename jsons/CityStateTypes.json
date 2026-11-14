@@ -1,28 +1,123 @@
+
 [
     {
-        "name": "Antananarivo",
+        "name": "Culture",
         "friendBonusUniques": [
-            "[+2 Culture] [in capital]"
+            "[+3 Culture] <before the [Reconstruction era]>",
+            "[+6 Culture] <starting from the [Reconstruction era]>"
         ],
         "allyBonusUniques": [
-            "[+2 Culture] [in capital]",
-            "[+2 Culture] from every [Landmark]",
-			"Gain [+100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>"
+            "[+6 Culture] <before the [Reconstruction era]>",
+            "[+12 Culture] <starting from the [Reconstruction era]>"
         ],
-        "color": [
-            255,
-            1,
-            255
-        ]
-    }
-    /*
-    {
-        "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": [
-"[+2 Food] [in capital]", 
-"[+2 Food] from every [Harbor]"],
-        "color": [135, 213, 255]
+        "color": [139, 96, 255]
     },
-*/
+        {
+        "name": "New Vegas",
+        "friendBonusUniques": [
+            "[+2 Culture, +2 Happiness, +4 Science, +10 Gold] <before the [Reconstruction era]>",
+            "[+4 Culture, +4 Happiness, +8 Science, +20 Gold] <starting from the [Reconstruction era]>"
+        ],
+        "allyBonusUniques": [
+            "[+3 Culture, +3 Happiness, +6 Science, +15 Gold] <before the [Reconstruction era]>",
+            "[+6 Culture, +5 Happiness, +12 Science, +30 Gold] <starting from the [Reconstruction era]>",
+            "Provides [2] [Energy] <starting from the [Reconstruction era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Farming",
+        "friendBonusUniques": [
+            "[+3 Food] [in capital] <before the [Reconstruction era]>",
+            "[+5 Food] [in capital] <starting from the [Reconstruction era]>"
+        ],
+        "allyBonusUniques": [
+            "[+4 Food] [in capital] <before the [Reconstruction era]>",
+            "[+2 Food] [in all cities] <before the [Reconstruction era]>",
+            "[+7 Food] [in capital] <starting from the [Reconstruction era]>",
+            "[+3 Food] [in all cities] <starting from the [Reconstruction era]>"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Caravan Route",
+        "friendBonusUniques": [
+            "[+10 Gold] <before the [Reconstruction era]>",
+            "[+20 Gold] <starting from the [Reconstruction era]>"
+        ],
+        "allyBonusUniques": [
+            "[+20 Gold] <before the [Reconstruction era]>",
+            "[+40 Gold] <starting from the [Reconstruction era]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Industrial",
+        "friendBonusUniques": [
+            "[+3 Production] [in capital] <before the [Reconstruction era]>",
+            "[+5 Production] [in capital] <starting from the [Reconstruction era]>"
+        ],
+        "allyBonusUniques": [
+            "[+3 Production] [in capital] <before the [Reconstruction era]>",
+            "[+2 Production] [in all cities] <before the [Reconstruction era]>",
+            "[+5 Production] [in capital] <starting from the [Reconstruction era]>",
+            "[+4 Production] [in all cities] <starting from the [Reconstruction era]>"
+        ],
+        "color": [220, 100, 15]
+    },
+    {
+        "name": "Military",
+        "friendBonusUniques": [
+            "Provides military units every ≈[20] turns",
+            "Provides [3] [Ammunition]"
+        ],
+        "allyBonusUniques": [
+            "Provides military units every ≈[15] turns",
+            "Provides [5] [Ammunition]"
+
+        ],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Refuge",
+        "friendBonusUniques": [
+            "[+1 Happiness]",
+            "[+2 Food] [in capital]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness]",
+            "[+4 Food] [in capital]",
+            "[+1 Food] [in all cities]"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Technocracy",
+        "friendBonusUniques": [
+            "[+4 Science] <before the [Reconstruction era]>",
+            "[+8 Science] <starting from the [Reconstruction era]>"
+        ],
+        "allyBonusUniques": [
+            "[+8 Science] <before the [Reconstruction era]>",
+            "[+16 Science] <starting from the [Reconstruction era]>"
+        ],
+        "color": [55, 55, 255]
+    },
+    {
+        "name": "Scrap Town",
+        "friendBonusUniques": [
+            "[+2 Production]",
+            "[+2 Gold]",
+            "Provides [2] [Iron]",
+            "Provides [2] [Animal Remains]"
+        ],
+        "allyBonusUniques": [
+            "[+4 Production]",
+            "[+4 Gold]",
+            "Provides [5] [Iron]",
+            "Provides [5] [Animal Remains]"
+        ],
+        "color": [160, 110, 65]
+    }
 ]
