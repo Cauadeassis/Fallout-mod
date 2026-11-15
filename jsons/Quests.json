@@ -1,19 +1,8 @@
 [
   {
     "name": "Route",
-    "description": "Build a road to connect your capital to our city.",
+    "description": "Connect your capital to our city with a road.",
     "influence": 50
-  },
-  {
-    "name": "Clear Barbarian Camp",
-    "description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
-    "type": "Global",
-    "influence": 50,
-    "minimumCivs": 1
-  },
-  {
-    "name": "Connect Resource",
-    "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network."
   },
   {
     "name": "Construct Wonder",
@@ -21,21 +10,22 @@
   },
   {
     "name": "Acquire Great Person",
-    "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson]."
+    "description": "You will be rewarded for acquiring a new [greatPerson]."
   },
   {
     "name": "Conquer City State",
-    "description": "It's time to erase the City-State of [cityState] from the map. You will be greatly rewarded for conquering them!",
+    "description": "Erase the City-State of [cityState] from the map!",
     "influence": 80
   },
   {
     "name": "Find Player",
-    "description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
+    "description": "Discover where [civName] set up their cities.",
     "influence": 35
   },
   {
     "name": "Find Natural Wonder",
-    "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet."
+    "description": "Nobody the location of [naturalWonder] yet. Discover it",
+    "influence": 35
   },
   /* G&K */
   {

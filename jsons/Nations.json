@@ -59,6 +59,7 @@
 {
     "name": "New California Republic",
     "leaderName": "Aaron Kimball",
+    "uniqueName": "Manifest Destiny",
     "adjective": [
         "NCR"
     ],
@@ -107,6 +108,7 @@
 {
     "name": "The Legion",
     "leaderName": "Caesar",
+    "uniqueName": "Cult of Mars",
     "adjective": [
         "Legion"
     ],
@@ -124,9 +126,11 @@
 		"outerColor": [70, 0, 118],
 		"innerColor": [240, 199, 0],
     "uniques": [
-            "[+50]% Production when constructing [Military] units [in all cities]",
-            "[+2 Happiness, +2 Production] [in all cities with a garrison]",
-            "[+2 Happiness, +2 Production] [in all cities] <when at war>"
+            "[+25]% Production when constructing [Military] units [in all cities]",
+            "[+1 Happiness] [in all cities with a garrison]",
+            "[+1 Happiness, +2 Faith] [in all cities] <when at war>",
+            "[+2 Faith, +2 Production] from every [Barracks]",
+            "[+5 Faith] from every [Conscription]"
         ],
     "cities": [
         "Flagstaff",

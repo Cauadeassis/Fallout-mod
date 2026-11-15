@@ -104,14 +104,9 @@
 			58
 		],
 		"uniques": [
-			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.25] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.65] and [0.8]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.45] and [0.6]",
 			"[+3] to Fertility for Map Generation",
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Becomes [Fallout] when adjacent to [Grassland]",
@@ -151,6 +146,8 @@
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
 			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [-0.4] and [0.8] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.2] and [0.8] and humidity between [0.4] and [0.5]",
 			"[+4] to Fertility for Map Generation",
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
@@ -206,6 +203,9 @@
 			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0.2] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.7] and humidity between [0.4] and [0.5]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
 			"Becomes [Fallout] when adjacent to [Fallout]",
@@ -325,10 +325,10 @@
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
+			"Rare feature",
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Provides a one-time bonus of [+20 Production] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",
 			"Blocks line-of-sight from tiles at same elevation",
-			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
 			"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
 			"A Region can not contain more [Jungle] tiles than [Forest] tiles",
@@ -361,6 +361,7 @@
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
+			"Rare feature",
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Provides a one-time bonus of [+2 Food] to the closest city when cut down <(modified by game speed)> <(modified by game progress up to [1000]%)>",			
 			"Blocks line-of-sight from tiles at same elevation",
@@ -390,25 +391,6 @@
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	{
-		"name": "Flood plains",
-		"type": "TerrainFeature",
-		"food": 2,
-		"overrideStats": true,
-		"movementCost": 1,
-		"defenceBonus": -0.1,
-		"occursOn": [
-			"Grassland",
-			"Plains",
-			"Desert"
-		],
-		"uniques": [
-			"Becomes [Fallout] when adjacent to [Fallout]",
-			"Always Fertility [5] for Map Generation",
-			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
 		]
 	},
 	{
@@ -445,7 +427,7 @@
 			"Forest",
 			"Jungle",
 			"Hill",
-			"Flood plains",
+
 			"Marsh"
 		],
 		"defenceBonus": -0.15

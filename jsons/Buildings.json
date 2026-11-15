@@ -75,7 +75,30 @@
 }, 
 
 // Reconstruction era
-
+			{
+		"name": "Herbal Clinic",
+		"science": 1,
+		"culture": 3,
+		"food": 1,
+		"faith": 2,
+		"requiredTech": "Herbalism",
+		"greatPersonPoints": {"Prime G.E.C.K.": 1},
+		"maintenance": 1,
+		"uniques": [
+			"All newly-trained [Land] units [in this city] receive the [Healing Powder] promotion",
+		"All newly-trained [Land] units [in this city] receive the [Herbalism] promotion"]
+	},
+		{
+		"name": "Public Hospitals",
+		"percentStatBonus": {"food": 10, "science": 10},
+		"requiredBuilding": "Herbal Clinic",
+		"requiredResource": "Clean Water",
+		"requiredTech": "Medicine",
+		"greatPersonPoints": {"Great Scientist": 1, "Prime G.E.C.K.": 1},
+		"maintenance": 2,
+		"uniques": [
+			"All newly-trained [Land] units [in this city] receive the [Stimpak] promotion"]
+	},
 	{
 		"name": "Chems Factory",
 		"maintenance": 2,
@@ -304,43 +327,6 @@
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
 		"uniques": ["Only available <after adopting [Schools]>","[+1 Science, +1 Culture] per [2] population [in this city]"]
-	},{
-		"name": "Military Schools",
-		"replaces": "Public Schools",
-		"hurryCostModifier": 25,
-		"cost": 100,
-		"uniqueTo": "The Legion",
-		"happiness": -1,
-		"maintenance": 2,
-		"requiredResource": "Clean Water",
-		"greatPersonPoints": {"Great Scientist": 1, "Great General": 1},
-		"uniques": [
-			"Only available <after adopting [Schools]>",
-			"[+1 Science] per [2] population [in this city]", "New [Military] units start with [15] XP [in this city]"]
-	},
-			{
-		"name": "Herbal Clinic",
-		"science": 1,
-		"culture": 3,
-		"food": 1,
-		"faith": 2,
-		"requiredTech": "Herbalism",
-		"greatPersonPoints": {"Prime G.E.C.K.": 1},
-		"maintenance": 1,
-		"uniques": [
-			"All newly-trained [Land] units [in this city] receive the [Healing Powder] promotion",
-		"All newly-trained [Land] units [in this city] receive the [Herbalism] promotion"]
-	},
-		{
-		"name": "Public Hospitals",
-		"percentStatBonus": {"food": 10, "science": 10},
-		"requiredBuilding": "Herbal Clinic",
-		"requiredResource": "Clean Water",
-		"requiredTech": "Medicine",
-		"greatPersonPoints": {"Great Scientist": 1, "Prime G.E.C.K.": 1},
-		"maintenance": 2,
-		"uniques": [
-			"All newly-trained [Land] units [in this city] receive the [Stimpak] promotion"]
 	},
 
 	{
@@ -374,21 +360,6 @@
     ]
 },
 	{
-    "name": "Mobilization",
-    "cost": 1,
-	"isNationalWonder": true,
-	"faith": 5,
-	"uniqueTo": "Brotherhood of Steel",
-	"replaces": "Conscription",
-    "uniques": [
-		"Only available <after adopting [Conscription]>",
-		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
-		"Instantly gain [1] [Fusion Core]",
-		"Free [T-45] appears",
-		"Free [Paladin] appears"
-    ]
-},
-	{
     "name": "Ban Preservatives",
     "cost": 1,
 	"happiness": -4,
@@ -417,21 +388,6 @@
     "uniques": [
 		"[-1] population [in this city]",
 		"Free [Worker] appears",
-		"Unsellable",
-		"Only available <after adopting [Slavery]>"
-    ]
-},
-	{
-    "name": "Caesar's Slavery",
-    "cost": 1,
-	"uniqueTo":"The Legion",
-	"replaces": "Slavery",
-    "uniques": [
-		"[-1] population [in this city]",
-		"Free [Worker] appears",
-		"Free [Legion] appears",
-		"[+10]% [Production] [in this city]",
-		"[+10]% [Gold] [in this city]",
 		"Unsellable",
 		"Only available <after adopting [Slavery]>"
     ]
@@ -498,5 +454,74 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+
+	// UNIQUE BUILDINGS
+
+	// The Legion
+
+	{
+		"name": "Military Schools",
+		"replaces": "Public Schools",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniqueTo": "The Legion",
+		"happiness": -1,
+		"culture": -1,
+		"faith": 2,
+		"maintenance": 2,
+		"requiredResource": "Clean Water",
+		"greatPersonPoints": {"Great General": 2},
+		"uniques": [
+			"Only available <after adopting [Schools]>",
+			"[+25]% Production when constructing [Military] units [in this city]",
+		"All newly-trained [Military] units [in this city] receive the [Efficiency] promotion"]
+	},
+		{
+    "name": "Caesar's Slavery",
+    "cost": 1,
+	"uniqueTo":"The Legion",
+	"replaces": "Slavery",
+    "uniques": [
+		"[-1] population [in this city]",
+		"Free [Worker] appears",
+		"Free [Legion] appears",
+		"[+10]% [Production] [in this city]",
+		"[+10]% [Gold] [in this city]",
+		"Unsellable",
+		"Only available <after adopting [Slavery]>"
+    ]
+},
+
+	// Brotherhood
+
+		{
+    "name": "Mobilization",
+    "cost": 1,
+	"isNationalWonder": true,
+	"faith": 5,
+	"uniqueTo": "Brotherhood of Steel",
+	"replaces": "Conscription",
+    "uniques": [
+		"Only available <after adopting [Conscription]>",
+		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+		"Instantly gain [1] [Fusion Core]",
+		"Free [T-45] appears",
+		"Free [Paladin] appears"
+    ]
+},
+	{
+		"name": "Scribes Academy",
+		"replaces": "Public Schools",
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"uniqueTo": "Brotherhood of Steel",
+		"happiness": -1,
+		"maintenance": 2,
+		"requiredResource": "Clean Water",
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"Only available <after adopting [Schools]>",
+			"[+1 Science] per [2] population [in this city]", "New [Military] units start with [15] XP [in this city]"]
 	}
 ]

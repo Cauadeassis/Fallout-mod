@@ -211,8 +211,7 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
@@ -326,6 +325,21 @@
 		"cost": 60,
 		"attackSound": "shot",
 		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
+	},
+
+		{
+		"name": "Caesar",
+		"unitType": "Civilian",
+		"uniqueTo":"The Legion",
+		"replaces": "Great General",
+		"uniques": [
+			"Can Spread Religion <for [2] movement> <[2] times>",
+			"Removes other religions when spreading religion",
+            "[+20]% Strength bonus for [Military] units within [2] tiles",
+            "Is part of Great Person group [General]",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
 	},
 
 	// BROTHERHOOD

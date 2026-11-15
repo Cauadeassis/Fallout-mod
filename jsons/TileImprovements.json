@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Plantation",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains", "Desert", "Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill"],
 		"turnsToBuild": 6,
 		"food": 1,
 		"uniques": [

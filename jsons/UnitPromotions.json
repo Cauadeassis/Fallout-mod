@@ -336,6 +336,10 @@
 		"uniques": ["[+15]% Strength"]
 	},
 		{
+		"name": "Efficiency",
+		"uniques": ["[-50]% maintenance costs"]
+	},
+		{
 		"name": "Hazmat Suit",
 		"uniques": ["Double movement in [Fallout]"]
 	},
