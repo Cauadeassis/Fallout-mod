@@ -104,8 +104,8 @@
 			58
 		],
 "uniques": [
-            "Occurs at temperature between [-0.2] and [0.4] and humidity between [0.75] and [1.0]",
-            "Occurs at temperature between [0.4] and [0.8] and humidity between [0.8] and [1.0]",
+            "Occurs at temperature between [-0.2] and [0.4] and humidity between [0.5] and [1.0]",
+            "Occurs at temperature between [0.4] and [0.8] and humidity between [0.6] and [1.0]",
             "[+3] to Fertility for Map Generation",
             "Becomes [Fallout] when adjacent to [Fallout]",
             "Becomes [Fallout] when adjacent to [Grassland]",
@@ -133,9 +133,9 @@
 			102
 		],
 "uniques": [
-            "Occurs at temperature between [-0.4] and [0.0] and humidity between [0.2] and [0.5]",
-            "Occurs at temperature between [0.0] and [0.6] and humidity between [0.6] and [0.8]",
-            "Occurs at temperature between [0.6] and [1.0] and humidity between [0.7] and [0.9]",
+            "Occurs at temperature between [-0.4] and [0.0] and humidity between [0.1] and [0.5]",
+            "Occurs at temperature between [0.1] and [0.5] and humidity between [0.2] and [0.7]",
+            "Occurs at temperature between [0.6] and [1.0] and humidity between [0.3] and [0.7]",
             "[+4] to Fertility for Map Generation",
             "Becomes [Fallout] when adjacent to [Fallout]",
             "Becomes [Fallout] when adjacent to [Plains]",
@@ -186,13 +186,12 @@
 "uniques": [
             "Occurs at temperature between [-0.3] and [1.0] and humidity between [0] and [0.4]",
             "Occurs at temperature between [-0.2] and [1.0] and humidity between [0] and [0.5]",
-            "Occurs at temperature between [0.0] and [1.0] and humidity between [0] and [0.6]",
-            "Occurs at temperature between [0.2] and [1.0] and humidity between [0.4] and [0.7]",
-            "Occurs at temperature between [0.4] and [1.0] and humidity between [0.5] and [0.8]",
+            "Occurs at temperature between [0.0] and [1.0] and humidity between [0] and [0.5]",
+            "Occurs at temperature between [0.2] and [1.0] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.4] and [1.0] and humidity between [0.4] and [0.5]",
             "[-2] to Fertility for Map Generation",
             "Becomes [Fallout] when adjacent to [Desert]",
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-            "Becomes [Fallout] when adjacent to [Fallout]",
             "Becomes [Plains] when adjacent to [Coast]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -251,6 +250,7 @@
 			"Becomes [Fallout] when adjacent to [Fallout]",
 			"Becomes [Fallout] when adjacent to [Snow]",
 			"Becomes [Tundra] when adjacent to [River]",
+			"Becomes [Tundra] when adjacent to [Coast]",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>"
 			
