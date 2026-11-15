@@ -340,12 +340,41 @@
 		"uniques": ["Double movement in [Fallout]"]
 	},
 		{
-		"name": "Stimpak I",
-		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"]
+		"name": "Healing Powder",
+		"uniques": ["[+10] HP when healing"]
 	},
 			{
-		"name": "Stimpak II",
-		"uniques": ["[+25] HP when healing <in [Foreign Land] tiles>"]
+		"name": "Stimpak",
+		"uniques": ["[+25] HP when healing"]
+	},
+			{
+		"name": "Herbalism",
+		"uniques": ["[+10] HP when healing <in [Forest] tiles>",
+	"[+10] HP when healing <in [Jungle] tiles>"]
+	},
+				{
+		"name": "Chems",
+		"uniques": ["[+10]% Strength"]
+	},
+						{
+		"name": "Jet",
+		"prerequisites": ["Chems"],
+		"uniques": ["[+1] Movement"]
+	},
+							{
+		"name": "Mentats",
+		"prerequisites": ["Chems"],
+		"uniques": ["[+1] Sight"]
+	},
+						{
+		"name": "Buffout",
+		"prerequisites": ["Jet", "Mentats"],
+		"uniques": ["[+25]% Strength"]
+	},
+							{
+		"name": "Psycho",
+		"prerequisites": ["Jet", "Mentats"],
+		"uniques": ["[1] additional attacks per turn"]
 	},
 
     {

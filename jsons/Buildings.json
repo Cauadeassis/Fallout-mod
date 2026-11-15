@@ -56,10 +56,10 @@
 	"percentStatBonus": {"food": 10},
 	"greatPersonPoints": {"Prime G.E.C.K.": 1},
     "maintenance": 2,
-    "requiredTech": "Greenhouses"
+    "requiredTech": "Botany"
 },
 	{
-    "name": "Botanic Garden",
+    "name": "Garden",
 	"happiness": 2,
 	"culture": 2,
 	"science": 2,
@@ -67,7 +67,7 @@
 	"food": 3,
     "maintenance": 1,
 	"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
-    "requiredTech": "Greenhouses",
+    "requiredTech": "Botany",
     "uniques": [
         "[+25]% Great Person generation [in this city]", 
 		"Must be next to [Fresh water]"
@@ -75,6 +75,16 @@
 }, 
 
 // Reconstruction era
+
+	{
+		"name": "Chems Factory",
+		"maintenance": 2,
+		"happiness": -2,
+		"food": -2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry",
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Chems] promotion"]
+	},
 
 {
     "name": "Foundry",
@@ -154,7 +164,7 @@
 		"name": "HELIOS One",
 		"isWonder": true,
 		"requiredTech": "Desert Power",
-		"uniques": ["Must be next to [Desert]", "Gain a free [Hydro Plant] [in this city]", "Unlocks a HELIOS Choice"]
+		"uniques": ["Must be next to [Desert]", "Gain a free [Solar Plant] [in this city]", "Unlocks a HELIOS Choice"]
 	},
 				{
 		"name": "Energy For All Cities",
@@ -207,7 +217,7 @@
 		"requiredTech": "Electricity",
 		"percentStatBonus": {"food": 10, "science": 10},
 		"greatPersonPoints": {"Great Scientist": 1, "Prime G.E.C.K.": 1},
-		"uniques": ["All newly-trained [Land] units [in this city] receive the [Stimpak II] promotion"]
+		"uniques": []
 	},
 	{
     "name": "Domestic Electricity",
@@ -308,18 +318,29 @@
 			"Only available <after adopting [Schools]>",
 			"[+1 Science] per [2] population [in this city]", "New [Military] units start with [15] XP [in this city]"]
 	},
+			{
+		"name": "Herbal Clinic",
+		"science": 1,
+		"culture": 3,
+		"food": 1,
+		"faith": 2,
+		"requiredTech": "Herbalism",
+		"greatPersonPoints": {"Prime G.E.C.K.": 1},
+		"maintenance": 1,
+		"uniques": [
+			"All newly-trained [Land] units [in this city] receive the [Healing Powder] promotion",
+		"All newly-trained [Land] units [in this city] receive the [Herbalism] promotion"]
+	},
 		{
 		"name": "Public Hospitals",
-		"hurryCostModifier": 25,
-		"cost": 100,
-		"science": 3,
-		"percentStatBonus": {"food": 10},
+		"percentStatBonus": {"food": 10, "science": 10},
+		"requiredBuilding": "Herbal Clinic",
 		"requiredResource": "Clean Water",
+		"requiredTech": "Medicine",
 		"greatPersonPoints": {"Great Scientist": 1, "Prime G.E.C.K.": 1},
 		"maintenance": 2,
 		"uniques": [
-			"Only available <after adopting [Hospitals]>",
-			"All newly-trained [Land] units [in this city] receive the [Stimpak I] promotion"]
+			"All newly-trained [Land] units [in this city] receive the [Stimpak] promotion"]
 	},
 
 	{
@@ -344,11 +365,11 @@
 	{
     "name": "Conscription",
     "cost": 1,
+	"happiness": -4,
 	"isNationalWonder": true,
     "uniques": [
 		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
-		"[-1 Happiness] per [5] population [in all cities]",
 		"[+50]% Production when constructing [Military] units [in all cities]"
     ]
 },

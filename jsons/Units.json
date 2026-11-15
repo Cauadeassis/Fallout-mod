@@ -45,15 +45,6 @@
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
-		{
-		"name": "T-45",
-		"unitType": "Gunpowder",
-		"movement": 1,
-		"strength": 25,
-		"cost": 120,
-		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [2] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
-		"attackSound": "tankshot"
-	},
 
 	/* Survivor era */
 		{
@@ -61,7 +52,7 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Boats",
+		"requiredTech": "Navigation",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Navigation]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
@@ -70,7 +61,7 @@
 		"unitType": "Civilian Water",
 		"movement": 5,
 		"cost": 30,
-		"requiredTech": "Boats",
+		"requiredTech": "Navigation",
 		"uniques": ["[+1] Sight"]
 	},
 		{
@@ -276,7 +267,40 @@
 		"movement": 3
 	},
 
+	// POWER ARMOR
+
+			{
+		"name": "T-45",
+		"unitType": "Gunpowder",
+		"movement": 1,
+		"strength": 25,
+		"upgradesTo": "T-51",
+		"cost": 120,
+		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [2] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
+		"attackSound": "tankshot"
+	},
+			{
+		"name": "T-51",
+		"unitType": "Gunpowder",
+		"movement": 1,
+		"strength": 30,
+		"cost": 160,
+		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
+		"attackSound": "tankshot"
+	},
+				{
+		"name": "T-60",
+		"unitType": "Gunpowder",
+		"movement": 1,
+		"strength": 35,
+		"cost": 200,
+		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[+200]% maintenance costs"],
+		"attackSound": "tankshot"
+	},
+
 	// UNIQUE UNITS
+
+	// LEGION
 
 			{
 		"name": "Legion",
@@ -304,6 +328,8 @@
 		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
 	},
 
+	// BROTHERHOOD
+
 			{
 		"name": "Paladin",
 		"unitType": "Sword",
@@ -327,5 +353,17 @@
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
-	}
+	},
+
+	// NCR
+
+					{
+		"name": "NCR Power Armor",
+		"unitType": "Gunpowder",
+		"movement": 1,
+		"strength": 35,
+		"cost": 200,
+		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[+200]% maintenance costs"],
+		"attackSound": "tankshot"
+	},
 ]

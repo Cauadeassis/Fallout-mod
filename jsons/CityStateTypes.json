@@ -21,7 +21,7 @@
         "allyBonusUniques": [
             "[+3 Culture, +3 Happiness, +6 Science, +15 Gold] <before the [Reconstruction era]>",
             "[+6 Culture, +5 Happiness, +12 Science, +30 Gold] <starting from the [Reconstruction era]>",
-            "Provides [2] [Energy] <starting from the [Reconstruction era]>"
+            "Provides [1] [Energy] <starting from the [Reconstruction era]>"
         ],
         "color": [139, 96, 255]
     },
@@ -116,6 +116,7 @@
             "[+4 Production]",
             "[+4 Gold]",
             "Provides [5] [Iron]",
+            "Provides [1] [Clean Water]",
             "Provides [5] [Animal Remains]"
         ],
         "color": [160, 110, 65]

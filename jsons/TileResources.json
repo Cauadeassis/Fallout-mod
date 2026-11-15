@@ -94,7 +94,7 @@
 			{
 		"name": "Ammunition",
 		"resourceType": "Strategic",
-		"revealedBy": "Dismantling",
+		"revealedBy": "Scavenging",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
 		"production": 1,
 		"improvedBy": ["Scrapyard"],
@@ -121,7 +121,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "Dismantling",
+		"revealedBy": "Scavenging",
 		"terrainsCanBeFoundOn": [
 			"Grassland",
 			"Plains",
@@ -141,7 +141,7 @@
 			    "Generated with weight [10]",
     "Minor deposits generated with weight [10]"
 		],
-		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
@@ -165,7 +165,7 @@
 		],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	},
+	}, 
 	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
@@ -180,7 +180,7 @@
 			"Fallout"
 		],
 		"production": 1,
-		"revealedBy": "Dismantling",
+		"revealedBy": "Scavenging",
 		"improvement": "Scrapyard",
 		"improvementStats": {"production": 1},
 		"uniques": [

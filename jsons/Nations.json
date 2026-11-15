@@ -39,7 +39,7 @@
     ],
 	"uniques": [
 			"[+15]% [Science] [in all cities] <when at war>",
-			"[+50]% XP gained from combat <for [Military] units>",
+			"[+100]% XP gained from combat <for [Military] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 			"[+2 Science, +2 Culture, +2 Faith] from every [Barracks]"
 		],
@@ -86,9 +86,10 @@
     "uniques": [
         "[+25]% [Gold] from every [Taxes]",
             "[+3 Production, +3 Food] from each Trade Route",
+            "[+50]% Production when constructing [Standard G.E.C.K.] units [in all cities]",
 			"[-50]% maintenance on road & railroads",
-			"[-25]% maintenance costs <for [Military] units>",
-			"[-25]% Culture cost of natural border growth [in all cities]"
+			"[-50]% maintenance costs <for [Military] units>",
+			"[-50]% Culture cost of natural border growth [in all cities]"
         ],
     "cities": [
         "Shady Sands",
@@ -124,8 +125,8 @@
 		"innerColor": [240, 199, 0],
     "uniques": [
             "[+50]% Production when constructing [Military] units [in all cities]",
-			"[+100]% XP gained from combat <for [Military] units>",
-            "[+2 Happiness, +2 Production] [in all cities with a garrison]"
+            "[+2 Happiness, +2 Production] [in all cities with a garrison]",
+            "[+2 Happiness, +2 Production] [in all cities] <when at war>"
         ],
     "cities": [
         "Flagstaff",
@@ -161,7 +162,7 @@
     {
         "name": "New Vegas",
         "adjective": ["New Vegas"],
-        "cityStateType": "Caravan Route",
+        "cityStateType": "New Vegas",
         "style": "Gang",
         "startBias": ["Desert"],
         "declaringWar": "You leave us no choice. War it must be.",

@@ -179,7 +179,7 @@ ImprovementIcons/Scrapyard
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Fishing Boats
+ImprovementIcons/Fishing Navigation
   rotate: false
   xy: 1812, 1301
   size: 100, 100

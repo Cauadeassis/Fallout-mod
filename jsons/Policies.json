@@ -84,12 +84,6 @@
                 "column": 3
             },
             {
-                "name": "Hospitals",
-                "uniques": ["Unlocks Public Hospitals", "[+2 Science] from every [Cemetery]"],
-                "row": 1,
-                "column": 5
-            },
-            {
                 "name": "Conscription",
                 "uniques": ["Unlocks Conscription", "Unlocks Barracks"],
                 "row": 2,
@@ -124,20 +118,19 @@
         "policies": [
             {
                 "name": "Cannibalism",
-				"uniques": ["[-10]% [Happiness] [in all cities]", "[+10]% growth [in all cities]", "[10]% Food is carried over after population increases [in all cities]", "[+4 Food] from every [Cemetery]"],
+				"uniques": ["[-4 Happiness]", "[+10]% growth [in all cities]", "[10]% Food is carried over after population increases [in all cities]", "[+4 Food] from every [Cemetery]"],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Slavery",
-                "uniques": ["[-10]% [Happiness] [in all cities]", "[-10]% [Food] [in all cities]", "Can build [all] improvements at a [+25]% rate", "Unlocks Slavery"],
+                "uniques": ["[-4 Happiness]", "Can build [all] improvements at a [+25]% rate", "Unlocks Slavery"],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Human Traffic",
-				"uniques": [                    "[-10]% [Happiness] [in all cities]",
-                    "[-10]% [Food] [in all cities]",
+				"uniques": [                    "[-4 Happiness]",
                     "Unlocks Human Traffic"],
                 "row": 2,
                 "column": 1
@@ -145,8 +138,7 @@
             {
                 "name": "Human Tests",
                 "uniques": [
-                    "[-10]% [Happiness] [in all cities]",
-                    "[-10]% [Food] [in all cities]",
+                    "[-4 Happiness]",
                     "Unlocks Human Tests"
                 ],
                 "row": 2,
