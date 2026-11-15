@@ -13,7 +13,6 @@
 	},
 	{
 		"name": "Water Purificator",
-		"cost": 20,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Fallout] tiles [in this city]", "Provides [1] [Clean Water]"],
@@ -21,7 +20,6 @@
 	},
 	{
     "name": "River Purifier",
-    "cost": 20,
     "maintenance": 1,
     "requiredBuilding": "Water Purificator",
 	"requiredTech": "G.E.C.K.",
@@ -34,7 +32,6 @@
 	// Survivor era
 	{
     "name": "Fertilizers",
-    "cost": 80,
     "maintenance": 1,
     "requiredTech": "Fertilizers",
     "requiredResource": "Animal Remains",
@@ -44,7 +41,6 @@
 },
 	{
     "name": "Food Storage",
-    "cost": 80,
 	"uniques": ["[10]% Food is carried over after population increases [in this city]"],
     "maintenance": 1,
     "requiredTech": "Refrigeration"
@@ -81,7 +77,7 @@
 		"culture": 3,
 		"food": 1,
 		"faith": 2,
-		"requiredTech": "Herbalism",
+		"requiredTech": "Ecology",
 		"greatPersonPoints": {"Prime G.E.C.K.": 1},
 		"maintenance": 1,
 		"uniques": [
@@ -160,7 +156,20 @@
 	"greatPersonPoints": {"Great Engineer": 1},
     "requiredNearbyImprovedResources": ["Ammunition"],
     "uniques": [
-		"Provides [2] [Ammunition]",
+		"Provides [1] [Ammunition]",
+        "[+1 Production, +1 Gold] from [Ammunition] tiles [in this city]"
+    ]
+},
+		{
+    "name": "Rifle Factory",
+    "maintenance": 2,
+    "requiredTech": "Ballistic Weaponry",
+	"requiredBuilding": "Foundry",
+	"requiredResource": "Ammunition",
+	"production": 2,
+	"greatPersonPoints": {"Great Engineer": 1},
+    "uniques": [
+		"Provides [5] [Hunting Rifle]",
         "[+1 Production, +1 Gold] from [Ammunition] tiles [in this city]"
     ]
 },
@@ -221,16 +230,6 @@
 ]
 	},
 
-	{
-		"name": "Electricity in Schools",
-		"happiness": 1,
-		"maintenance": 1,
-		"requiredResource": "Energy",
-		"requiredBuilding": "Public Schools",
-		"requiredTech": "Electricity",
-		"percentStatBonus": {"science": 20, "culture": 10},
-		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1}
-	},
 	{
 		"name": "Electricity in Hospitals",
 		"happiness": 1,
@@ -326,7 +325,11 @@
 		"maintenance": 2,
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
-		"uniques": ["Only available <after adopting [Schools]>","[+1 Science, +1 Culture] per [2] population [in this city]"]
+		"uniques": ["Only available <after adopting [Schools]>",
+		"[+1 Science, +1 Culture] per [2] population [in this city]",
+	"[+10]% [Science] [in this city] <when above [0] [Energy]>",
+"[+10]% [Culture] [in this city] <when above [0] [Energy]>",
+"[+1 Happiness] [in this city] <when above [0] [Energy]>"]
 	},
 
 	{
@@ -475,7 +478,10 @@
 		"uniques": [
 			"Only available <after adopting [Schools]>",
 			"[+25]% Production when constructing [Military] units [in this city]",
-		"All newly-trained [Military] units [in this city] receive the [Efficiency] promotion"]
+			"New [Military] units start with [15] XP [in this city]",
+		"All newly-trained [Military] units [in this city] receive the [Efficiency] promotion",
+		"[+25]% Production when constructing [Military] units [in this city] <when above [0] [Energy]>",
+"[+1 Happiness] [in this city] <when above [0] [Energy]>"]
 	},
 		{
     "name": "Caesar's Slavery",
@@ -522,6 +528,10 @@
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
 			"Only available <after adopting [Schools]>",
-			"[+1 Science] per [2] population [in this city]", "New [Military] units start with [15] XP [in this city]"]
+			"[+1 Science] per [2] population [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
+			"[+10]% [Science] [in this city] <when above [0] [Energy]>",
+		"New [Military] units start with [15] XP [in this city] <when above [0] [Energy]>",
+"[+1 Happiness] [in this city] <when above [0] [Energy]>"]
 	}
 ]

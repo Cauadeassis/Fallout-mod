@@ -102,8 +102,8 @@
 			    "Generated with weight [20]",
     "Minor deposits generated with weight [20]"
 		],
-		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 			/* {
 		"name": "Energy Cells",
@@ -211,6 +211,12 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
+	// Weapons
+
+				{
+		"name": "Hunting Rifle",
+		"resourceType": "Strategic"
+	},
 			{
 		"name": "Clean Water",
 		"resourceType": "Strategic"

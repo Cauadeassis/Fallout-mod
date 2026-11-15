@@ -8,8 +8,14 @@
 		"techs": [
 			{
 				"name": "G.E.C.K.",
-				"row": 5,
+				"row": 4,
 				"quote": "Garden of Eden Creation Kit. The rebirth of the civilization!",
+				"uniques": ["Starting tech"]
+			},
+						{
+				"name": "Hazmat Suit",
+				"row": 6,
+				"quote": "The only way to move through the Wasteland.",
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -21,25 +27,18 @@
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
-						{
-				"name": "Navigation",
-				"row": 1,
-				"prerequisites": ["G.E.C.K."],
-                "uniques": ["Enables embarkation for land units"],
-				"quote": "Who commands the sea has command of everything."
-			},
 			{
                 "name": "Botany",
                 "row": 3,
-                "prerequisites": ["G.E.C.K."],
+                "prerequisites": ["G.E.C.K.", "Hazmat Suit"],
                 "quote": "Understanding what survives in the ash is the first step toward harvesting the future."
             },
-			{
-				"name": "Hazmat Suit",
-				"row": 5,
-				"prerequisites": ["G.E.C.K."],
-				"quote": "The only way to move through the Wasteland."
-			}
+									{
+				"name": "Scavenging",
+				"row": 7,
+				"prerequisites": ["G.E.C.K.", "Hazmat Suit"],
+				"quote": "One man's pre-war garbage is another man's power grid."
+			}	
 		]
 	},
 	{
@@ -48,57 +47,36 @@
 		"techCost": 55,
 		"buildingCost": 75,
 		"wonderCost": 185,
-		"techs": [						
-															{
+		"techs": [			
+									{
+				"name": "Navigation",
+				"row": 1,
+				"prerequisites": ["Botany"],
+                "uniques": ["Enables embarkation for land units"],
+				"quote": "Who commands the sea has command of everything."
+			},
+																					{
 				"name": "Refrigeration",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Botany"],
                 "uniques": [
 					"[10]% Food is carried over after population increases [in all cities]"
 			],
 				"quote": "Preserving the past is the only way to ensure we have a future."
-			},
+			},			
 						{
-				"name": "Herbalism",
+				"name": "Ecology",
 				"row": 4,
 				"prerequisites": ["Botany"],
 				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
 			},
 			{
 				"name": "Fertilizers",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Botany"],
 				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
 			},
-						{
-				"name": "Scavenging",
-				"row": 9,
-				"prerequisites": ["Hazmat Suit"],
-				"quote": "One man's pre-war garbage is another man's power grid."
-			}	
-		]
-	},
-		{
-		"columnNumber": 3,
-		"era": "Survival era",
-		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [		
-									{
-				"name": "Medicine",
-				"row": 4,
-				"prerequisites": ["Herbalism"],
-				"uniques": ["[+2 Science] from every [Cemetery]"],
-				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
-			},	
-									{
-				"name": "Chemistry",
-				"row": 6,
-				"prerequisites": ["Fertilizers"],
-				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
-			},
-									{
+												{
 				"name": "Metallurgy",
 				"row": 8,
 				"prerequisites": ["Scavenging"],
@@ -109,17 +87,30 @@
 				"row": 10,
 				"prerequisites": ["Scavenging"],
 				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
-			}		
+			}
 		]
 	},
 		{
-		"columnNumber": 4,
+		"columnNumber": 3,
 		"era": "Reconstruction era",
 		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
-		"techs": [
-			{
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [		
+									{
+				"name": "Medicine",
+				"row": 4,
+				"prerequisites": ["Ecology"],
+				"uniques": ["[+2 Science] from every [Cemetery]"],
+				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
+			},	
+									{
+				"name": "Chemistry",
+				"row": 5,
+				"prerequisites": ["Fertilizers"],
+				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
+			},		
+						{
 				"name": "Pipes and Wires",
 				"row": 9,
 				"prerequisites": ["Metallurgy", "Pipe Weapons"],
@@ -134,9 +125,9 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 4,
 		"era": "Reconstruction era",
-		"techCost": 150,
+		"techCost": 175,
 		"buildingCost": 140,
 		"wonderCost": 270,
 		"techs": [

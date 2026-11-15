@@ -12,6 +12,19 @@
 		"shortcutKey": "P"
 	},
 
+	// Cultivation
+
+		{
+		"name": "Cultivate Forest",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
+		"techRequired": "Ecology",
+		"turnsToBuild": 40,
+		"uniques": [
+			"Turn this tile into a [Forest] tile"
+		],
+		"shortcutKey": "P"
+	},
+
 	// Resource-specific
 		{
 		"name": "Scrapyard",
@@ -22,6 +35,18 @@
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
+	},
+		{
+		"name": "Lumber Mill",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"turnsToBuild": 6,
+		"production": 2,
+		"techRequired": "Ecology",
+		"gold": 1,
+		"uniques": [
+            "Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "P"
 	},
 		{
 			"name": "Collection site",
@@ -97,6 +122,7 @@
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
+		"techRequired": "Ecology",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
