@@ -3,31 +3,32 @@
         "name": "Children of Atom",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Faith] from every [Fallout]"
+            "[+1 Faith, +1 Culture] from every [Fallout]"
         ]
     },
     {
         "name": "Children of the Catedral",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from every [Public Hospitals]",
-            "[+2 Faith] from every [Herbal Clinic]"
+            "[+5 Faith, +2 Food] from every [Public Hospitals]",
+            "[+5 Faith, +2 Food] from every [Herbal Clinic]"
         ]
     },
         {
         "name": "Treeminders",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Faith] from every [Forest]",
-            "[+2 Faith] from every [Jungle]",
-            "[+2 Faith] from every [Marsh]"
+            "[+2 Faith, +1 Culture] from every [Forest]",
+            "[+2 Faith, +1 Culture] from every [Jungle]",
+            "[+2 Faith, +1 Culture] from every [Marsh]",
+            "Free [Cultivator] appears"
         ]
     },
     {
         "name": "River Godess",
         "type": "Pantheon",
         "uniques": [
-            "[+2 Happiness, +2 Culture] in cities on [River] tiles"
+            "[+2 Happiness, +2 Culture, +2 Faith] in cities on [River] tiles"
         ]
     },
 

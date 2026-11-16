@@ -43,6 +43,19 @@
 	},
 // STRATEGIC RESOURCES
 	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Pre-salt Exploration",
+		"terrainsCanBeFoundOn": ["Ocean"],
+		"production": 1,
+		"improvedBy": ["Offshore Platform"],
+		"improvementStats": {"production": 2, "gold": 2},
+		"uniques": [
+					"Generated with weight [10] <in [Ocean] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
 		"name": "Animal Remains",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
@@ -74,21 +87,6 @@
 		"name": "Fusion Core",
 		"resourceType": "Strategic",
 		"uniques": ["Stockpiled"]
-	},
-		{
-		"name": "Computers",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
-		"science": 2,
-		"culture": 2,
-		"improvedBy": ["Collection site"],
-		"improvementStats": { "science": 2, "culture": 1 },
-		"uniques": [
-			    "Generated with weight [10]",
-    "Minor deposits generated with weight [10]"
-		],
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 			{
 		"name": "Ammunition",
@@ -189,7 +187,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-	{
+	/* {
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
@@ -209,7 +207,7 @@
 		],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
+	}, */
 
 	// Weapons
 
@@ -217,16 +215,50 @@
 		"name": "Hunting Rifle",
 		"resourceType": "Strategic"
 	},
-			{
-		"name": "Clean Water",
-		"resourceType": "Strategic"
-	},
-			{
-		"name": "Energy",
+					{
+		"name": "Grenade Rifle",
 		"resourceType": "Strategic"
 	},
 
 	// Luxury resources
+
+			{
+		"name": "Computers",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Fallout", "Desert", "Grassland", "Plains"],
+		"science": 2,
+		"culture": 2,
+		"improvedBy": ["Collection site"],
+		"improvementStats": { "science": 2, "culture": 1 },
+		"uniques": [
+			    "Generated with weight [10]",
+    "Minor deposits generated with weight [10]"
+		],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+			{
+		"name": "Clean Water",
+		"resourceType": "Luxury"
+	},
+			{
+		"name": "Energy",
+		"resourceType": "Luxury"
+	},
+		{
+		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle", "Fallout"],
+		"gold": 2,
+		"improvement": "Scrapyard",
+		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
+	},
 	{
 		"name": "Whales",
 		"resourceType": "Luxury",

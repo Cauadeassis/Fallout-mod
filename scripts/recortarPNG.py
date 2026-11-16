@@ -17,5 +17,5 @@ def recortar_icone(caminho_entrada, caminho_saida):
 
 if __name__ == "__main__":
     arquivo_entrada = "a.png"
-    arquivo_saida = "fertilizante_ajustado.png"
+    arquivo_saida = "final_image.png"
     recortar_icone(arquivo_entrada, arquivo_saida)

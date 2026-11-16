@@ -96,7 +96,14 @@
 		"techCost": 105,
 		"buildingCost": 75,
 		"wonderCost": 185,
-		"techs": [		
+		"techs": [	
+												{
+				"name": "Pre-salt Exploration",
+				"row": 1,
+				"prerequisites": ["Navigation", "Refrigeration"],
+                "uniques": ["Enables embarkation for land units"],
+				"quote": "Who commands the sea has command of everything."
+			},	
 									{
 				"name": "Medicine",
 				"row": 4,

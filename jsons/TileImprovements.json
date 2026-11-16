@@ -2,7 +2,7 @@
 	{
 		"name": "Plantation",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill"],
-		"turnsToBuild": 6,
+		"turnsToBuild": 7,
 		"food": 1,
 		"uniques": [
 			"Can only be built to improve a resource <before discovering [Fertilizers]>",
@@ -21,32 +21,48 @@
 		"turnsToBuild": 40,
 		"uniques": [
 			"Turn this tile into a [Forest] tile"
-		],
-		"shortcutKey": "P"
+		]
+	},
+			{
+		"name": "Cultivate Jungle",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
+		"techRequired": "Ecology",
+		"turnsToBuild": 40,
+		"uniques": [
+			"Turn this tile into a [Jungle] tile"
+		]
 	},
 
 	// Resource-specific
+
+		{
+		"name": "Offshore Platform",
+		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"techRequired": "Pre-salt Exploration",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
+	},
 		{
 		"name": "Scrapyard",
 		"production": 1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 7,
 		"techRequired": "Scavenging",
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "M"
+		"shortcutKey": "S"
 	},
 		{
-		"name": "Lumber Mill",
+		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
-		"turnsToBuild": 6,
-		"production": 2,
-		"techRequired": "Ecology",
+		"turnsToBuild": 7,
+		"production": 1,
 		"gold": 1,
+		"techRequired": "Ecology",
 		"uniques": [
             "Pillaging this improvement yields approximately [+18 Gold]"
 		],
-		"shortcutKey": "P"
+		"shortcutKey": "L"
 	},
 		{
 			"name": "Collection site",
@@ -122,7 +138,7 @@
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"techRequired": "Ecology",
+		"techRequired": "Botany",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]

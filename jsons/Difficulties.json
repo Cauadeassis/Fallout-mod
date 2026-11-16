@@ -204,7 +204,7 @@
 		"aiFreeTechs": [
 		],
 		"aiMajorCivBonusStartingUnits": [
-			"Worker",
+			"Hazmat Worker",
 			"Era Starting Unit",
 			"Era Starting Unit"
 		],
@@ -239,7 +239,7 @@
 		],
 		"aiMajorCivBonusStartingUnits": [
 			"Standard G.E.C.K.",
-			"Worker",
+			"Hazmat Worker",
 			"Era Starting Unit",
 			"Era Starting Unit",
 			"Era Starting Unit"

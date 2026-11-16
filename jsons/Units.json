@@ -4,7 +4,7 @@
 
 	/* Basic units */
 		{
-		"name": "Worker",
+		"name": "Hazmat Worker",
 		"unitType": "Civilian",
 		"requiredTech": "Hazmat Suit",
 		"movement": 2,
@@ -50,17 +50,19 @@
 		{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
+		"cost": 30,
 		"movement": 4,
 		"requiredTech": "Navigation",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Navigation]>", "May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Pre-salt Exploration]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
 			{
 		"name": "Cultivator",
 		"unitType": "Civilian",
 		"movement": 2,
+		"cost": 70,
 		"requiredTech": "Ecology",
-		"uniques": ["Can build [Cultivate Forest] improvements on tiles",  "Can build [all] improvements at a [+200]% rate",
+		"uniques": ["Can build [Cultivate Forest] improvements on tiles", "Can build [Cultivate Jungle] improvements on tiles",  "Can build [all] improvements at a [+200]% rate",
             "Uncapturable", "Automation is a primary action"]
 	},
 			{
@@ -69,7 +71,7 @@
 		"movement": 5,
 		"cost": 30,
 		"requiredTech": "Navigation",
-		"uniques": ["[+1] Sight"]
+		"uniques": ["[+1] Sight", "Cannot enter ocean tiles <before discovering [Pre-salt Exploration]>"]
 	},
 		{
 		"name": "Nail Shooter",
@@ -102,7 +104,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
-		"cost": 60,
+		"cost": 80,
 		"requiredTech": "Pipe Weapons",
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
@@ -114,10 +116,10 @@
 		"name": "Gunslinger",
 		"unitType": "Archer",
 		"movement": 2,
-		"strength": 6,
+		"strength": 7,
 		"rangedStrength": 10,
 		"requiredTech": "Ballistic Weaponry",
-		"cost": 60,
+		"cost": 80,
 		"requiredResource": "Hunting Rifle",
 		"attackSound": "shot",
         "civilopediaText": [
@@ -125,14 +127,14 @@
 		]
 	},
 						{
-		"name": "Handcannon",
-		"unitType": "Siege",
+		"name": "Grenadier",
+		"unitType": "Archer",
 		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 10,
+		"strength": 7,
+		"rangedStrength": 8,
 		"requiredTech": "Ballistic Weaponry",
 		"cost": 80,
-		"requiredResource": "Hunting Rifle",
+		"requiredResource": "Grenade Rifle",
 		"attackSound": "shot",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>"]
 	},
@@ -140,10 +142,10 @@
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 10,
+		"strength": 7,
 		"rangedStrength": 8,
 		"requiredTech": "Metallurgy",
-		"cost": 80,
+		"cost": 100,
 		"requiredResource": "Iron",
 		"attackSound": "shot",
 		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
@@ -316,25 +318,11 @@
 		"requiredTech": "Pipe Weapons",
 		"movement": 2,
 		"strength": 12,
-		"cost": 50,
+		"cost": 80,
 		"uniques": ["Can build [Fort] improvements on tiles", "Can build [Road] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-								{
-		"name": "Ballista",
-		"unitType": "Siege",
-		"uniqueTo": "The Legion",
-		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 6,
-		"replaces": "Cannon",
-		"requiredTech": "Metallurgy",
-		"cost": 80,
-		"attackSound": "shot",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
-	},
-
 		{
 		"name": "Caesar",
 		"unitType": "Civilian",
@@ -363,7 +351,7 @@
 		"requiredTech": "Pipe Weapons",
 		"movement": 3,
 		"strength": 12,
-		"cost": 60,
+		"cost": 80,
 		"uniques": ["[+1] Sight"],
 		"attackSound": "metalhit"
 	},
@@ -391,7 +379,7 @@
 		"movement": 2,
 		"strength": 10,
 		"rangedStrength": 10,
-		"cost": 80,
+		"cost": 100,
 		"hurryCostModifier": 20,
 		"requiredResource": "Hunting Rifle",
 		"uniques": ["[+1] Range", "[+1] Sight"],

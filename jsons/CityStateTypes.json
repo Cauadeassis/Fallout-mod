@@ -29,13 +29,15 @@
         "name": "Farming",
         "friendBonusUniques": [
             "[+3 Food] [in capital] <before the [Reconstruction era]>",
-            "[+5 Food] [in capital] <starting from the [Reconstruction era]>"
+            "[+5 Food] [in capital] <starting from the [Reconstruction era]>",
+            "Provides [1] [Animal Remains]"
         ],
         "allyBonusUniques": [
             "[+4 Food] [in capital] <before the [Reconstruction era]>",
             "[+2 Food] [in all cities] <before the [Reconstruction era]>",
             "[+7 Food] [in capital] <starting from the [Reconstruction era]>",
-            "[+3 Food] [in all cities] <starting from the [Reconstruction era]>"
+            "[+3 Food] [in all cities] <starting from the [Reconstruction era]>",
+            "Provides [4] [Animal Remains]"
         ],
         "color": [56, 255, 112]
     },
@@ -48,21 +50,22 @@
         "allyBonusUniques": [
             "[+20 Gold] <before the [Reconstruction era]>",
             "[+40 Gold] <starting from the [Reconstruction era]>",
-            "Provides a unique luxury"
+            "Provides [1] [Gold Ore]"
         ],
         "color": [255, 216, 0]
     },
     {
         "name": "Industrial",
         "friendBonusUniques": [
-            "[+3 Production] [in capital] <before the [Reconstruction era]>",
-            "[+5 Production] [in capital] <starting from the [Reconstruction era]>"
+            "[+5 Production] [in capital] <before the [Reconstruction era]>",
+            "[+10 Production] [in capital] <starting from the [Reconstruction era]>"
         ],
         "allyBonusUniques": [
-            "[+3 Production] [in capital] <before the [Reconstruction era]>",
-            "[+2 Production] [in all cities] <before the [Reconstruction era]>",
-            "[+5 Production] [in capital] <starting from the [Reconstruction era]>",
-            "[+4 Production] [in all cities] <starting from the [Reconstruction era]>"
+            "[+8 Production] [in capital] <before the [Reconstruction era]>",
+            "[+3 Production] [in all cities] <before the [Reconstruction era]>",
+            "[+15 Production] [in capital] <starting from the [Reconstruction era]>",
+            "[+6 Production] [in all cities] <starting from the [Reconstruction era]>",
+            "Provides [1] [Energy]"
         ],
         "color": [220, 100, 15]
     },
@@ -70,11 +73,14 @@
         "name": "Military",
         "friendBonusUniques": [
             "Provides military units every ≈[20] turns",
-            "Provides [3] [Ammunition]"
+            "Provides [2] [Hunting Rifle]",
+            "Provides [2] [Grenade Rifle]"
         ],
         "allyBonusUniques": [
             "Provides military units every ≈[15] turns",
-            "Provides [5] [Ammunition]"
+            "Provides [1] [Ammunition]",
+            "Provides [4] [Hunting Rifle]",
+            "Provides [4] [Grenade Rifle]"
 
         ],
         "color": [255, 0, 0]
@@ -83,12 +89,14 @@
         "name": "Refuge",
         "friendBonusUniques": [
             "[+1 Happiness]",
-            "[+2 Food] [in capital]"
+            "[+2 Food] [in capital]",
+            "Provides [1] [Clean Water]"
         ],
         "allyBonusUniques": [
             "[+2 Happiness]",
             "[+4 Food] [in capital]",
-            "[+1 Food] [in all cities]"
+            "[+1 Food] [in all cities]",
+            "Provides [2] [Clean Water]"
         ],
         "color": [255, 255, 255]
     },
@@ -100,7 +108,8 @@
         ],
         "allyBonusUniques": [
             "[+8 Science] <before the [Reconstruction era]>",
-            "[+16 Science] <starting from the [Reconstruction era]>"
+            "[+16 Science] <starting from the [Reconstruction era]>",
+            "Provides [1] [Computers]"
         ],
         "color": [55, 55, 255]
     },
@@ -115,9 +124,9 @@
         "allyBonusUniques": [
             "[+4 Production]",
             "[+4 Gold]",
-            "Provides [5] [Iron]",
+            "Provides [4] [Iron]",
             "Provides [1] [Clean Water]",
-            "Provides [5] [Animal Remains]"
+            "Provides [4] [Animal Remains]"
         ],
         "color": [160, 110, 65]
     }

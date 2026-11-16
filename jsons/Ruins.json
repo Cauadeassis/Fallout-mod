@@ -9,9 +9,9 @@
     },
     {
         "name": "squatters willing to work for you",
-        "notification": "A [Worker] has joined us!",
+        "notification": "A [Hazmat Worker] has joined us!",
         "uniques": [
-            "Free [Worker] found in the ruins"
+            "Free [Hazmat Worker] found in the ruins"
         ],
         "excludedDifficulties": [
             "Prince",

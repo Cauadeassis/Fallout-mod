@@ -173,6 +173,19 @@
         "[+1 Production, +1 Gold] from [Ammunition] tiles [in this city]"
     ]
 },
+		{
+    "name": "Grenades Factory",
+    "maintenance": 2,
+    "requiredTech": "Ballistic Weaponry",
+	"requiredBuilding": "Foundry",
+	"requiredResource": "Ammunition",
+	"production": 2,
+	"greatPersonPoints": {"Great Engineer": 1},
+    "uniques": [
+		"Provides [5] [Grenade Rifle]",
+        "[+1 Production, +1 Gold] from [Ammunition] tiles [in this city]"
+    ]
+},
 
 	{
 		"name": "Hydro Plant",
@@ -297,6 +310,7 @@
     "name": "National Currency",
     "cost": 1,
 	"isNationalWonder": true,
+	"requiredResource": "Gold Ore",
 	"happiness": 4,
     "uniques": [
 		"Only available <after adopting [Trading]>",
@@ -390,7 +404,7 @@
     "cost": 1,
     "uniques": [
 		"[-1] population [in this city]",
-		"Free [Worker] appears",
+		"Free [Hazmat Worker] appears",
 		"Unsellable",
 		"Only available <after adopting [Slavery]>"
     ]
@@ -490,7 +504,7 @@
 	"replaces": "Slavery",
     "uniques": [
 		"[-1] population [in this city]",
-		"Free [Worker] appears",
+		"Free [Hazmat Worker] appears",
 		"Free [Legion] appears",
 		"[+10]% [Production] [in this city]",
 		"[+10]% [Gold] [in this city]",
@@ -533,5 +547,25 @@
 			"[+10]% [Science] [in this city] <when above [0] [Energy]>",
 		"New [Military] units start with [15] XP [in this city] <when above [0] [Energy]>",
 "[+1 Happiness] [in this city] <when above [0] [Energy]>"]
-	}
+	},
+
+	// NCR
+
+	{
+    "name": "Dollar",
+    "cost": 1,
+	"isNationalWonder": true,
+	"uniqueTo": "New California Republic",
+	"replaces": "National Currency",
+	"happiness": 4,
+	"culture": 4,
+    "uniques": [
+		"Only available <after adopting [Trading]>",
+        "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
+		"[+10]% [Gold] from every [Grocery Store]",
+		"[+10]% [Gold] from every [Taxes]",
+		"[+3 Production, +5 Gold] from each Trade Route",
+		"Cost increases by [30] per owned city"
+    ]
+},
 ]
