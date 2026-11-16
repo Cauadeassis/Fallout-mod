@@ -71,12 +71,6 @@
         },
         "uniques": ["Unlocks Taxes"],
         "policies": [
-                        {
-                "name": "Trading",
-                "uniques": ["Unlocks Roads", "Unlocks Grocery Store", "Unlocks Currency"],
-                "row": 1,
-                "column": 1
-            },
             {
                 "name": "Schools",
                 "uniques": ["Unlocks Public Schools"],

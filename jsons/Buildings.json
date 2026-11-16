@@ -297,23 +297,25 @@
 	"happiness": 2,
 	"culture": 2,
 	"food": 2,
+	"requiredTech": "Roads",
 	"percentStatBonus": {"gold": 10},
 	"greatPersonPoints": {"Great Merchant": 1},
     "cost": 60,
     "uniques": [
 		"[+1 Gold] from [Refrigerator] tiles [in this city]",
-		"Only available <after adopting [Trading]>"
+		"[+1 Gold] from [Collection site] tiles [in this city]"
     ]
 },
 
 {
-    "name": "National Currency",
+    "name": "Currency",
     "cost": 1,
 	"isNationalWonder": true,
 	"requiredResource": "Gold Ore",
+	"requiredTech": "Metallurgy",
 	"happiness": 4,
     "uniques": [
-		"Only available <after adopting [Trading]>",
+		"Can only be built <in [Capital] cities>",
         "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
 		"[+10]% [Gold] from every [Grocery Store]",
 		"[+10]% [Gold] from every [Taxes]",
@@ -341,9 +343,7 @@
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
 		"uniques": ["Only available <after adopting [Schools]>",
 		"[+1 Science, +1 Culture] per [2] population [in this city]",
-	"[+10]% [Science] [in this city] <when above [0] [Energy]>",
-"[+10]% [Culture] [in this city] <when above [0] [Energy]>",
-"[+1 Happiness] [in this city] <when above [0] [Energy]>"]
+	"[+1 Science, +1 Culture] per [4] population [in this city] <when above [0] [Energy]>"]
 	},
 
 	{
@@ -361,6 +361,7 @@
     "cost": 1,
 	"isNationalWonder": true,
     "uniques": [
+		"Can only be built <in [Capital] cities>",
 		"Only available <after adopting [State Complete]>",
 		"[+1 Happiness, +1 Culture] per [4] population [in all cities]"
     ]
@@ -494,8 +495,7 @@
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 		"All newly-trained [Military] units [in this city] receive the [Efficiency] promotion",
-		"[+25]% Production when constructing [Military] units [in this city] <when above [0] [Energy]>",
-"[+1 Happiness] [in this city] <when above [0] [Energy]>"]
+		"[+25]% Production when constructing [Military] units [in this city] <when above [0] [Energy]>"]
 	},
 		{
     "name": "Caesar's Slavery",
@@ -544,9 +544,8 @@
 			"Only available <after adopting [Schools]>",
 			"[+1 Science] per [2] population [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
-			"[+10]% [Science] [in this city] <when above [0] [Energy]>",
-		"New [Military] units start with [15] XP [in this city] <when above [0] [Energy]>",
-"[+1 Happiness] [in this city] <when above [0] [Energy]>"]
+			"[+1 Science] per [4] population [in this city] <when above [0] [Energy]>",
+		"New [Military] units start with [15] XP [in this city] <when above [0] [Energy]>"]
 	},
 
 	// NCR
@@ -556,16 +555,17 @@
     "cost": 1,
 	"isNationalWonder": true,
 	"uniqueTo": "New California Republic",
-	"replaces": "National Currency",
+	"replaces": "Currency",
+	"requiredTech": "Metallurgy",
 	"happiness": 4,
 	"culture": 4,
     "uniques": [
-		"Only available <after adopting [Trading]>",
+		"Can only be built <in [Capital] cities>",
         "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
 		"[+10]% [Gold] from every [Grocery Store]",
 		"[+10]% [Gold] from every [Taxes]",
 		"[+3 Production, +5 Gold] from each Trade Route",
 		"Cost increases by [30] per owned city"
     ]
-},
+}
 ]

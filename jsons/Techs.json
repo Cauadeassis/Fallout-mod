@@ -76,6 +76,12 @@
 				"prerequisites": ["Botany"],
 				"quote": "Out here, nothing goes to waste. Not even what remains of the dead."
 			},
+															{
+				"name": "Roads",
+				"row": 7,
+				"prerequisites": ["Scavenging"],
+				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
+			},	
 												{
 				"name": "Metallurgy",
 				"row": 8,
@@ -84,7 +90,7 @@
 			},	
 						{
 				"name": "Pipe Weapons",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Scavenging"],
 				"quote": "It's loud, ugly, and jams half the time. But it beats throwing rocks at a Super Mutant."
 			}
