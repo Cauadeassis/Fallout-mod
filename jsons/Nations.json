@@ -106,7 +106,7 @@
     ]
 },
 {
-    "name": "The Legion",
+    "name": "Legion",
     "leaderName": "Caesar",
     "uniqueName": "Cult of Mars",
     "adjective": [
@@ -120,7 +120,7 @@
     "attacked": "Foolish profligate! You have brought the wrath of Caesar upon your own heads.",
     "defeated": "The Son of Mars falls... but the Legion is an idea born of blood, and it will never die.",
     "introduction": "I am Caesar, leader of the Legion. Under my command, the tribes of the wasteland are forged into an unbreakable empire.",
-    "neutralHello": "Speak quickly, profligate. The Legion values strength and action, not empty words.",
+    "neutralHello": "Speak quickly, profligate. Legion values strength and action, not empty words.",
     "hateHello": "Your weak civilization is an affront to history. Degenerates like you belong on a cross.",
     "tradeRequest": "If a tribute or trade serves the expansion of the Legion, we shall hear your terms.",
 		"outerColor": [70, 0, 118],

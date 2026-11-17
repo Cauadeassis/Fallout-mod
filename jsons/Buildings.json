@@ -476,14 +476,14 @@
 
 	// UNIQUE BUILDINGS
 
-	// The Legion
+	// Legion
 
 	{
 		"name": "Military Schools",
 		"replaces": "Public Schools",
 		"hurryCostModifier": 25,
 		"cost": 100,
-		"uniqueTo": "The Legion",
+		"uniqueTo": "Legion",
 		"happiness": -1,
 		"culture": -1,
 		"faith": 2,
@@ -500,7 +500,7 @@
 		{
     "name": "Caesar's Slavery",
     "cost": 1,
-	"uniqueTo":"The Legion",
+	"uniqueTo":"Legion",
 	"replaces": "Slavery",
     "uniques": [
 		"[-1] population [in this city]",

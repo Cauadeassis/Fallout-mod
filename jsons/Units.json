@@ -313,7 +313,7 @@
 			{
 		"name": "Legion",
 		"unitType": "Sword",
-		"uniqueTo": "The Legion",
+		"uniqueTo": "Legion",
 		"replaces": "Sledgehammer",
 		"requiredTech": "Pipe Weapons",
 		"movement": 2,
@@ -326,7 +326,7 @@
 		{
 		"name": "Caesar",
 		"unitType": "Civilian",
-		"uniqueTo":"The Legion",
+		"uniqueTo":"Legion",
 		"replaces": "Great General",
 		"uniques": [
 			"Can Spread Religion <for [2] movement> <[2] times>",

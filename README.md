@@ -1,46 +1,47 @@
-![Civilization 6 Mod for Unciv banner](.github/assets/readme-banner.jpg)
+# Fallout Mod for Unciv
 
-# Civilization 6 Mod for Unciv
+A work-in-progress Unciv mod that aims to recreate the world, factions, technologies, resources, and post-apocalyptic atmosphere of the Fallout universe within Unciv.
 
-A work-in-progress Unciv base ruleset that aims to recreate Civilization VI mechanics, content, and pacing inside Unciv.
+The mod focuses on the reconstruction of civilization after the Great War, combining survival, technological development, military expansion, and the struggle for control of the Wasteland.
 
-Original README attribution: Red11 (3.12.11). Current repository metadata lists EmperorPinguin as maintainer.
+**## Status**
 
-This ruleset does not include a tileset. Recommended companion tileset: [UnTile-Civ6-Tileset](https://github.com/Malwen/UnTile-Civ6-Tileset) ("UnTile for Unciv").
+This mod is actively in development and should be considered incomplete. Content, mechanics, and balance are subject to change as development progresses.
 
-## Status
+Current development areas include:
 
-This mod is actively evolving and should be treated as incomplete. Expect ongoing gaps, balance differences, and mechanics that need Unciv-specific approximations.
+- **Nations** — Currently 3: Brotherhood of Steel, New California Republic and Caesar's Legion.
+- **Technologies** — Post-apocalyptic tech tree, with Survival era and Reconstruction era.
+- **Policies** — Survivalism, State and Pragmatism, focused on the reorganization of the society.
+- **Wonders** — HELIOS One and Hoover Dam are the current Wonders. and other Fallout themed buildings.
+- **Buildings** — Water Purifier and Greenhouses are examples of food buildings. Some simbolic improvements, like "Parlament" and "Currency", are National Wonders, but without production cost.
+- **Units** — Pipe Weapons and Ballistic Weaponry (techs) unlocks most of the military units. In addition, there are Power Armors and unique units, like Ranger and Legion.
+- **Resources** — Ammunition, Clean Water, Animal Remains and other essential post-apocalyptic resources. A Power Armor requires a Fusion Core, which cannot be found in nature. Many advanced buildings require Energy, which also cannot be found in nature and must be earned through Hydro Plants, Solar Plants etc.
+- **Terrains** — Deserts predominate. Forests, jungles, and swamps are rare, but can be cultivated by specific units. Fallout is everywhere, and the civilizations must remove it if they want to grow.
+- **Religions and city-states** — Children of Atom, Treeminders and other Fallout religions.
 
-Current focus areas include:
+**## Installation**
 
-- Civ VI-style civics, policies, governments, and policy cards
-- Districts, buildings, wonders, improvements, resources, and terrain
-- Civilization and leader data
-- Unit lines, promotions, and icon coverage
-- Validation around ruleset data that is easy to regress
+The mod is intended to be distributed as a traditional Unciv mod.
 
-## Support And Issue Notes
+1. Open Unciv.
+2. Navigate to the Mod Manager.
+3. Select **Download mod from URL**.
+4. Enter the repository URL:
 
-- [FAQ](docs/FAQ.md) - common player, translator, and contributor questions.
-- [Issue triage notes](docs/IssueTriage.md) - maintainer-facing notes for open issue cleanup.
+   `https://github.com/Cauadeassis/Fallout-mod`
 
-## Contributor Docs
+5. Download and enable the mod.
 
-The contributor knowledge base lives in [`docs/`](docs/README.md). Start here when changing ruleset data, validation, or project docs:
+**## Development**
 
-- [Repository layout](docs/repository-layout.md)
-- [Contributing](docs/contributing.md)
-- [Validation](docs/validation.md)
-- [Policy card obsolescence](docs/policy-card-obsolescence.md)
-- [AI contributor guidance](docs/ai-contributors.md)
+The project is under active development. Its ruleset, content, and balance may change between versions. 
+Feedback, bug reports, and suggestions are welcome.
 
-AI-assisted contributors should also read [`AGENTS.md`](AGENTS.md), which points to the same docs from an AI-tool-friendly entry point.
+**## Credits**
 
-## Credits
+Fallout is a franchise owned by Bethesda Softworks. This is an unofficial fan-made project and is not affiliated with or endorsed by Bethesda Softworks.
 
-Original mod by Red11, with art by Red11, LynxRo, GeneralWadaling, Caballero Arepa, and credited Noun Project artists.
-
-The README banner is a generated original asset for this repository.
-
-See `Credits.txt` for the full attribution list.
+Unciv is an open-source strategy game. This project is developed as a community-made ruleset for Unciv.
+This mod is inspired by "Civ6 Mod" and "Deciv Redux".
+Additional credits and asset attributions will be listed as the project develops.
