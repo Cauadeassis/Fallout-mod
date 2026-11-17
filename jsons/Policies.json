@@ -10,45 +10,54 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+2 Food] [in all cities]"
+            "[+2 Food, +2 Culture] [in all cities]"
         ],
         "policies": [
-            {
-                "name": "Rationalize",
-                "uniques": [
-                    "[10]% Food is carried over after population increases [in all cities]",
-                    "[+1 Food] from every [Food Storage]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
+                        {
                 "name": "Search for Survivors",
                 "uniques": [
                     "Unlocks Search for Survivors",
                     "Free [Survivor] appears"
                 ],
                 "row": 1,
-                "column": 3
+                "column": 1
             },
-            {
+                        {
                 "name": "Community Sense",
                 "uniques": [
-                    "Can build [all] improvements at a [+25]% rate",
-                    "Free [Hazmat Worker] appears"
+                    "Provides the cheapest [Food] building in your first [4] cities for free"
                 ],
-                "row": 2,
+                "row": 1,
                 "column": 3
             },
-            {
+                        {
                 "name": "Farmocracy",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Rationalize"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Rationalize",
+                "uniques": [
+                    "[10]% Food is carried over after population increases [in all cities]",
+                    "[+1 Food] from every [Food Storage]"
+                ],
+                "requires": ["Community Sense"],
                 "row": 2,
-                "column": 1
+                "column": 2
+            },
+            {
+                "name": "Volunteers",
+                "uniques": [
+                    "Can build [all] improvements at a [+25]% rate",
+                    "Free [Hazmat Worker] appears"
+                ],
+                "requires": ["Community Sense"],
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Survivalism Complete",
@@ -69,23 +78,46 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["Unlocks Taxes"],
+        "uniques": ["Unlocks Currency", "Unlocks Taxes"],
         "policies": [
-            {
-                "name": "Schools",
-                "uniques": ["Unlocks Public Schools"],
+                        {
+                "name": "Bureaucracy",
+                "uniques": ["[-1 Happiness]", "[-25]% maintenance on road & railroads", "[-25]% maintenance costs <for [Military] units>"],
                 "row": 1,
-                "column": 3
+                "column": 2
+            },
+                                    {
+                "name": "Public Investment",
+                "uniques": [],
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Conscription",
+                "requires": ["Bureaucracy"],
                 "uniques": ["Unlocks Conscription", "Unlocks Barracks"],
+                "row": 2,
+                "column": 1
+            },
+            
+                                                {
+                "name": "Education",
+                "requires": ["Bureaucracy", "Public Investment"],
+                "uniques": ["Unlocks Schools"],
                 "row": 2,
                 "column": 2
             },
-                        {
-                "name": "Bans",
-                "uniques": ["Unlocks Preservatives Ban", "Unlocks Toxic Fertilizers Ban"],
+            {
+                "name": "Health",
+                "requires": ["Bureaucracy", "Public Investment"],
+                "uniques": ["Unlocks Hospitals"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Infrastructure",
+                "requires": ["Public Investment"],
+                "uniques": ["Can build [Road] improvements at a [+50]% rate", "Roads connect tiles across rivers", "Improves movement speed on roads"],
                 "row": 2,
                 "column": 4
             },
@@ -123,13 +155,6 @@
                 "column": 4
             },
             {
-                "name": "Human Traffic",
-				"uniques": [                    "[-4 Happiness]",
-                    "Unlocks Human Traffic"],
-                "row": 2,
-                "column": 1
-            },
-            {
                 "name": "Human Tests",
                 "uniques": [
                     "[-4 Happiness]",
@@ -141,8 +166,7 @@
             {
                 "name": "Pragmatism Complete",
                 "uniques": [
-                    "[+35]% [Production] [in all cities]",
-                    "[+10]% growth [in all cities]", "[10]% Food is carried over after population increases [in all cities]"
+                    "[+10]% [Production] [in all cities]"
                 ]
             }
         ]

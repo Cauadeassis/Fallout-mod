@@ -85,6 +85,36 @@
 		"All newly-trained [Land] units [in this city] receive the [Herbalism] promotion"]
 	},
 		{
+    "name": "Grocery Store",
+	"happiness": 2,
+	"culture": 2,
+	"food": 2,
+	"requiredTech": "Roads",
+	"percentStatBonus": {"gold": 10},
+	"greatPersonPoints": {"Great Merchant": 1},
+    "cost": 60,
+    "uniques": [
+		"[+1 Gold] from [Refrigerator] tiles [in this city]",
+		"[+1 Gold] from [Collection site] tiles [in this city]"
+    ]
+},
+
+{
+    "name": "Currency",
+    "cost": 1,
+	"isNationalWonder": true,
+	"requiredResource": "Gold Ore",
+	"requiredTech": "Metallurgy",
+	"happiness": 4,
+    "uniques": [
+		"Only available <after adopting [State]>",
+		"Can only be built <in [Capital] cities>",
+        "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
+		"[+50]% [Gold] from Trade Routes",
+		"Cost increases by [30] per owned city"
+    ]
+},
+		{
 		"name": "Public Hospitals",
 		"percentStatBonus": {"food": 10, "science": 10},
 		"requiredBuilding": "Herbal Clinic",
@@ -93,6 +123,7 @@
 		"greatPersonPoints": {"Great Scientist": 1, "Prime G.E.C.K.": 1},
 		"maintenance": 2,
 		"uniques": [
+			"Only available <after adopting [Health]>",
 			"All newly-trained [Land] units [in this city] receive the [Stimpak] promotion"]
 	},
 	{
@@ -292,38 +323,6 @@
 
 // State
 
-	{
-    "name": "Grocery Store",
-	"happiness": 2,
-	"culture": 2,
-	"food": 2,
-	"requiredTech": "Roads",
-	"percentStatBonus": {"gold": 10},
-	"greatPersonPoints": {"Great Merchant": 1},
-    "cost": 60,
-    "uniques": [
-		"[+1 Gold] from [Refrigerator] tiles [in this city]",
-		"[+1 Gold] from [Collection site] tiles [in this city]"
-    ]
-},
-
-{
-    "name": "Currency",
-    "cost": 1,
-	"isNationalWonder": true,
-	"requiredResource": "Gold Ore",
-	"requiredTech": "Metallurgy",
-	"happiness": 4,
-    "uniques": [
-		"Can only be built <in [Capital] cities>",
-        "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
-		"[+10]% [Gold] from every [Grocery Store]",
-		"[+10]% [Gold] from every [Taxes]",
-		"[+3 Production, +5 Gold] from each Trade Route",
-		"Cost increases by [30] per owned city"
-    ]
-},
-
 {
     "name": "Barracks",
     "cost": 50,
@@ -341,7 +340,7 @@
 		"maintenance": 2,
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 1, "Great Artist": 1},
-		"uniques": ["Only available <after adopting [Schools]>",
+		"uniques": ["Only available <after adopting [Education]>",
 		"[+1 Science, +1 Culture] per [2] population [in this city]",
 	"[+1 Science, +1 Culture] per [4] population [in this city] <when above [0] [Energy]>"]
 	},
@@ -351,9 +350,11 @@
     "cost": 1,
 	"isNationalWonder": true,
     "uniques": [
+		"Can only be built <in [Capital] cities>",
+		"[+1 Gold] per [1] population [in all cities]",
 		"[-1 Happiness] per [4] population [in all cities]",
-		"[+35]% [Gold] [in all cities]",
-		"Only available <after adopting [State]>"
+		"Only available <after adopting [State]>",
+		"Cost increases by [30] per owned city"
     ]
 },
 {
@@ -363,7 +364,8 @@
     "uniques": [
 		"Can only be built <in [Capital] cities>",
 		"Only available <after adopting [State Complete]>",
-		"[+1 Happiness, +1 Culture] per [4] population [in all cities]"
+		"[+1 Happiness, +1 Culture] per [4] population [in all cities]",
+		"Cost increases by [30] per owned city"
     ]
 },
 	{
@@ -377,27 +379,7 @@
 		"[+50]% Production when constructing [Military] units [in all cities]"
     ]
 },
-	{
-    "name": "Ban Preservatives",
-    "cost": 1,
-	"happiness": -4,
-	"percentStatBonus": {"food": 10},
-	"isNationalWonder": true,
-    "uniques": [
-		"Only available <after adopting [Bans]>"
-    ]
-},
-	{
-    "name": "Ban Toxic Fertilizers",
-    "cost": 1,
-	"happiness": 2,
-	"gold": -10,
-	"percentStatBonus": {"food": 10},
-	"isNationalWonder": true,
-    "uniques": [
-		"Only available <after adopting [Bans]>"
-    ]
-},
+
 
 // Pragmatism 
 {
@@ -410,15 +392,7 @@
 		"Only available <after adopting [Slavery]>"
     ]
 },
-	{
-    "name": "Plantation",
-    "cost": 1,
-	"requiredBuilding": "Slavery",
-    "uniques": [
-		"[-1 Food, +3 Gold, +1 Production] from [Plantation] tiles [in this city]",
-		"Only available <after adopting [Slavery]>"
-    ]
-},
+
 	{
     "name": "Human Tests",
     "cost": 1,
@@ -426,15 +400,6 @@
 		"[-2] population [in this city]",
 		"Free [Great Scientist] appears",
 		"Only available <after adopting [Human Tests]>"
-    ]
-},
-	{
-    "name": "Human Traffic",
-    "cost": 1,
-    "uniques": [
-		"[-2] population [in this city]",
-		"Free [Great Merchant] appears",
-		"Only available <after adopting [Human Traffic]>"
     ]
 },
 
@@ -491,7 +456,7 @@
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great General": 2},
 		"uniques": [
-			"Only available <after adopting [Schools]>",
+			"Only available <after adopting [Education]>",
 			"[+25]% Production when constructing [Military] units [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 		"All newly-trained [Military] units [in this city] receive the [Efficiency] promotion",
@@ -541,7 +506,7 @@
 		"requiredResource": "Clean Water",
 		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
-			"Only available <after adopting [Schools]>",
+			"Only available <after adopting [Education]>",
 			"[+1 Science] per [2] population [in this city]",
 			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Science] per [4] population [in this city] <when above [0] [Energy]>",
@@ -560,11 +525,10 @@
 	"happiness": 4,
 	"culture": 4,
     "uniques": [
+		"Only available <after adopting [State]>",
 		"Can only be built <in [Capital] cities>",
         "Only available <if [Foundry] is constructed in all [non-[Puppeted]] cities>", 
-		"[+10]% [Gold] from every [Grocery Store]",
-		"[+10]% [Gold] from every [Taxes]",
-		"[+3 Production, +5 Gold] from each Trade Route",
+		"[+50]% [Gold] from Trade Routes",
 		"Cost increases by [30] per owned city"
     ]
 }
