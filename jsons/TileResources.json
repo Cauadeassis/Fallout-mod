@@ -141,7 +141,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-	{
+	/*{
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
@@ -162,7 +162,7 @@
 		],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	}, 
+	},
 	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
@@ -187,7 +187,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-	/* {
+	{
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": [
@@ -317,6 +317,9 @@
     "Generated with weight [10]"
 		]
 	},
+
+	// DRINKS
+	
 		{
 		"name": "Wine",
 		"resourceType": "Luxury",
