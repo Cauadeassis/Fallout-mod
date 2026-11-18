@@ -38,7 +38,9 @@
         114
     ],
 	"uniques": [
-			"[+15]% [Science] [in all cities] <when at war>",
+            "[Great Scientist] is earned [50]% faster <when at war>",
+            "[-50]% Production when constructing [Military] units [in all cities]",
+            "[+50]% Production when constructing [Power Armor] units [in all cities]",
 			"[+100]% XP gained from combat <for [Military] units>",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 			"[+2 Science, +2 Culture, +2 Faith] from every [Barracks]"
@@ -143,6 +145,43 @@
         "Cottonwood Cove",
         "Camp Searchlight",
         "Callville Bay"
+    ]
+},
+{
+    "name": "Ghouls",
+    "leaderName": "Set",
+    "adjective": [
+        "Ghoul"
+    ],
+    "startBias": [
+        "Hill"
+    ],
+    "preferredVictoryType": "Domination",
+    "declaringWar": "You deserve our hate!",
+    "attacked": "You bastard!",
+    "defeated": "So are we... are we finally dead?",
+    "introduction": "We are the survivors of Vault 12. Who are you?",
+    "neutralHello": "Hey, fella!",
+    "hateHello": "You deserve hell.",
+    "tradeRequest": "We should make commerce.",
+		"outerColor": [70, 0, 118],
+		"innerColor": [240, 199, 0],
+    "uniques": [
+            "All newly-trained [Land] units [in all cities] receive the [Ghoul] promotion",
+            "[+1 Food] from [Fallout] tiles [in all cities]",
+            "[-25]% growth [in all cities]",
+            "Free [The Ghoul] appears <upon discovering [Ballistic Weaponry] technology>"
+        ],
+    "cities": [
+        "Necropolis",
+        "Gecko",
+        "Underworld",
+        "The Slog",
+        "Radiant Hills",
+        "Gravestone",
+        "Warrington",
+        "Broken Hills",
+        "Good Neighbor"
     ]
 },
 

@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Scout", "Siege", "Power Armor", "Military Ship"],
+		"unitTypes": ["Scrapper", "Ballistic", "Scout", "Siege", "Power Armor", "Military Ship"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -14,7 +14,7 @@
 		{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege"],
         "column": 4,
         "row": 1
 	},
@@ -22,7 +22,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege"],
         "column": 4,
         "row": 2
 	},
@@ -30,7 +30,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege"],
         "column": 4,
         "row": 3
 	},
@@ -38,7 +38,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", ],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege"],
         "column": 5,
         "row": 1
 	},
@@ -46,7 +46,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege"],
         "column": 5,
         "row": 2
 	},
@@ -54,7 +54,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege"],
         "column": 5,
         "row": 3
 	},
@@ -63,7 +63,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Ranged Scrapper", "Melee Scrapper", "Gunpowder", "Power Armor", "Siege", "Military Ship", "Aircraft"],
+		"unitTypes": ["Scrapper", "Ballistic", "Power Armor", "Siege", "Military Ship", "Aircraft"],
         "column": 6,
         "row": 4
 	},
@@ -84,7 +84,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Gunpowder", "Ranged Scrapper", "Siege", "Military Ship", "Aircraft"],
+		"unitTypes": ["Ballistic", "Scrapper", "Siege", "Military Ship", "Aircraft"],
         "column": 3,
         "row": 3
 	},
@@ -92,7 +92,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Shock III", "Drill III", "Bombardment II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Ranged Scrapper", "Gunpowder", "Siege", "Military Ship"],
+		"unitTypes": ["Scrapper", "Ballistic", "Siege", "Military Ship"],
         "column": 3,
         "row": 4
 	},
@@ -103,7 +103,7 @@
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Melee Scrapper", "Gunpowder"],
+		"unitTypes": ["Scrapper", "Ballistic"],
         "column": 6,
         "row": 5
 	},
@@ -111,7 +111,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee Scrapper", "Gunpowder"],
+		"unitTypes": ["Scrapper", "Ballistic"],
         "column": 6,
         "row": 1
 	},
@@ -152,14 +152,6 @@
 	// Mixed
 
 	{
-		"name": "March",
-		"prerequisites": ["Shock II","Drill II","Bombardment I"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Ranged Scrapper", "Melee Scrapper", "Gunpowder", "Siege"],
-        "column": 10,
-        "row": 3
-	},
-	{
 		"name": "Mobility",
 		"prerequisites": ["Shock II","Drill II", "Sentry"],
 		"uniques": ["[+1] Movement"],
@@ -171,7 +163,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Shock I","Drill I","Shock II","Drill II","Bombardment I","Boarding Party I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Ranged Scrapper", "Melee Scrapper", "Gunpowder", "Military Ship", "Power Armor", "Scout"],
+		"unitTypes": ["Scrapper", "Ballistic", "Military Ship", "Power Armor", "Scout"],
         "column": 24,
         "row": 4
 	},
@@ -179,7 +171,7 @@
 	{
 		"name": "Ambush I",
 		"uniques": ["[+33]% Strength <vs [Power Armor] units>"],
-		"unitTypes": ["Melee Scrapper", "Gunpowder"],
+		"unitTypes": ["Scrapper", "Ballistic"],
         "column": 25,
         "row": 1
 	},
@@ -187,7 +179,7 @@
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
 		"uniques": ["[+33]% Strength <vs [Power Armor] units>"],
-		"unitTypes": ["Melee Scrapper", "Gunpowder"],
+		"unitTypes": ["Scrapper", "Ballistic"],
         "column": 25,
         "row": 2
 	},
@@ -267,6 +259,10 @@
 		"name": "Psycho",
 		"prerequisites": ["Jet", "Mentats"],
 		"uniques": ["[1] additional attacks per turn"]
+	},
+								{
+		"name": "Ghoul",
+		"uniques": ["Unit will heal every turn, even if it performs an action", "[+25] HP when healing", "[-25]% Strength"]
 	},
 
     {

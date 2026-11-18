@@ -33,7 +33,7 @@
 	},
 	{
 		"name": "Survivor",
-		"unitType": "Melee Scrapper",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 8,
 		"upgradesTo": "Sledgehammer",
@@ -72,7 +72,7 @@
 	},
 		{
 		"name": "Nail Shooter",
-		"unitType": "Ranged Scrapper",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 6,
@@ -98,7 +98,7 @@
 	},
 		{
 		"name": "Sledgehammer",
-		"unitType": "Melee Scrapper",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 12,
 		"cost": 80,
@@ -111,7 +111,7 @@
 
 {
 		"name": "Gunslinger",
-		"unitType": "Gunpowder",
+		"unitType": "Ballistic",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 10,
@@ -125,7 +125,7 @@
 	},
 						{
 		"name": "Grenadier",
-		"unitType": "Gunpowder",
+		"unitType": "Ballistic",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
@@ -148,7 +148,7 @@
 	},
 								{
 		"name": "Archimedes",
-		"unitType": "Gunpowder",
+		"unitType": "Ballistic",
 		"movement": 1,
 		"strength": 1,
 		"rangedStrength": 100,
@@ -308,7 +308,7 @@
 
 			{
 		"name": "Legion",
-		"unitType": "Melee Scrapper",
+		"unitType": "Scrapper",
 		"uniqueTo": "Legion",
 		"replaces": "Sledgehammer",
 		"requiredTech": "Pipe Weapons",
@@ -341,7 +341,7 @@
 
 			{
 		"name": "Paladin",
-		"unitType": "Melee Scrapper",
+		"unitType": "Scrapper",
 		"uniqueTo": "Brotherhood of Steel",
 		"replaces": "Sledgehammer",
 		"requiredTech": "Pipe Weapons",
@@ -368,7 +368,7 @@
 
 				{
 		"name": "Ranger",
-		"unitType": "Gunpowder",
+		"unitType": "Ballistic",
 		"uniqueTo": "New California Republic",
 		"replaces": "Gunslinger",
 		"requiredTech": "Ballistic Weaponry",
@@ -384,11 +384,27 @@
 
 					/* {
 		"name": "NCR Power Armor",
-		"unitType": "Gunpowder",
+		"unitType": "Ballistic",
 		"movement": 1,
 		"strength": 35,
 		"cost": 200,
 		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[+200]% maintenance costs"],
 		"attackSound": "tankshot"
 	}, */
+
+	// Ghouls
+
+	{
+		"name": "The Ghoul",
+		"unitType": "Ballistic",
+		"uniqueTo": "Ghouls",
+		"requiredTech": "Ballistic Weaponry",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"hurryCostModifier": 20,
+		"uniques": ["[+200] HP when healing", "[-200]% Strength <vs cities>", "[+100]% Strength <vs [Power Armor] units>", "Unbuildable"],
+		"promotions": ["Sentry", "Extended Range", "Blitz"],
+		"attackSound": "shot"
+	}
 ]

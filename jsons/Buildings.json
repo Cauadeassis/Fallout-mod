@@ -246,20 +246,7 @@
 		"name": "Energy For All Cities",
 		"cost": 1,
 		"requiredBuilding": "HELIOS One",
-		"uniques": ["Provides [3] [Energy]", 
-		"Only available <in cities without a [Energy For This City]>",
-		"Only available <in cities without a [Energy For ARCHIMEDES]>"
-	]
-	},
-					{
-		"name": "Energy For This City",
-		"cost": 1,
-		"percentStatBonus": {"gold": 25, "food": 25, "happiness": 20},
-		"requiredBuilding": "HELIOS One",
-		"uniques": [
-		"Only available <in cities without a [Energy For All Cities]>",
-		"Only available <in cities without a [Energy For ARCHIMEDES]>"
-	]
+		"uniques": ["Provides [3] [Energy]", "Only available <in cities without a [Energy For ARCHIMEDES]>"]
 	},
 					{
 		"name": "Energy For ARCHIMEDES",
@@ -269,8 +256,7 @@
 		"requiredBuilding": "HELIOS One",
 		"uniques": [
 			"Free [Archimedes] appears",
-	"Only available <in cities without a [Energy For All Cities]>",
-"Only available <in cities without a [Energy For This City]>"
+			"Only available <in cities without a [Energy For All Cities]>"
 ]
 	},
 
@@ -491,7 +477,6 @@
 		"Only available <after adopting [Conscription]>",
 		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 		"Instantly gain [1] [Fusion Core]",
-		"Free [T-45] appears",
 		"Free [Paladin] appears"
     ]
 },

@@ -4,15 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Melee Scrapper",
-        "movementType": "Land"
-    },
-        {
-        "name": "Ranged Scrapper",
+        "name": "Scrapper",
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder",
+        "name": "Ballistic",
         "movementType": "Land"
     },
     {
