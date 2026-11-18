@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword", "Archer", "Gunpowder","Mounted","Scout","Siege","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Scout", "Siege", "Power Armor", "Military Ship"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -13,8 +13,8 @@
 	// Mixed
 		{
 		"name": "Shock I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
         "column": 4,
         "row": 1
 	},
@@ -22,7 +22,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
         "column": 4,
         "row": 2
 	},
@@ -30,15 +30,15 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
         "column": 4,
         "row": 3
 	},
 
 	{
 		"name": "Drill I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", ],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
         "column": 5,
         "row": 1
 	},
@@ -46,7 +46,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
         "column": 5,
         "row": 2
 	},
@@ -54,9 +54,18 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Archer","Gunpowder","Mounted","Armored","Siege","Ranged Gunpowder"],
+		"unitTypes": ["Melee Scrapper", "Ranged Scrapper", "Gunpowder", "Power Armor", "Siege"],
         "column": 5,
         "row": 3
+	},
+
+		{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Ranged Scrapper", "Melee Scrapper", "Gunpowder", "Power Armor", "Siege", "Military Ship", "Aircraft"],
+        "column": 6,
+        "row": 4
 	},
 
 	// Siege
@@ -75,58 +84,26 @@
 		"name": "Extended Range",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Ranged Gunpowder","Archer","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Gunpowder", "Ranged Scrapper", "Siege", "Military Ship", "Aircraft"],
         "column": 3,
         "row": 3
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Shock III", "Drill III", "Bombardment II", "Targeting II"],
+		"prerequisites": ["Shock III", "Drill III", "Bombardment II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archer","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Ranged Scrapper", "Gunpowder", "Siege", "Military Ship"],
         "column": 3,
         "row": 4
 	},
 
-	// Melee, Mounted+Armor
-	{
-		"name": "Charge",
-		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units>", "[+200]% weight to this choice for AI decisions"],
-		"unitTypes": ["Mounted","Armored"],
-        "column": 6,
-        "row": 2
-	},
-	{
-		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"], // G&K also has Shock II & Drill II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[-50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
-        "column": 7,
-        "row": 2
-	},
-	{
-		"name": "Formation II",
-		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
-        "column": 7,
-        "row": 3
-	},
+	// Melee
 
-	{
-		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Archer","Sword","Gunpowder","Mounted","Armored", "Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Helicopter"],
-        "column": 6,
-        "row": 4
-	},
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Melee Scrapper", "Gunpowder"],
         "column": 6,
         "row": 5
 	},
@@ -134,42 +111,16 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Melee Scrapper", "Gunpowder"],
         "column": 6,
         "row": 1
 	},
 
-	// Scout
-	{
-		"name": "Scouting I",
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 1
-	},
-	{
-		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 2
-	},
-	{
-		"name": "Scouting III",
-		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 3
-	},
-
-
-	// Water melee
+	// Military Ship
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Military Ship"],
         "column": 11,
         "row": 1
 	},
@@ -177,7 +128,7 @@
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Military Ship"],
         "column": 11,
         "row": 2
 	},
@@ -185,121 +136,58 @@
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Military Ship"],
         "column": 11,
         "row": 3
 	},
 
 	{
-		"name": "Coastal Raider I",
-		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
-        "column": 12,
-        "row": 1
-	},
-	{
-		"name": "Coastal Raider II",
-		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
-        "column": 12,
-        "row": 2
-	},
-	{
-		"name": "Coastal Raider III",
-		"prerequisites": ["Coastal Raider II"],
-		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
-        "column": 12,
-        "row": 3
-	},
-	{
 		"name": "Landing Party",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Military Ship"],
         "column": 12,
         "row": 5
 	},
 
-	// Water Ranged
-	{
-		"name": "Targeting I",
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
-        "column": 13,
-        "row": 1
-	},
-	{
-		"name": "Targeting II",
-		"prerequisites": ["Targeting I"],
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
-        "column": 13,
-        "row": 2
-	},
-	{
-		"name": "Targeting III",
-		"prerequisites": ["Targeting II"],
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
-        "column": 13,
-        "row": 3
-	},
-
 	// Mixed
-	{
-		"name": "Cover I",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Ranged Gunpowder","Siege"],
-        "column": 24,
-        "row": 1
-	},
-	{
-		"name": "Cover II",
-		"prerequisites": ["Cover I"],
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Ranged Gunpowder","Siege"],
-        "column": 24,
-        "row": 2
-	},
 
 	{
 		"name": "March",
-		"prerequisites": ["Shock II","Drill II","Targeting I","Bombardment I"],
+		"prerequisites": ["Shock II","Drill II","Bombardment I"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Archer","Sword","Gunpowder","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Ranged Scrapper", "Melee Scrapper", "Gunpowder", "Siege"],
         "column": 10,
         "row": 3
 	},
 	{
 		"name": "Mobility",
-		"prerequisites": ["Shock II","Drill II"],
+		"prerequisites": ["Shock II","Drill II", "Sentry"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
+		"unitTypes": ["Military Ship", "Power Armor", "Scout"],
         "column": 24,
         "row": 3
 	},
 	{
 		"name": "Sentry",
-		"prerequisites": ["Shock I","Drill I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"prerequisites": ["Shock I","Drill I","Shock II","Drill II","Bombardment I","Boarding Party I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Archer","Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Ranged Scrapper", "Melee Scrapper", "Gunpowder", "Military Ship", "Power Armor", "Scout"],
         "column": 24,
         "row": 4
 	},
 
 	{
 		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"uniques": ["[+33]% Strength <vs [Power Armor] units>"],
+		"unitTypes": ["Melee Scrapper", "Gunpowder"],
         "column": 25,
         "row": 1
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"uniques": ["[+33]% Strength <vs [Power Armor] units>"],
+		"unitTypes": ["Melee Scrapper", "Gunpowder"],
         "column": 25,
         "row": 2
 	},
@@ -309,7 +197,7 @@
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Military Ship", "Aircraft"],
         "column": 26,
         "row": 1
 	},
@@ -317,7 +205,7 @@
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Military Ship", "Aircraft"],
         "column": 26,
         "row": 2
 	},
@@ -325,7 +213,7 @@
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Military Ship", "Aircraft"],
         "column": 26,
         "row": 3
 	},

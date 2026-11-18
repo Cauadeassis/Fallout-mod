@@ -381,7 +381,6 @@
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
-		"production": 1,
 		"food": -1,
 		"movementCost": 2,
 		"unbuildable": true,

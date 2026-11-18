@@ -4,6 +4,19 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+ResourceIcons/Beer
+  rotate: false
+  xy: 4, 4
+  size: 1254, 1254
+  orig: 1254, 1254
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
 BuildingIcons/Ban Preservatives
   rotate: false
   xy: 1084, 645
@@ -319,13 +332,6 @@ ResourceIcons/Atomic Cocktail
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Beer
-  rotate: false
-  xy: 4, 753
-  size: 1254, 1254
-  orig: 1254, 1254
-  offset: 0, 0
-  index: -1
 ResourceIcons/Clean Water
   rotate: false
   xy: 840, 617
@@ -436,6 +442,20 @@ ResourceIcons/Wine
   xy: 1872, 1314
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Gold
+  rotate: false
+  xy: 4, 753
+  size: 1254, 1254
+  orig: 1254, 1254
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 4, 753
+  size: 1254, 1254
+  orig: 1254, 1254
   offset: 0, 0
   index: -1
 StatIcons/Happiness

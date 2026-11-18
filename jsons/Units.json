@@ -28,18 +28,17 @@
 		"strength": 5,
 		"cost": 25,
 		"uniques": ["May upgrade to [Survivor] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Scouting I"],
+		"promotions": ["Sentry"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Survivor",
-		"unitType": "Sword",
+		"unitType": "Melee Scrapper",
 		"movement": 2,
 		"strength": 8,
 		"upgradesTo": "Sledgehammer",
 		"obsoleteTech": "Pipe Weapons",
 		"cost": 40,
-		"uniques": [],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -53,8 +52,7 @@
 		"cost": 30,
 		"movement": 4,
 		"requiredTech": "Navigation",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Pre-salt Exploration]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
+		"uniques": ["May create improvements on water resources", "Automation is a primary action"]
 	},
 			{
 		"name": "Cultivator",
@@ -62,8 +60,7 @@
 		"movement": 2,
 		"cost": 70,
 		"requiredTech": "Ecology",
-		"uniques": ["Can build [Cultivate Forest] improvements on tiles", "Can build [Cultivate Jungle] improvements on tiles",  "Can build [all] improvements at a [+200]% rate",
-            "Uncapturable", "Automation is a primary action"]
+		"uniques": ["Can build [Cultivate Forest] improvements on tiles", "Can build [Cultivate Jungle] improvements on tiles",  "Can build [all] improvements at a [+200]% rate", "Automation is a primary action"]
 	},
 			{
 		"name": "Explorer",
@@ -71,11 +68,11 @@
 		"movement": 5,
 		"cost": 30,
 		"requiredTech": "Navigation",
-		"uniques": ["[+1] Sight", "Cannot enter ocean tiles <before discovering [Pre-salt Exploration]>"]
+		"uniques": ["[+1] Sight"]
 	},
 		{
 		"name": "Nail Shooter",
-		"unitType": "Archer",
+		"unitType": "Ranged Scrapper",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 6,
@@ -97,11 +94,11 @@
 		"cost": 75,
 		"requiredTech": "Pipe Weapons",
 		"attackSound": "tankshot",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight"]
+		"uniques": ["[-1] Sight"]
 	},
 		{
 		"name": "Sledgehammer",
-		"unitType": "Sword",
+		"unitType": "Melee Scrapper",
 		"movement": 2,
 		"strength": 12,
 		"cost": 80,
@@ -114,7 +111,7 @@
 
 {
 		"name": "Gunslinger",
-		"unitType": "Archer",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 10,
@@ -128,7 +125,7 @@
 	},
 						{
 		"name": "Grenadier",
-		"unitType": "Archer",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
@@ -147,12 +144,11 @@
 		"requiredTech": "Metallurgy",
 		"cost": 100,
 		"requiredResource": "Iron",
-		"attackSound": "shot",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "[-1] Sight", "Must set up to ranged attack"]
+		"attackSound": "shot"
 	},
 								{
 		"name": "Archimedes",
-		"unitType": "Archer",
+		"unitType": "Gunpowder",
 		"movement": 1,
 		"strength": 1,
 		"rangedStrength": 100,
@@ -279,30 +275,30 @@
 
 			{
 		"name": "T-45",
-		"unitType": "Gunpowder",
+		"unitType": "Power Armor",
 		"movement": 1,
 		"strength": 25,
 		"upgradesTo": "T-51",
 		"cost": 120,
-		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [2] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
+		"uniques": ["May Paradrop to [Land] tiles up to [2] tiles away <in [Land] tiles>", "[-1] Sight"],
 		"attackSound": "tankshot"
 	},
 			{
 		"name": "T-51",
-		"unitType": "Gunpowder",
+		"unitType": "Power Armor",
 		"movement": 1,
 		"strength": 30,
 		"cost": 160,
-		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[-1] Sight", "[+200]% maintenance costs"],
+		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[-1] Sight"],
 		"attackSound": "tankshot"
 	},
 				{
 		"name": "T-60",
-		"unitType": "Gunpowder",
+		"unitType": "Power Armor",
 		"movement": 1,
 		"strength": 35,
 		"cost": 200,
-		"uniques": ["Costs [1] [Fusion Core]","May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>", "[+200]% maintenance costs"],
+		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [Land] tiles>"],
 		"attackSound": "tankshot"
 	},
 
@@ -312,7 +308,7 @@
 
 			{
 		"name": "Legion",
-		"unitType": "Sword",
+		"unitType": "Melee Scrapper",
 		"uniqueTo": "Legion",
 		"replaces": "Sledgehammer",
 		"requiredTech": "Pipe Weapons",
@@ -345,7 +341,7 @@
 
 			{
 		"name": "Paladin",
-		"unitType": "Sword",
+		"unitType": "Melee Scrapper",
 		"uniqueTo": "Brotherhood of Steel",
 		"replaces": "Sledgehammer",
 		"requiredTech": "Pipe Weapons",
@@ -372,7 +368,7 @@
 
 				{
 		"name": "Ranger",
-		"unitType": "Archer",
+		"unitType": "Gunpowder",
 		"uniqueTo": "New California Republic",
 		"replaces": "Gunslinger",
 		"requiredTech": "Ballistic Weaponry",
@@ -382,7 +378,7 @@
 		"cost": 100,
 		"hurryCostModifier": 20,
 		"requiredResource": "Hunting Rifle",
-		"uniques": ["[+1] Range", "[+1] Sight"],
+		"promotions": ["Sentry", "Extended Range"],
 		"attackSound": "shot"
 	},
 

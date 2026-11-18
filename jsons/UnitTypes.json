@@ -4,11 +4,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
+        "name": "Melee Scrapper",
         "movementType": "Land"
     },
         {
-        "name": "Archer",
+        "name": "Ranged Scrapper",
         "movementType": "Land"
     },
     {
@@ -16,47 +16,30 @@
         "movementType": "Land"
     },
     {
-        "name": "Ranged Gunpowder",
-        "movementType": "Land"
-    },
-    {
         "name": "Scout",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost"]
     },
     {
-        "name": "Mounted",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armored",
-        "movementType": "Land"
+        "name": "Power Armor",
+        "movementType": "Land",
+        "uniques": ["Costs [1] [Fusion Core]", "[+200]% maintenance costs"]
     },
     {
         "name": "Siege",
         "movementType": "Land",
+        "uniques": ["[+400]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight"],
         "civilopediaText": [
             { "text": "Siege units are extremely powerful against cities, but need to be Set Up before they can attack.\nOnce your siege unit is set up, it can attack from the current tile,\n  but once moved to another tile, it will need to be set up again." }
         ]
     },
     {
         "name": "Civilian Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Melee Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Ranged Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Cannot enter ocean tiles <before discovering [Pre-salt Exploration]>"]
     },
     {
-        "name": "Aircraft Carrier",
+        "name": "Military Ship",
         "movementType": "Water"
     },
 
@@ -66,43 +49,8 @@
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
     {
-        "name": "Helicopter",
+        "name": "Aircraft",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
-    },
-
-    // Deprecated unit types required for mods without a UnitTypes.json file to work
-
-    {
-        "name": "Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land"
-    },
-    {
-        "name": "WaterCivilian",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterMelee",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterRanged",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterSubmarine",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterAircraftCarrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "AtomicBomber",
-        "movementType": "Air"
     }
 ]
